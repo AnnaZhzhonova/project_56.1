@@ -1,0 +1,19 @@
+//Переменные
+$main-color:#E2195B;
+$butn-color:#0093A2;
+$orange:#FF8642;
+$text-color:#505567;
+$title-color:#222A46;
+
+//Миксины
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    }
+@mixin font-title{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+}

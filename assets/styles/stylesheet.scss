@@ -1,0 +1,31 @@
+@import "default_variables";
+
+//общие параметры стилей
+* {
+    box-sizing: border-box;
+  }
+   html {
+    scroll-behavior: smooth;
+  }
+   body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  img{
+    max-width: 100%;
+  }
+
+//стили
+
+//адаптив планшет
+@media screen and (min-width:768px) and (max-width:1023px){
+}
+
+//адаптив мобайл
+@media screen and (min-width:375px) and (max-width:767px){
+}

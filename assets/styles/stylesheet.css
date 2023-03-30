@@ -1,19 +1,22 @@
-:root{
-   --color-white:#fff;
-   --color-pink:#E2195B;
-}
 * {
   box-sizing: border-box;
 }
- html {
+
+html {
   scroll-behavior: smooth;
 }
- body {
+
+body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
 }
+
+img {
+  max-width: 100%;
+}/*# sourceMappingURL=stylesheet.css.map */
