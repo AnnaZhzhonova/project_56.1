@@ -19,4 +19,10 @@ body {
 
 img {
   max-width: 100%;
-}/*# sourceMappingURL=stylesheet.css.map */
+}
+
+.container__hero {
+  width: 873px;
+  height: 440px;
+  background-color: pink;
+}

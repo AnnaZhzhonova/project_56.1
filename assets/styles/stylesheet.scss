@@ -21,6 +21,11 @@
   }
 
 //стили
+.container__hero {
+  width: 873px;
+  height: 440px;
+  background-color: pink;
+}
 
 //адаптив планшет
 @media screen and (min-width:768px) and (max-width:1023px){
