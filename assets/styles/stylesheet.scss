@@ -19,13 +19,267 @@
   img{
     max-width: 100%;
   }
-
+  .link{
+    text-decoration: none;
+    cursor: pointer;
+  }
 //стили
-
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.worktime{
+  height: 20px;
+  max-width: 253px;
+}
+.worktime__info{
+  @include reset;
+  font-family: $font1;
+  font-weight: 400;
+  font-size: 14px;
+}
+.navigation{
+  @include reset;
+  height: 20px;
+  .container-fluid{
+    max-height: 100%;
+    @include reset;
+  }
+}
+.navigation__list--drop{
+  padding: 20px;
+  border: 1px solid $light-gray;
+  border-radius: 10px;
+}
+.navigation__link--drop{
+  font-family: $font1;
+  font-size: 14px;
+}
+.navigation__link--drop:hover{
+  color: $butn-color;
+  font-weight: bold;
+}
+.contact-icon{
+  height: 24px;
+  width: 63px;
+}
+.account{
+  width: 106px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.account__link{
+  font-family: $font1;
+  font-size: 14px;
+  color: $text-color;
+}
+.header-middle{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 160px;
+  height: 48px;
+}
+.logo__link{
+  padding: 15px 0 15px 0;
+}
+.delivery-ad{
+  width: 109px;
+  height: 40px;
+}
+.delivery-ad--mobile{
+  display: none;
+}
+.delivety-ad__text{
+  @include reset;
+  font-family: $font1;
+  color: $title-color;
+  font-weight: 400;
+  font-size: 14px;
+}
+.search-form{
+  width: 375px;
+  position: relative;
+  input{
+    border: 1px solid $light-gray;
+    border-radius: 60px;
+  }
+  button{
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/Search_4.svg);
+    background-color: $white;
+    border: none;
+  }
+  }
+.call-box{
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+  width: 230px;
+}
+.call-box__btn{
+  width:44px;
+  border-radius: 50%;
+  border: 1px solid $light-gray;
+  a{
+    display: block;
+    padding: 7px 7px 7px 10px;
+  }
+}
+.call-box__menu{
+  display: flex;
+  flex-direction: column;
+  width: 168px;
+}
+.call-link{
+  font-family: $font1;
+  font-size: 14px;
+  font-weight: bold;
+  color:$main-color;
+}
+.call-box__drop{
+  @include reset;
+  color:$title-color;
+  border: none;
+  font-family: $font1;
+  font-weight: 700;
+  font-size: 16px;
+}
+.call-box__list{
+  width: 260px;
+  height: 254px;
+  padding: 20px 20px 15px 20px;
+  border: 1px solid $light-gray;
+  border-radius: 10px;
+}
+.call-box__link{
+  padding: 5px 0 5px;
+  font-family: $font1;
+  font-size: 14px;
+  font-weight: bold;
+  color: $title-color;
+  img{
+    margin: 0 5px;
+  }
+}
+.call-box__link--blue{
+  color: $butn-color;
+}
+.call-box__item--link-title{
+  margin: 15px 20px 15px 20px;
+  p{
+    @include reset;
+    font-family: $font1;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+  }
+  .social-icon{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.basket{
+  display: flex;
+  justify-content: space-between;
+  width: 102px;
+  height: 44px;
+}
+.basket__pic{
+  width:44px;
+  border-radius: 50%;
+  border: 1px solid $light-gray;
+  padding: 7px 10px 10px 10px;
+  img{
+    width: 24px;
+  }
+}
+.header-bottom{
+  height: 60px;
+}
+.catalog-menu{
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+.catalog-menu__list{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.catalog-menu__link--pink{
+  padding: 0;
+  font-family: $font1;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $main-color;
+}
+.catalog-menu__link--pink::before{
+  content: url(../images/discount.svg);
+  width: 10px;
+  height: 10px;
+  padding-right: 10px;
+}
+.catalog-menu__link{
+  padding: 3px 0 0 0;
+  font-family: $font1;
+  font-weight: bold;
+  color: $title-color;
+}
+.catalog-menu__link--drop{
+  font-family: $font1;
+  font-size: 14px;
+}
+.catalog-menu__link--drop:hover{
+  color: $butn-color;
+  font-weight: bold;
+}
 //адаптив планшет
 @media screen and (min-width:768px) and (max-width:1023px){
+.delivery-ad__screen, .call-box, .navigation__link--hidden{
+  display: none;
 }
+.catalog-menu{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.catalog-menu__item{
+  flex: 0 0 auto;
+}
+}
+
 
 //адаптив мобайл
 @media screen and (min-width:375px) and (max-width:767px){
+  .worktime,.basket,.account,.delivery-ad--screen,.call-box,.header-bottom{
+    display: none;
+  }
+  .search-form{
+    width: 180px;
+  }
+  .navigation{
+    height: auto;
+  }
+  .delivery-ad--mobile{
+    display: inline-block;
+    width: 109px;
+    font-size: 12px;
+    p{
+      @include reset;
+    }
+  }
 }
