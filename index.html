@@ -42,24 +42,57 @@
                 9&colon;00&ndash;20&colon;00
               </p>
             </div>
-            <nav class="navigation navbar navbar-expand-md navbar-light bg-light">
+            <nav
+              class="navigation navbar navbar-expand-md navbar-light bg-light"
+            >
               <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <button
+                  class="navigation__btn navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarText"
+                  aria-controls="navbarText"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarText">
+                <div
+                  class="navigation__container collapse navbar-collapse"
+                  id="navbarText"
+                >
                   <ul class="navigation__list navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="navigation__item nav-item">
-                      <a class="navigation__link nav-link" aria-current="page" href="#">Доставка</a>
+                      <a
+                        class="navigation__link nav-link"
+                        aria-current="page"
+                        href="#"
+                        >Доставка</a
+                      >
                     </li>
                     <li class="navigation__item nav-item">
-                      <a class="navigation__link nav-link" aria-current="page" href="#">Оплата</a>
+                      <a
+                        class="navigation__link nav-link"
+                        aria-current="page"
+                        href="#"
+                        >Оплата</a
+                      >
                     </li>
                     <li class="navigation__item nav-item">
-                      <a class="navigation__link navigation__link--hidden nav-link" aria-current="page" href="#">Отзывы</a>
+                      <a
+                        class="navigation__link navigation__link--hidden nav-link"
+                        aria-current="page"
+                        href="#"
+                        >Отзывы</a
+                      >
                     </li>
                     <li class="navigation__item nav-item">
-                      <a class="navigation__link navigation__link--hidden nav-link" aria-current="page" href="#">Блог</a>
+                      <a
+                        class="navigation__link navigation__link--hidden nav-link"
+                        aria-current="page"
+                        href="#"
+                        >Блог</a
+                      >
                     </li>
                     <li class="navigation__item nav-item dropdown">
                       <a
@@ -71,20 +104,42 @@
                         >Информация</a
                       >
                       <ul class="navigation__list--drop dropdown-menu">
-                        <li><a class="navigation__link--drop  dropdown-item" href="#">Гарантии</a></li>
                         <li>
-                          <a class="navigation__link--drop dropdown-item" href="#">Вопрос и ответ</a>
+                          <a
+                            class="navigation__link--drop dropdown-item"
+                            href="#"
+                            >Гарантии</a
+                          >
                         </li>
                         <li>
-                          <a class="navigation__link--drop dropdown-item" href="#"
+                          <a
+                            class="navigation__link--drop dropdown-item"
+                            href="#"
+                            >Вопрос и ответ</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="navigation__link--drop dropdown-item"
+                            href="#"
                             >Корпоративным клиентам</a
                           >
                         </li>
-                        <li><a class="navigation__link--drop dropdown-item" href="#">О компании</a></li>
+                        <li>
+                          <a
+                            class="navigation__link--drop dropdown-item"
+                            href="#"
+                            >О компании</a
+                          >
+                        </li>
                       </ul>
                     </li>
                     <li class="navigation__item nav-item">
-                      <a class="navigation__link nav-link navigation__link--hidden" href="#">Контакты</a>
+                      <a
+                        class="navigation__link nav-link navigation__link--hidden"
+                        href="#"
+                        >Контакты</a
+                      >
                     </li>
                   </ul>
                 </div>
@@ -93,156 +148,251 @@
             <div class="delivery-ad delivery-ad--mobile">
               <p class="delivety-ad__text">Доставка цветов в Воронеже</p>
             </div>
-            <div class="contact-icon">
-              <a class="link contact-icon__link"><img src="assets/images/vk-header.svg" alt="vk"></a>
-              <a class="link contact-icon__link"><img src="assets/images/instagram-header.svg" alt="inst"></a>
-            </div>
-            <div class="account">
-              <img src="assets/images/user.svg" alt="icon">
-              <a class="link account__link">Мои заказы</a>
+            <div class="account-link">
+              <div class="contact-icon">
+                <a class="link contact-icon__link"
+                  ><img src="assets/images/vk-header.svg" alt="vk"
+                /></a>
+                <a class="link contact-icon__link"
+                  ><img src="assets/images/instagram-header.svg" alt="inst"
+                /></a>
+              </div>
+              <div class="account">
+                <img src="assets/images/user.svg" alt="icon" />
+                <a class="link account__link">Мои заказы</a>
+              </div>
             </div>
           </div>
           <div class="header-middle">
             <div class="logo">
-              <a class="link logo__link"><img src="assets/images/logo.svg"a></a>
+              <a class="link logo__link"
+                ><img src="assets/images/logo.svg" alt="logo"
+              /></a>
             </div>
             <div class="delivery-ad--screen">
-              <p class="delivery-ad delivety-ad__text">Доставка цветов в Воронеже</p>
+              <p class="delivery-ad delivety-ad__text">
+                Доставка цветов в Воронеже
+              </p>
             </div>
-          <form class="search-form">
+            <div class="call-box--mobile">
+              <div class="call-box__btn">
+                <a href="tel:+79202114903"
+                  ><img src="assets/images/phone.svg" alt="phone"
+                /></a>
+              </div>
+            </div>
+            <form class="search-form">
               <input
                 type="email"
                 class="form-control"
                 id="exampleInputEmail1"
-                aria-describedby="emailHelp"
                 placeholder="Поиск по сайту"
               />
-            <button type="submit" class="btn btn-primary"></button>
-          </form>
-          <div class="call-box">
-            <div class="call-box__btn">
-              <a href="tel:+79202114903"><img src="assets/images/phone.svg" alt="phone"></a>
-            </div>
-                <div class="call-box__menu btn-group">
-                  <button class="call-box__drop btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    +7 (920) 211-49-03
-                  </button>
-                  <ul class="call-box__list dropdown-menu">
-                    <li class="call-box__item"><a class="call-box__link dropdown-item" href="tel:+79202114903"><img src="assets/images/phone.svg" alt="phone">+7 (920) 211-49-03</a></li>
-                    <li class="call-box__item">
-                      <a class="call-box__link dropdown-item" href="#"><img src="assets/images/map-location.svg" alt="map">ул. Революции 1905 года 80</a>
-                    </li>
-                    <li class="call-box__item">
-                      <a class="call-box__link dropdown-item" href="#"
-                        ><img src="assets/images/map-location.svg" alt="map">ул. Вл. Невского 17</a
-                      >
-                    </li>
-                    <li class="call-box__item"><a class="call-box__link call-box__link--blue dropdown-item" href="mailto:info@lavkaroz.ru"><img src="assets/images/envelope.svg" alt="mail">info@lavkaroz.ru</a></li>
-                    <li class="call-box__item--link-title"><p>Напишите нам:</p>
-                      <div class="social-icon">
-                        <a class="link social-icon__link" href="https://www.whatsapp.com/"><img src="assets/images/whatsapp.svg" alt="whatsapp"></a>
-                        <a class="link social-icon__link" href="https://telegram.org/"><img src="assets/images/Telegram.svg" alt="Telegram"></a>
-                        <a class="link social-icon__link" href="https://vk.com/"><img src="assets/images/Vkontakte.svg" alt="vk"></a>
-                        <a class="link social-icon__link" href="hhttps://instagram.com/"><img src="assets/images/Instagram.svg" alt="inst"></a>
-                      </div>
-                    </li>
-                  </ul>
-                <a class="call-link" href="#">Заказать звонок</a>
-                </div>
-          </div>
-          <div class="basket">
-            <div class="basket__pic"><img src="assets/images/heart.svg" alt="liked"></div>
-            <div class="basket__pic">
-            <a class="basket__link" href="#"><img src="assets/images/basket.svg" alt="basket"></a></div>
-          </div>
-        </div>
-        <div class="header-bottom">
-          <nav class="catalog-menu nav">
-            <ul class="catalog-menu__list nav nav-pills">
-              <li class="catalog-menu__item nav-item">
-                <a class="catalog-menu__link--pink nav-link" aria-current="page" href="#">Акции</a>
-              </li>
-              <li class="catalog-menu__item nav-item dropdown">
-                <a
-                  class="catalog-menu__link nav-link dropdown-toggle"
+              <button type="submit" class="btn btn-primary"></button>
+            </form>
+            <div class="call-box">
+              <div class="call-box__btn">
+                <a href="tel:+79202114903"
+                  ><img src="assets/images/phone.svg" alt="phone"
+                /></a>
+              </div>
+              <div class="call-box__menu btn-group">
+                <button
+                  class="call-box__drop btn btn-lg dropdown-toggle"
+                  type="button"
                   data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
                   aria-expanded="false"
-                  >Цветы поштучно</a
                 >
-              </li>
-              <li class="catalog-menu__item nav-item dropdown">
-                <a
-                  class="catalog-menu__link nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                  >Розы</a
-                >
-                <ul class="catalog-menu__list--drop dropdown-menu">
-                  <li><a class="catalog-menu__link--drop dropdown-item" href="#">Голландские розы</a></li>
-                  <li>
-                    <a class="catalog-menu__link--drop dropdown-item" href="#">Местная роза</a>
-                  </li>
-                  <li>
-                    <a class="catalog-menu__link--drop dropdown-item" href="#"
-                      >Кустовидные розы</a
+                  +7 (920) 211-49-03
+                </button>
+                <ul class="call-box__list dropdown-menu">
+                  <li class="call-box__item">
+                    <a
+                      class="call-box__link dropdown-item"
+                      href="tel:+79202114903"
+                      ><img src="assets/images/phone.svg" alt="phone" />+7 (920)
+                      211-49-03</a
                     >
                   </li>
-                  <li><a class="catalog-menu__link--drop dropdown-item" href="#">Пионовидные розы</a></li>
-                  <li><a class="catalog-menu__link--drop dropdown-item" href="#">Букет из 101 розы</a></li>
+                  <li class="call-box__item">
+                    <a class="call-box__link dropdown-item" href="#"
+                      ><img src="assets/images/map-location.svg" alt="map" />ул.
+                      Революции 1905 года 80</a
+                    >
+                  </li>
+                  <li class="call-box__item">
+                    <a class="call-box__link dropdown-item" href="#"
+                      ><img src="assets/images/map-location.svg" alt="map" />ул.
+                      Вл. Невского 17</a
+                    >
+                  </li>
+                  <li class="call-box__item">
+                    <a
+                      class="call-box__link call-box__link--blue dropdown-item"
+                      href="mailto:info@lavkaroz.ru"
+                      ><img
+                        src="assets/images/envelope.svg"
+                        alt="mail"
+                      />info@lavkaroz.ru</a
+                    >
+                  </li>
+                  <li class="call-box__item--link-title">
+                    <p>Напишите нам:</p>
+                    <div class="social-icon">
+                      <a
+                        class="link social-icon__link"
+                        href="https://www.whatsapp.com/"
+                        ><img src="assets/images/whatsapp.svg" alt="whatsapp"
+                      /></a>
+                      <a
+                        class="link social-icon__link"
+                        href="https://telegram.org/"
+                        ><img src="assets/images/Telegram.svg" alt="Telegram"
+                      /></a>
+                      <a class="link social-icon__link" href="https://vk.com/"
+                        ><img src="assets/images/Vkontakte.svg" alt="vk"
+                      /></a>
+                      <a
+                        class="link social-icon__link"
+                        href="hhttps://instagram.com/"
+                        ><img src="assets/images/Instagram.svg" alt="inst"
+                      /></a>
+                    </div>
+                  </li>
                 </ul>
-              </li>
-              <li class="catalog-menu__item nav-item dropdown">
-                <a
-                  class="catalog-menu__link nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                  >Букеты</a
-                >
-              </li>
-              <li class="catalog-menu__item nav-item dropdown">
-                <a
-                  class="catalog-menu__link nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                  >Композиции</a
-                >
-              </li>
-              <li class="catalog-menu__item nav-item dropdown">
-                <a
-                  class="catalog-menu__link nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                  >Подарки</a
-                >
-              </li>
-              <li class="catalog-menu__item nav-item dropdown">
-                <a
-                  class="catalog-menu__link nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                  >Шары</a
-                >
+                <a class="call-link" href="#">Заказать звонок</a>
+              </div>
+            </div>
+            <div class="basket">
+              <div class="basket__pic">
+                <img src="assets/images/heart.svg" alt="liked" />
+              </div>
+              <div class="basket__pic">
+                <a class="basket__link" href="#"
+                  ><img src="assets/images/basket.svg" alt="basket"
+                /></a>
+              </div>
+              <div class="basket__price"><p>0.0 ₽</p></div>
+            </div>
+          </div>
+          <div class="header-bottom">
+            <nav class="catalog-menu nav">
+              <ul class="catalog-menu__list nav nav-pills">
                 <li class="catalog-menu__item nav-item">
-                  <a class="catalog-menu__link nav-link" aria-current="page" href="#">Свадебные букеты</a>
+                  <a
+                    class="catalog-menu__link--pink nav-link"
+                    aria-current="page"
+                    href="#"
+                    >Акции</a
+                  >
+                </li>
+                <li class="catalog-menu__item nav-item dropdown">
+                  <a
+                    class="catalog-menu__link nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Цветы поштучно</a
+                  >
+                </li>
+                <li class="catalog-menu__item nav-item dropdown">
+                  <a
+                    class="catalog-menu__link nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Розы</a
+                  >
+                  <ul class="catalog-menu__list--drop dropdown-menu">
+                    <li>
+                      <a class="catalog-menu__link--drop dropdown-item" href="#"
+                        >Голландские розы</a
+                      >
+                    </li>
+                    <li>
+                      <a class="catalog-menu__link--drop dropdown-item" href="#"
+                        >Местная роза</a
+                      >
+                    </li>
+                    <li>
+                      <a class="catalog-menu__link--drop dropdown-item" href="#"
+                        >Кустовидные розы</a
+                      >
+                    </li>
+                    <li>
+                      <a class="catalog-menu__link--drop dropdown-item" href="#"
+                        >Пионовидные розы</a
+                      >
+                    </li>
+                    <li>
+                      <a class="catalog-menu__link--drop dropdown-item" href="#"
+                        >Букет из 101 розы</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="catalog-menu__item nav-item dropdown">
+                  <a
+                    class="catalog-menu__link nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Букеты</a
+                  >
+                </li>
+                <li class="catalog-menu__item nav-item dropdown">
+                  <a
+                    class="catalog-menu__link nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Композиции</a
+                  >
+                </li>
+                <li class="catalog-menu__item nav-item dropdown">
+                  <a
+                    class="catalog-menu__link nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Подарки</a
+                  >
+                </li>
+                <li class="catalog-menu__item nav-item dropdown">
+                  <a
+                    class="catalog-menu__link nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Шары</a
+                  >
+                </li>
+
+                <li class="catalog-menu__item nav-item">
+                  <a
+                    class="catalog-menu__link nav-link"
+                    aria-current="page"
+                    href="#"
+                    >Свадебные букеты</a
+                  >
                 </li>
                 <li class="catalog-menu__item nav-item">
-                  <a class="catalog-menu__link nav-link" aria-current="page" href="#">Повод</a>
+                  <a
+                    class="catalog-menu__link nav-link"
+                    aria-current="page"
+                    href="#"
+                    >Повод</a
+                  >
                 </li>
-              </li>
-            </ul>
-          </nav>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
     </header>
