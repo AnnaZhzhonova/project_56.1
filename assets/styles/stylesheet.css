@@ -431,6 +431,7 @@ height: 1650px;
   }
 
 .catalog__content {
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -446,7 +447,12 @@ height: 1650px;
 .catalog__item{
   width: 23.7%;
   height: 430px;
+  border: 1px solid #E2E4EB;
+border-radius: 5px;
   margin right: 20px;
+}
+.product_content{
+  margin: 20px 20px 45px 20px;
 }
 .product__title{
 font-family:'TT Norms';
@@ -467,8 +473,12 @@ color: #222A46;
   color: #505567;
 }
 .product__footer{
-display: flex;
+display: flex ;
 flex-direction: row;
+justify-content: space-between;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
 }
 .product__price_new{
   font-family: 'TT Norms';
@@ -487,6 +497,26 @@ line-height: 20px;
 text-decoration-line: line-through;
 color: #B0B2B9;
 
+}
+.button{
+  width: 130px;
+  height:44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #E2195B;
+  border-radius: 5px;
+}
+.button_text{
+  width: 66px;
+  height: 20px;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
