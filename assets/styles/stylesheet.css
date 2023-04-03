@@ -49,26 +49,47 @@ img {
 
 .worktime {
   height: 20px;
-  max-width: 253px;
+  max-width: 256px;
 }
 
 .worktime__info {
+  padding: 0 0 0 27px;
   margin: 0;
-  padding: 0;
+  position: relative;
   font-family: "TT Norms";
   font-weight: 400;
   font-size: 14px;
+}
+
+.worktime__info::before {
+  content: url(../images/clock-header.svg);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: inline-block;
+  width: 16px;
 }
 
 .navigation {
   margin: 0;
   padding: 0;
   height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .navigation .container-fluid {
   max-height: 100%;
   margin: 0;
   padding: 0;
+}
+
+.navigation__link {
+  font-size: 14px;
+  padding: 0 5px 0 5px;
 }
 
 .navigation__list--drop {
@@ -87,9 +108,32 @@ img {
   font-weight: bold;
 }
 
+.account-link {
+  width: 196px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .contact-icon {
   height: 24px;
   width: 63px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact-icon img {
+  padding-bottom: 5px;
 }
 
 .account {
@@ -152,6 +196,7 @@ img {
 .search-form {
   width: 375px;
   position: relative;
+  padding: 0 0 0 21px;
 }
 .search-form input {
   border: 1px solid #D0D2D7;
@@ -267,7 +312,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 102px;
+  width: 206px;
   height: 44px;
 }
 
@@ -279,6 +324,18 @@ img {
 }
 .basket__pic img {
   width: 24px;
+}
+
+.basket__price {
+  width: 75px;
+  height: 22px;
+  margin: auto 0;
+}
+.basket__price p {
+  font-family: "TT Norms";
+  font-weight: bold;
+  font-size: 16px;
+  color: #E2195B;
 }
 
 .header-bottom {
@@ -369,6 +426,18 @@ img {
   }
   .navigation {
     height: auto;
+  }
+  .navigation__container {
+    width: 100vw;
+    background-color: #fff;
+  }
+  .account-link {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .search-form {
+    padding: 0;
   }
   .delivery-ad--mobile {
     display: inline-block;
