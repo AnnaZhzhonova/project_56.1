@@ -2,39 +2,47 @@
 
 //общие параметры стилей
 * {
-    box-sizing: border-box;
-  }
-   html {
-    scroll-behavior: smooth;
-  }
-   body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .container {
-    max-width: 1170px;
-    margin: 0 auto;
-  }
-  img{
-    max-width: 100%;
-  }
-  .link{
-    text-decoration: none;
-    cursor: pointer;
-  }
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 //стили
-.header-top{
+.header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 50px;
 }
-.worktime{
+
+.worktime {
   height: 20px;
   max-width: 256px;
 }
-.worktime__info{
+
+.worktime__info {
   padding: 0 0 0 27px;
   margin: 0;
   position: relative;
@@ -42,104 +50,125 @@
   font-weight: 400;
   font-size: 14px;
 }
-.worktime__info::before{
+
+.worktime__info::before {
   content: url(../images/clock-header.svg);
   position: absolute;
-  top:2px;
+  top: 2px;
   left: 2px;
   display: inline-block;
-  width:16px;
+  width: 16px;
 }
-.navigation{
+
+.navigation {
   @include reset;
   height: 20px;
   display: flex;
   justify-content: center;
-  .container-fluid{
+
+  .container-fluid {
     max-height: 100%;
     @include reset;
   }
 }
-.navigation__link{
+
+.navigation__link {
   font-size: 14px;
   padding: 0 5px 0 5px;
 }
-.navigation__list--drop{
+
+.navigation__list--drop {
   padding: 20px;
   border: 1px solid $light-gray;
   border-radius: 10px;
 }
-.navigation__link--drop{
+
+.navigation__link--drop {
   font-family: $font1;
   font-size: 14px;
 }
-.navigation__link--drop:hover{
+
+.navigation__link--drop:hover {
   color: $butn-color;
   font-weight: bold;
 }
-.account-link{
+
+.account-link {
   width: 196px;
   height: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.contact-icon{
+
+.contact-icon {
   height: 24px;
   width: 63px;
   display: flex;
   justify-content: space-between;
-  img{
+
+  img {
     padding-bottom: 5px;
   }
 }
-.account{
+
+.account {
   width: 106px;
   height: 20px;
   display: flex;
   justify-content: space-between;
 }
-.account__link{
+
+.account__link {
   font-family: $font1;
   font-size: 14px;
   color: $text-color;
 }
-.header-middle{
+
+.header-middle {
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.logo{
+
+.logo {
   width: 160px;
   height: 48px;
 }
-.logo__link{
+
+.logo__link {
   padding: 15px 0 15px 0;
 }
-.delivery-ad{
+
+.delivery-ad {
   width: 109px;
   height: 40px;
 }
-.delivery-ad--mobile{
+
+.delivery-ad--mobile {
   display: none;
 }
-.delivety-ad__text{
+
+.delivety-ad__text {
   @include reset;
   font-family: $font1;
   color: $title-color;
   font-weight: 400;
   font-size: 14px;
 }
-.search-form{
+
+.search-form {
   width: 375px;
   position: relative;
   padding: 0 0 0 21px;
-  input{
+
+  input {
     border: 1px solid $light-gray;
     border-radius: 60px;
   }
-  button{
+
+  button {
     position: absolute;
     top: 7px;
     right: 15px;
@@ -149,140 +178,169 @@
     background-color: $white;
     border: none;
   }
-  }
-.call-box{
+}
+
+.call-box {
   display: flex;
   justify-content: space-between;
   height: 44px;
   width: 230px;
 }
-.call-box__btn{
-  width:44px;
+.call-box--mobile{
+  display: none;
+}
+.call-box__btn {
+  width: 44px;
   border-radius: 50%;
   border: 1px solid $light-gray;
-  a{
+
+  a {
     display: block;
     padding: 7px 7px 7px 10px;
   }
 }
-.call-box__menu{
+
+.call-box__menu {
   display: flex;
   flex-direction: column;
   width: 168px;
 }
-.call-link{
+
+.call-link {
   font-family: $font1;
   font-size: 14px;
   font-weight: bold;
-  color:$main-color;
+  color: $main-color;
 }
-.call-box__drop{
+
+.call-box__drop {
   @include reset;
-  color:$title-color;
+  color: $title-color;
   border: none;
   font-family: $font1;
   font-weight: 700;
   font-size: 16px;
 }
-.call-box__list{
+
+.call-box__list {
   width: 260px;
   height: 254px;
   padding: 20px 20px 15px 20px;
   border: 1px solid $light-gray;
   border-radius: 10px;
 }
-.call-box__link{
+
+.call-box__link {
   padding: 5px 0 5px;
   font-family: $font1;
   font-size: 14px;
   font-weight: bold;
   color: $title-color;
-  img{
+
+  img {
     margin: 0 5px;
   }
 }
-.call-box__link--blue{
+
+.call-box__link--blue {
   color: $butn-color;
 }
-.call-box__item--link-title{
+
+.call-box__item--link-title {
   margin: 15px 20px 15px 20px;
-  p{
+
+  p {
     @include reset;
     font-family: $font1;
     font-weight: bold;
     font-size: 14px;
     text-align: center;
   }
-  .social-icon{
+
+  .social-icon {
     display: flex;
     justify-content: space-between;
   }
 }
-.basket{
+
+.basket {
   display: flex;
   justify-content: space-between;
   width: 206px;
   height: 44px;
 }
-.basket__pic{
-  width:44px;
+
+.basket__pic {
+  width: 44px;
   border-radius: 50%;
   border: 1px solid $light-gray;
   padding: 7px 10px 10px 10px;
-  img{
+
+  img {
     width: 24px;
   }
 }
-.basket__price{
+
+.basket__price {
   width: 75px;
   height: 22px;
   margin: auto 0;
-  p{
+
+  p {
     font-family: $font1;
     font-weight: bold;
     font-size: 16px;
     color: $main-color;
   }
 }
-.header-bottom{
+
+.header-bottom {
   height: 60px;
 }
-.catalog-menu{
+
+.catalog-menu {
   width: 100%;
   padding: 20px 0 20px 0;
 }
-.catalog-menu__list{
+
+.catalog-menu__list {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-.catalog-menu__link--pink{
+
+.catalog-menu__link--pink {
   padding: 0;
   font-family: $font1;
   font-weight: bold;
   text-transform: uppercase;
   color: $main-color;
 }
-.catalog-menu__link--pink::before{
+
+.catalog-menu__link--pink::before {
   content: url(../images/discount.svg);
   width: 10px;
   height: 10px;
   padding-right: 10px;
 }
-.catalog-menu__link{
+
+.catalog-menu__link {
   padding: 3px 0 0 0;
   font-family: $font1;
   font-weight: bold;
   color: $title-color;
 }
-.catalog-menu__link--drop{
+
+.catalog-menu__link--drop {
   font-family: $font1;
   font-size: 14px;
 }
-.catalog-menu__link--drop:hover{
+
+.catalog-menu__link--drop:hover {
   color: $butn-color;
   font-weight: bold;
 }
+
 .container__hero {
   width: 873px;
   height: 440px;
@@ -290,51 +348,85 @@
 }
 
 //адаптив планшет
-@media screen and (min-width:768px) and (max-width:1023px){
-.delivery-ad__screen, .call-box, .navigation__link--hidden{
-  display: none;
-}
-.catalog-menu{
-  display: flex;
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .delivery-ad,
+  .call-box,
+  .navigation__link--hidden {
+    display: none;
+  }
+  .call-box--mobile{
+    display: inline-block
+  }
+  .search-form{
+    width: 265px;
+    padding: 0;
+  }
+  .catalog-menu {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+.catalog-menu__list{
+  width: 200%;
   flex-wrap: nowrap;
-  overflow-x: auto;
+  overflow-x: scroll;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   &::-webkit-scrollbar {
     display: none;
   }
 }
-.catalog-menu__item{
-  flex: 0 0 auto;
+  .catalog-menu__item {
+    flex: 0 0 auto;
+    margin: 0 15px 0 15px;
+  }
 }
-}
-
 
 //адаптив мобайл
-@media screen and (min-width:375px) and (max-width:767px){
-  .worktime,.basket,.account,.delivery-ad--screen,.call-box,.header-bottom{
+@media screen and (min-width:375px) and (max-width:767px) {
+  .container {
+    max-width: 767px;
+  }
+
+  .worktime,
+  .basket,
+  .account,
+  .delivery-ad--screen,
+  .call-box,
+  .header-bottom {
     display: none;
   }
-  .search-form{
+
+  .search-form {
     width: 180px;
   }
-  .navigation{
+
+  .navigation {
     height: auto;
   }
-  .navigation__container{
+
+  .navigation__container {
     width: 100vw;
     background-color: $white;
   }
-  .account-link{
+
+  .account-link {
     justify-content: flex-end;
   }
-  .search-form{
+
+  .search-form {
     padding: 0;
   }
-  .delivery-ad--mobile{
+
+  .delivery-ad--mobile {
     display: inline-block;
     width: 109px;
     font-size: 12px;
-    p{
+
+    p {
       @include reset;
     }
   }

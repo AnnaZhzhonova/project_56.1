@@ -224,6 +224,10 @@ img {
   width: 230px;
 }
 
+.call-box--mobile {
+  display: none;
+}
+
 .call-box__btn {
   width: 44px;
   border-radius: 50%;
@@ -396,8 +400,20 @@ img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .delivery-ad__screen, .call-box, .navigation__link--hidden {
+  .container {
+    max-width: 768px;
+  }
+  .delivery-ad,
+.call-box,
+.navigation__link--hidden {
     display: none;
+  }
+  .call-box--mobile {
+    display: inline-block;
+  }
+  .search-form {
+    width: 265px;
+    padding: 0;
   }
   .catalog-menu {
     display: -webkit-box;
@@ -405,20 +421,35 @@ img {
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    overflow-x: auto;
+  }
+  .catalog-menu__list {
+    width: 200%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
   }
-  .catalog-menu::-webkit-scrollbar {
+  .catalog-menu__list::-webkit-scrollbar {
     display: none;
   }
   .catalog-menu__item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
+    margin: 0 15px 0 15px;
   }
 }
 @media screen and (min-width: 375px) and (max-width: 767px) {
-  .worktime, .basket, .account, .delivery-ad--screen, .call-box, .header-bottom {
+  .container {
+    max-width: 767px;
+  }
+  .worktime,
+.basket,
+.account,
+.delivery-ad--screen,
+.call-box,
+.header-bottom {
     display: none;
   }
   .search-form {
