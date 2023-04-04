@@ -1,838 +1,728 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="assets/styles/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.css"
-    />
-    <link rel="stylesheet" href="assets/styles/normalize.css" />
-    <link rel="stylesheet" href="assets/styles/fonts/font.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="assets/styles/stylesheet.css"
-    />
-    <link rel="shortcut icon" href="assets/images/icon.svg" type="image/svg" />
-    <title>Lavka Roz</title>
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="header-content">
-          <div class="header-top">
-            <div class="worktime">
-              <p class="worktime__info">
-                Пн&ndash;Сб&colon; 8&colon;00&ndash;20&colon;00 Вс&colon;
-                9&colon;00&ndash;20&colon;00
-              </p>
-            </div>
-            <nav
-              class="navigation navbar navbar-expand-md navbar-light bg-light"
-            >
-              <div class="container-fluid">
-                <button
-                  class="navigation__btn navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarText"
-                  aria-controls="navbarText"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  class="navigation__container collapse navbar-collapse"
-                  id="navbarText"
-                >
-                  <ul class="navigation__list navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="navigation__item nav-item">
-                      <a
-                        class="navigation__link nav-link"
-                        aria-current="page"
-                        href="#"
-                        >Доставка</a
-                      >
-                    </li>
-                    <li class="navigation__item nav-item">
-                      <a
-                        class="navigation__link nav-link"
-                        aria-current="page"
-                        href="#"
-                        >Оплата</a
-                      >
-                    </li>
-                    <li class="navigation__item nav-item">
-                      <a
-                        class="navigation__link navigation__link--hidden nav-link"
-                        aria-current="page"
-                        href="#"
-                        >Отзывы</a
-                      >
-                    </li>
-                    <li class="navigation__item nav-item">
-                      <a
-                        class="navigation__link navigation__link--hidden nav-link"
-                        aria-current="page"
-                        href="#"
-                        >Блог</a
-                      >
-                    </li>
-                    <li class="navigation__item nav-item dropdown">
-                      <a
-                        class="navigation__link nav-link dropdown-toggle"
-                        data-bs-toggle="dropdown"
-                        href="#"
-                        role="button"
-                        aria-expanded="false"
-                        >Информация</a
-                      >
-                      <ul class="navigation__list--drop dropdown-menu">
-                        <li>
-                          <a
-                            class="navigation__link--drop dropdown-item"
-                            href="#"
-                            >Гарантии</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="navigation__link--drop dropdown-item"
-                            href="#"
-                            >Вопрос и ответ</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="navigation__link--drop dropdown-item"
-                            href="#"
-                            >Корпоративным клиентам</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="navigation__link--drop dropdown-item"
-                            href="#"
-                            >О компании</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="navigation__item nav-item">
-                      <a
-                        class="navigation__link nav-link navigation__link--hidden"
-                        href="#"
-                        >Контакты</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-            <div class="delivery-ad delivery-ad--mobile">
-              <p class="delivety-ad__text">Доставка цветов в Воронеже</p>
-            </div>
-            <div class="account-link">
-              <div class="contact-icon">
-                <a class="link contact-icon__link"
-                  ><img src="assets/images/vk-header.svg" alt="vk"
-                /></a>
-                <a class="link contact-icon__link"
-                  ><img src="assets/images/instagram-header.svg" alt="inst"
-                /></a>
-              </div>
-              <div class="account">
-                <img src="assets/images/user.svg" alt="icon" />
-                <a class="link account__link">Мои заказы</a>
-              </div>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/styles/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/styles/normalize.css" />
+  <link rel="stylesheet" href="assets/styles/fonts/font.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link type="text/css" rel="stylesheet" href="assets/styles/stylesheet.css" />
+  <link rel="shortcut icon" href="assets/images/icon.svg" type="image/svg" />
+  <title>Lavka Roz</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="header-top">
+          <div class="worktime">
+            <p class="worktime__info">
+              Пн&ndash;Сб&colon; 8&colon;00&ndash;20&colon;00 Вс&colon;
+              9&colon;00&ndash;20&colon;00
+            </p>
           </div>
-          <div class="header-middle">
-            <div class="logo">
-              <a class="link logo__link"
-                ><img src="assets/images/logo.svg" alt="logo"
-              /></a>
-            </div>
-            <div class="delivery-ad--screen">
-              <p class="delivery-ad delivety-ad__text">
-                Доставка цветов в Воронеже
-              </p>
-            </div>
-            <div class="call-box--mobile">
-              <div class="call-box__btn">
-                <a href="tel:+79202114903"
-                  ><img src="assets/images/phone.svg" alt="phone"
-                /></a>
-              </div>
-            </div>
-            <form class="search-form">
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                placeholder="Поиск по сайту"
-              />
-              <button type="submit" class="btn btn-primary"></button>
-            </form>
-            <div class="call-box">
-              <div class="call-box__btn">
-                <a href="tel:+79202114903"
-                  ><img src="assets/images/phone.svg" alt="phone"
-                /></a>
-              </div>
-              <div class="call-box__menu btn-group">
-                <button
-                  class="call-box__drop btn btn-lg dropdown-toggle"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  +7 (920) 211-49-03
-                </button>
-                <ul class="call-box__list dropdown-menu">
-                  <li class="call-box__item">
-                    <a
-                      class="call-box__link dropdown-item"
-                      href="tel:+79202114903"
-                      ><img src="assets/images/phone.svg" alt="phone" />+7 (920)
-                      211-49-03</a
-                    >
+          <nav class="navigation navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+              <button class="navigation__btn navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navigation__container collapse navbar-collapse" id="navbarText">
+                <ul class="navigation__list navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="navigation__item nav-item">
+                    <a class="navigation__link nav-link" aria-current="page" href="#">Доставка</a>
                   </li>
-                  <li class="call-box__item">
-                    <a class="call-box__link dropdown-item" href="#"
-                      ><img src="assets/images/map-location.svg" alt="map" />ул.
-                      Революции 1905 года 80</a
-                    >
+                  <li class="navigation__item nav-item">
+                    <a class="navigation__link nav-link" aria-current="page" href="#">Оплата</a>
                   </li>
-                  <li class="call-box__item">
-                    <a class="call-box__link dropdown-item" href="#"
-                      ><img src="assets/images/map-location.svg" alt="map" />ул.
-                      Вл. Невского 17</a
-                    >
+                  <li class="navigation__item nav-item">
+                    <a class="navigation__link navigation__link--hidden nav-link" aria-current="page"
+                      href="#">Отзывы</a>
                   </li>
-                  <li class="call-box__item">
-                    <a
-                      class="call-box__link call-box__link--blue dropdown-item"
-                      href="mailto:info@lavkaroz.ru"
-                      ><img
-                        src="assets/images/envelope.svg"
-                        alt="mail"
-                      />info@lavkaroz.ru</a
-                    >
+                  <li class="navigation__item nav-item">
+                    <a class="navigation__link navigation__link--hidden nav-link" aria-current="page" href="#">Блог</a>
                   </li>
-                  <li class="call-box__item--link-title">
-                    <p>Напишите нам:</p>
-                    <div class="social-icon">
-                      <a
-                        class="link social-icon__link"
-                        href="https://www.whatsapp.com/"
-                        ><img src="assets/images/whatsapp.svg" alt="whatsapp"
-                      /></a>
-                      <a
-                        class="link social-icon__link"
-                        href="https://telegram.org/"
-                        ><img src="assets/images/Telegram.svg" alt="Telegram"
-                      /></a>
-                      <a class="link social-icon__link" href="https://vk.com/"
-                        ><img src="assets/images/Vkontakte.svg" alt="vk"
-                      /></a>
-                      <a
-                        class="link social-icon__link"
-                        href="hhttps://instagram.com/"
-                        ><img src="assets/images/Instagram.svg" alt="inst"
-                      /></a>
-                    </div>
+                  <li class="navigation__item nav-item dropdown">
+                    <a class="navigation__link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                      role="button" aria-expanded="false">Информация</a>
+                    <ul class="navigation__list--drop dropdown-menu">
+                      <li>
+                        <a class="navigation__link--drop dropdown-item" href="#">Гарантии</a>
+                      </li>
+                      <li>
+                        <a class="navigation__link--drop dropdown-item" href="#">Вопрос и ответ</a>
+                      </li>
+                      <li>
+                        <a class="navigation__link--drop dropdown-item" href="#">Корпоративным клиентам</a>
+                      </li>
+                      <li>
+                        <a class="navigation__link--drop dropdown-item" href="#">О компании</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="navigation__item nav-item">
+                    <a class="navigation__link nav-link navigation__link--hidden" href="#">Контакты</a>
                   </li>
                 </ul>
-                <a class="call-link" href="#">Заказать звонок</a>
               </div>
             </div>
-            <div class="basket">
-              <div class="basket__pic">
-                <img src="assets/images/heart.svg" alt="liked" />
-              </div>
-              <div class="basket__pic">
-                <a class="basket__link" href="#"
-                  ><img src="assets/images/basket.svg" alt="basket"
-                /></a>
-              </div>
-              <div class="basket__price"><p>0.0 ₽</p></div>
+          </nav>
+          <div class="delivery-ad delivery-ad--mobile">
+            <p class="delivety-ad__text">Доставка цветов в Воронеже</p>
+          </div>
+          <div class="account-link">
+            <div class="contact-icon">
+              <a class="link contact-icon__link"><img src="assets/images/vk-header.svg" alt="vk" /></a>
+              <a class="link contact-icon__link"><img src="assets/images/instagram-header.svg" alt="inst" /></a>
+            </div>
+            <div class="account">
+              <img src="assets/images/user.svg" alt="icon" />
+              <a class="link account__link">Мои заказы</a>
             </div>
           </div>
-          <div class="header-bottom">
-            <nav class="catalog-menu nav">
-              <ul class="catalog-menu__list nav nav-pills">
-                <li class="catalog-menu__item nav-item">
-                  <a
-                    class="catalog-menu__link--pink nav-link"
-                    aria-current="page"
-                    href="#"
-                    >Акции</a
-                  >
+        </div>
+        <div class="header-middle">
+          <div class="logo">
+            <a class="link logo__link"><img src="assets/images/logo.svg" alt="logo" /></a>
+          </div>
+          <div class="delivery-ad--screen">
+            <p class="delivery-ad delivety-ad__text">
+              Доставка цветов в Воронеже
+            </p>
+          </div>
+          <div class="call-box--mobile">
+            <div class="call-box__btn">
+              <a href="tel:+79202114903"><img src="assets/images/phone.svg" alt="phone" /></a>
+            </div>
+          </div>
+          <form class="search-form">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Поиск по сайту" />
+            <button type="submit" class="btn btn-primary"></button>
+          </form>
+          <div class="call-box">
+            <div class="call-box__btn">
+              <a href="tel:+79202114903"><img src="assets/images/phone.svg" alt="phone" /></a>
+            </div>
+            <div class="call-box__menu btn-group">
+              <button class="call-box__drop btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                +7 (920) 211-49-03
+              </button>
+              <ul class="call-box__list dropdown-menu">
+                <li class="call-box__item">
+                  <a class="call-box__link dropdown-item" href="tel:+79202114903"><img src="assets/images/phone.svg"
+                      alt="phone" />+7 (920)
+                    211-49-03</a>
                 </li>
-                <li class="catalog-menu__item nav-item dropdown">
-                  <a
-                    class="catalog-menu__link nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                    role="button"
-                    aria-expanded="false"
-                    >Цветы поштучно</a
-                  >
+                <li class="call-box__item">
+                  <a class="call-box__link dropdown-item" href="#"><img src="assets/images/map-location.svg"
+                      alt="map" />ул.
+                    Революции 1905 года 80</a>
                 </li>
-                <li class="catalog-menu__item nav-item dropdown">
-                  <a
-                    class="catalog-menu__link nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                    role="button"
-                    aria-expanded="false"
-                    >Розы</a
-                  >
-                  <ul class="catalog-menu__list--drop dropdown-menu">
-                    <li>
-                      <a class="catalog-menu__link--drop dropdown-item" href="#"
-                        >Голландские розы</a
-                      >
-                    </li>
-                    <li>
-                      <a class="catalog-menu__link--drop dropdown-item" href="#"
-                        >Местная роза</a
-                      >
-                    </li>
-                    <li>
-                      <a class="catalog-menu__link--drop dropdown-item" href="#"
-                        >Кустовидные розы</a
-                      >
-                    </li>
-                    <li>
-                      <a class="catalog-menu__link--drop dropdown-item" href="#"
-                        >Пионовидные розы</a
-                      >
-                    </li>
-                    <li>
-                      <a class="catalog-menu__link--drop dropdown-item" href="#"
-                        >Букет из 101 розы</a
-                      >
-                    </li>
-                  </ul>
+                <li class="call-box__item">
+                  <a class="call-box__link dropdown-item" href="#"><img src="assets/images/map-location.svg"
+                      alt="map" />ул.
+                    Вл. Невского 17</a>
                 </li>
-                <li class="catalog-menu__item nav-item dropdown">
-                  <a
-                    class="catalog-menu__link nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                    role="button"
-                    aria-expanded="false"
-                    >Букеты</a
-                  >
+                <li class="call-box__item">
+                  <a class="call-box__link call-box__link--blue dropdown-item" href="mailto:info@lavkaroz.ru"><img
+                      src="assets/images/envelope.svg" alt="mail" />info@lavkaroz.ru</a>
                 </li>
-                <li class="catalog-menu__item nav-item dropdown">
-                  <a
-                    class="catalog-menu__link nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                    role="button"
-                    aria-expanded="false"
-                    >Композиции</a
-                  >
-                </li>
-                <li class="catalog-menu__item nav-item dropdown">
-                  <a
-                    class="catalog-menu__link nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                    role="button"
-                    aria-expanded="false"
-                    >Подарки</a
-                  >
-                </li>
-                <li class="catalog-menu__item nav-item dropdown">
-                  <a
-                    class="catalog-menu__link nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                    role="button"
-                    aria-expanded="false"
-                    >Шары</a
-                  >
-                </li>
-
-                <li class="catalog-menu__item nav-item">
-                  <a
-                    class="catalog-menu__link nav-link"
-                    aria-current="page"
-                    href="#"
-                    >Свадебные букеты</a
-                  >
-                </li>
-                <li class="catalog-menu__item nav-item">
-                  <a
-                    class="catalog-menu__link nav-link"
-                    aria-current="page"
-                    href="#"
-                    >Повод</a
-                  >
+                <li class="call-box__item--link-title">
+                  <p>Напишите нам:</p>
+                  <div class="social-icon">
+                    <a class="link social-icon__link" href="https://www.whatsapp.com/"><img
+                        src="assets/images/whatsapp.svg" alt="whatsapp" /></a>
+                    <a class="link social-icon__link" href="https://telegram.org/"><img src="assets/images/Telegram.svg"
+                        alt="Telegram" /></a>
+                    <a class="link social-icon__link" href="https://vk.com/"><img src="assets/images/Vkontakte.svg"
+                        alt="vk" /></a>
+                    <a class="link social-icon__link" href="hhttps://instagram.com/"><img
+                        src="assets/images/Instagram.svg" alt="inst" /></a>
+                  </div>
                 </li>
               </ul>
-            </nav>
+              <a class="call-link" href="#">Заказать звонок</a>
+            </div>
+          </div>
+          <div class="basket">
+            <div class="basket__pic">
+              <img src="assets/images/heart.svg" alt="liked" />
+            </div>
+            <div class="basket__pic">
+              <a class="basket__link" href="#"><img src="assets/images/basket.svg" alt="basket" /></a>
+            </div>
+            <div class="basket__price">
+              <p>0.0 ₽</p>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <nav class="catalog-menu nav">
+            <ul class="catalog-menu__list nav nav-pills">
+              <li class="catalog-menu__item nav-item">
+                <a class="catalog-menu__link--pink nav-link" aria-current="page" href="#">Акции</a>
+              </li>
+              <li class="catalog-menu__item nav-item dropdown">
+                <a class="catalog-menu__link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Цветы поштучно</a>
+              </li>
+              <li class="catalog-menu__item nav-item dropdown">
+                <a class="catalog-menu__link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Розы</a>
+                <ul class="catalog-menu__list--drop dropdown-menu">
+                  <li>
+                    <a class="catalog-menu__link--drop dropdown-item" href="#">Голландские розы</a>
+                  </li>
+                  <li>
+                    <a class="catalog-menu__link--drop dropdown-item" href="#">Местная роза</a>
+                  </li>
+                  <li>
+                    <a class="catalog-menu__link--drop dropdown-item" href="#">Кустовидные розы</a>
+                  </li>
+                  <li>
+                    <a class="catalog-menu__link--drop dropdown-item" href="#">Пионовидные розы</a>
+                  </li>
+                  <li>
+                    <a class="catalog-menu__link--drop dropdown-item" href="#">Букет из 101 розы</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="catalog-menu__item nav-item dropdown">
+                <a class="catalog-menu__link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Букеты</a>
+              </li>
+              <li class="catalog-menu__item nav-item dropdown">
+                <a class="catalog-menu__link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Композиции</a>
+              </li>
+              <li class="catalog-menu__item nav-item dropdown">
+                <a class="catalog-menu__link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Подарки</a>
+              </li>
+              <li class="catalog-menu__item nav-item dropdown">
+                <a class="catalog-menu__link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Шары</a>
+              </li>
+
+              <li class="catalog-menu__item nav-item">
+                <a class="catalog-menu__link nav-link" aria-current="page" href="#">Свадебные букеты</a>
+              </li>
+              <li class="catalog-menu__item nav-item">
+                <a class="catalog-menu__link nav-link" aria-current="page" href="#">Повод</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Секция хиро -->
+    <section class="hero">
+      <div class="container__hero">
+        секция Hero
+        <button type="button" class="btn btn-success">Success</button>
+      </div>
+    </section>
+    <!-- Каталог -->
+    <section class="catalog">
+      <div class="catalog__catalog-1">
+        <div class="catalog__header">
+          <h3 class="catalog__name">Букеты цветов с доставкой</h3>
+          <div class="catalog__navigation"></div>
+        </div>
+        <div class="catalog__content">
+          <div class="catalog__item">
+            <img class="item__img" src="./assets/images/catalog1_1.svg" alt="flowers" />
+            <div class="item__content">
+              <h5 class="item__title">Букет 25 роз Нежный микс</h5>
+              <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+            </div>
+            <div class="item__footer">
+              <div class="item__price">
+                <div class="item__price_new">
+                  <span class="item__price-value">13 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+                <div class="item__price_old">
+                  <span class="item__price-value">15 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+              </div>
+              <button class="button item__button">
+                <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                <div class="button_text">В корзину</div>
+              </button>
+            </div>
+          </div>
+          <div class="catalog__item">
+            <img class="item__img" src="./assets/images/catalog1_2.svg" alt="flowers" />
+            <div class="item__content">
+              <h5 class="item__title">Букет роз Ред наоми 60 см</h5>
+              <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+            </div>
+            <div class="item__footer">
+              <div class="item__price">
+                <div class="item__price_new">
+                  <span class="item__price-value">13 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+                <div class="item__price_old">
+                  <span class="item__price-value">15 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+              </div>
+              <button class="button item__button">
+                <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                <div class="button_text">В корзину</div>
+              </button>
+            </div>
+          </div>
+          <div class="catalog__item">
+            <img class="item__img" src="./assets/images/catalog1_3.svg" alt="flowers" />
+            <div class="item__content">
+              <h5 class="item__title">Букет 5 пионовидных роз Мисти баблс</h5>
+              <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+            </div>
+            <div class="item__footer">
+              <div class="item__price">
+                <div class="item__price_new">
+                  <span class="item__price-value">13 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+                <div class="item__price_old">
+                  <span class="item__price-value">15 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+              </div>
+              <button class="button item__button">
+                <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                <div class="button_text">В корзину</div>
+              </button>
+            </div>
+          </div>
+          <div class="catalog__item">
+            <img class="item__img" src="./assets/images/catalog1_4.svg" alt="flowers" />
+            <div class="item__content">
+              <h5 class="item__title">Букет роз микс 40 см</h5>
+              <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+            </div>
+            <div class="item__footer">
+              <div class="item__price">
+                <div class="item__price_new">
+                  <span class="item__price-value">13 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+                <div class="item__price_old">
+                  <span class="item__price-value">15 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+              </div>
+              <button class="button item__button">
+                <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                <div class="button_text">В корзину</div>
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </header>
-    <main>
-      <!-- Секция хиро -->
-      <section class="hero">
-        <div class="container__hero">
-          секция Hero
-          <button type="button" class="btn btn-success">Success</button>
+      <div class="catalog catalog-2">
+        <div class="catalog__header">
+          <h3 class="catalog__name">Лучшие предложения</h3>
+          <div class="catalog__navigation"></div>
         </div>
-      </section>
-      <!-- Каталог -->
-      <section class="catalog">
-        <div class="catalog__catalog-1">
-          <div class="catalog__header">
-            <h3 class="catalog__name">Букеты цветов с доставкой</h3>
-            <div class="catalog__navigation"></div>
+        <div class="catalog__content">
+          <div class="catalog__item">
+            <img class="item__img" src="./assets/images/catalog2_1.svg" alt="flowers" />
+            <div class="item__content">
+              <h5 class="item__title">Букет 25 роз Нежный микс</h5>
+              <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+            </div>
+            <div class="item__footer">
+              <div class="item__price">
+                <div class="item__price_new">
+                  <span class="item__price-value">13 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+                <div class="item__price_old">
+                  <span class="item__price-value">15 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+              </div>
+              <button class="button item__button">
+                <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                <div class="button_text">В корзину</div>
+              </button>
+            </div>
           </div>
-          <div class="catalog__content">
-            <div class="catalog__item">
-              <img
-                class="item__img"
-                src="./assets/images/catalog1_1.svg"
-                alt="flowers"
-              />
-              <div class="item__content">
-                <h5 class="item__title">Букет 25 роз Нежный микс</h5>
-                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-              </div>
-              <div class="item__footer">
-                <div class="item__price">
-                  <div class="item__price_new">
-                    <span class="item__price-value">13 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                  <div class="item__price_old">
-                    <span class="item__price-value">15 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                </div>
-                <button class="button item__button">
-                  <img
-                    class="button_icon"
-                    src="./assets/images/shopping-cart-basket.png"
-                    alt="shopping cart"
-                  />
-                  <div class="button_text">В корзину</div>
-                </button>
-              </div>
+          <div class="catalog__item">
+            <img class="item__img" src="./assets/images/catalog2_2.svg" alt="flowers" />
+            <div class="item__content">
+              <h5 class="item__title">Букет роз Ред наоми 60 см</h5>
+              <p class="product__description">Высота: 60 см, Ширина: 35 см</p>
             </div>
-            <div class="catalog__item">
-              <img
-                class="item__img"
-                src="./assets/images/catalog1_2.svg"
-                alt="flowers"
-              />
-              <div class="item__content">
-                <h5 class="item__title">Букет роз Ред наоми 60 см</h5>
-                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-              </div>
-              <div class="item__footer">
-                <div class="item__price">
-                  <div class="item__price_new">
-                    <span class="item__price-value">13 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                  <div class="item__price_old">
-                    <span class="item__price-value">15 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
+            <div class="item__footer">
+              <div class="item__price">
+                <div class="item__price_new">
+                  <span class="item__price-value">13 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
                 </div>
-                <button class="button item__button">
-                  <img
-                    class="button_icon"
-                    src="./assets/images/shopping-cart-basket.png"
-                    alt="shopping cart"
-                  />
-                  <div class="button_text">В корзину</div>
-                </button>
+                <div class="item__price_old">
+                  <span class="item__price-value">15 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
               </div>
+              <button class="button item__button">
+                <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                <div class="button_text">В корзину</div>
+              </button>
             </div>
-            <div class="catalog__item">
-              <img
-                class="item__img"
-                src="./assets/images/catalog1_3.svg"
-                alt="flowers"
-              />
-              <div class="item__content">
-                <h5 class="item__title">Букет 5 пионовидных роз Мисти баблс</h5>
-                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-              </div>
-              <div class="item__footer">
-                <div class="item__price">
-                  <div class="item__price_new">
-                    <span class="item__price-value">13 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                  <div class="item__price_old">
-                    <span class="item__price-value">15 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                </div>
-                <button class="button item__button">
-                  <img
-                    class="button_icon"
-                    src="./assets/images/shopping-cart-basket.png"
-                    alt="shopping cart"
-                  />
-                  <div class="button_text">В корзину</div>
-                </button>
-              </div>
+          </div>
+          <div class="catalog__item">
+            <img class="item__img" src="./assets/images/catalog2_3.svg" alt="flowers" />
+            <div class="item__content">
+              <h5 class="item__title">Роза "Эксплоер" 80 см 101шт</h5>
+              <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
             </div>
-            <div class="catalog__item">
-              <img
-                class="item__img"
-                src="./assets/images/catalog1_4.svg"
-                alt="flowers"
-              />
-              <div class="item__content">
-                <h5 class="item__title">Букет роз микс 40 см</h5>
-                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-              </div>
-              <div class="item__footer">
-                <div class="item__price">
-                  <div class="item__price_new">
-                    <span class="item__price-value">13 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                  <div class="item__price_old">
-                    <span class="item__price-value">15 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
+            <div class="item__footer">
+              <div class="item__price">
+                <div class="item__price_new">
+                  <span class="item__price-value">13 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
                 </div>
-                <button class="button item__button">
-                  <img
-                    class="button_icon"
-                    src="./assets/images/shopping-cart-basket.png"
-                    alt="shopping cart"
-                  />
-                  <div class="button_text">В корзину</div>
-                </button>
+                <div class="item__price_old">
+                  <span class="item__price-value">15 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
               </div>
+              <button class="button item__button">
+                <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                <div class="button_text">В корзину</div>
+              </button>
+            </div>
+          </div>
+          <div class="catalog__item">
+            <img class="item__img" src="./assets/images/catalog2_4.svg" alt="flowers" />
+            <div class="item__content">
+              <h5 class="item__title">
+                Роза "Мондиаль" 60см 25шт с эвкалиптом
+              </h5>
+              <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+            </div>
+            <div class="item__footer">
+              <div class="item__price">
+                <div class="item__price_new">
+                  <span class="item__price-value">13 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+                <div class="item__price_old">
+                  <span class="item__price-value">15 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+              </div>
+              <button class="button item__button">
+                <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                <div class="button_text">В корзину</div>
+              </button>
             </div>
           </div>
         </div>
-        <div class="catalog catalog-2">
-          <div class="catalog__header">
-            <h3 class="catalog__name">Лучшие предложения</h3>
-            <div class="catalog__navigation"></div>
+      </div>
+      <div class="catalog catalog-3">
+        <div class="catalog__header">
+          <h3 class="catalog__name">Новинки</h3>
+          <div class="catalog__navigation"></div>
+        </div>
+        <div class="catalog__content">
+          <div class="catalog__item">
+            <img class="item__img" src="./assets/images/catalog3_1.svg" alt="flowers" />
+            <div class="item__content">
+              <h5 class="item__title">Букет 25 роз Нежный микс</h5>
+              <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+            </div>
+            <div class="item__footer">
+              <div class="item__price">
+                <div class="item__price_new">
+                  <span class="item__price-value">13 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+                <div class="item__price_old">
+                  <span class="item__price-value">15 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+              </div>
+              <button class="button item__button">
+                <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                <div class="button_text">В корзину</div>
+              </button>
+            </div>
           </div>
-          <div class="catalog__content">
-            <div class="catalog__item">
-              <img
-                class="item__img"
-                src="./assets/images/catalog2_1.svg"
-                alt="flowers"
-              />
-              <div class="item__content">
-                <h5 class="item__title">Букет 25 роз Нежный микс</h5>
-                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-              </div>
-              <div class="item__footer">
-                <div class="item__price">
-                  <div class="item__price_new">
-                    <span class="item__price-value">13 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                  <div class="item__price_old">
-                    <span class="item__price-value">15 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                </div>
-                <button class="button item__button">
-                  <img
-                    class="button_icon"
-                    src="./assets/images/shopping-cart-basket.png"
-                    alt="shopping cart"
-                  />
-                  <div class="button_text">В корзину</div>
-                </button>
-              </div>
+          <div class="catalog__item">
+            <img class="item__img" src="./assets/images/catalog3_2.svg" alt="flowers" />
+            <div class="item__content">
+              <h5 class="item__title">Букет роз Ред наоми 60 см</h5>
+              <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
             </div>
-            <div class="catalog__item">
-              <img
-                class="item__img"
-                src="./assets/images/catalog2_2.svg"
-                alt="flowers"
-              />
-              <div class="item__content">
-                <h5 class="item__title">Букет роз Ред наоми 60 см</h5>
-                <p class="product__description">Высота: 60 см, Ширина: 35 см</p>
-              </div>
-              <div class="item__footer">
-                <div class="item__price">
-                  <div class="item__price_new">
-                    <span class="item__price-value">13 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                  <div class="item__price_old">
-                    <span class="item__price-value">15 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
+            <div class="item__footer">
+              <div class="item__price">
+                <div class="item__price_new">
+                  <span class="item__price-value">13 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
                 </div>
-                <button class="button item__button">
-                  <img
-                    class="button_icon"
-                    src="./assets/images/shopping-cart-basket.png"
-                    alt="shopping cart"
-                  />
-                  <div class="button_text">В корзину</div>
-                </button>
+                <div class="item__price_old">
+                  <span class="item__price-value">15 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
               </div>
+              <button class="button item__button">
+                <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                <div class="button_text">В корзину</div>
+              </button>
             </div>
-            <div class="catalog__item">
-              <img
-                class="item__img"
-                src="./assets/images/catalog2_3.svg"
-                alt="flowers"
-              />
-              <div class="item__content">
-                <h5 class="item__title">Роза "Эксплоер" 80 см 101шт</h5>
-                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-              </div>
-              <div class="item__footer">
-                <div class="item__price">
-                  <div class="item__price_new">
-                    <span class="item__price-value">13 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                  <div class="item__price_old">
-                    <span class="item__price-value">15 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                </div>
-                <button class="button item__button">
-                  <img
-                    class="button_icon"
-                    src="./assets/images/shopping-cart-basket.png"
-                    alt="shopping cart"
-                  />
-                  <div class="button_text">В корзину</div>
-                </button>
-              </div>
+          </div>
+          <div class="catalog__item">
+            <img class="item__img" src="./assets/images/catalog3_3.svg" alt="flowers" />
+            <div class="item__content">
+              <h5 class="item__title">Букет 5 пионовидных роз Мисти баблс</h5>
+              <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
             </div>
-            <div class="catalog__item">
-              <img
-                class="item__img"
-                src="./assets/images/catalog2_4.svg"
-                alt="flowers"
-              />
-              <div class="item__content">
-                <h5 class="item__title">
-                  Роза "Мондиаль" 60см 25шт с эвкалиптом
-                </h5>
-                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-              </div>
-              <div class="item__footer">
-                <div class="item__price">
-                  <div class="item__price_new">
-                    <span class="item__price-value">13 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                  <div class="item__price_old">
-                    <span class="item__price-value">15 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
+            <div class="item__footer">
+              <div class="item__price">
+                <div class="item__price_new">
+                  <span class="item__price-value">13 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
                 </div>
-                <button class="button item__button">
-                  <img
-                    class="button_icon"
-                    src="./assets/images/shopping-cart-basket.png"
-                    alt="shopping cart"
-                  />
-                  <div class="button_text">В корзину</div>
-                </button>
+                <div class="item__price_old">
+                  <span class="item__price-value">15 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
               </div>
+              <button class="button item__button">
+                <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                <div class="button_text">В корзину</div>
+              </button>
+            </div>
+          </div>
+          <div class="catalog__item">
+            <img class="item__img" src="./assets/images/catalog3_4.svg" alt="flowers" />
+            <div class="item__content">
+              <h5 class="item__title">Букет роз микс 40 см</h5>
+              <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+            </div>
+            <div class="item__footer">
+              <div class="item__price">
+                <div class="item__price_new">
+                  <span class="item__price-value">13 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+                <div class="item__price_old">
+                  <span class="item__price-value">15 499</span>
+                  <span class="item__price-currancy">&#8381;</span>
+                </div>
+              </div>
+              <button class="button item__button">
+                <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                <div class="button_text">В корзину</div>
+              </button>
             </div>
           </div>
         </div>
-        <div class="catalog catalog-3">
-          <div class="catalog__header">
-            <h3 class="catalog__name">Новинки</h3>
-            <div class="catalog__navigation"></div>
-          </div>
-          <div class="catalog__content">
-            <div class="catalog__item">
-              <img
-                class="item__img"
-                src="./assets/images/catalog3_1.svg"
-                alt="flowers"
-              />
-              <div class="item__content">
-                <h5 class="item__title">Букет 25 роз Нежный микс</h5>
-                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-              </div>
-              <div class="item__footer">
-                <div class="item__price">
-                  <div class="item__price_new">
-                    <span class="item__price-value">13 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                  <div class="item__price_old">
-                    <span class="item__price-value">15 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                </div>
-                <button class="button item__button">
-                  <img
-                    class="button_icon"
-                    src="./assets/images/shopping-cart-basket.png"
-                    alt="shopping cart"
-                  />
-                  <div class="button_text">В корзину</div>
-                </button>
-              </div>
-            </div>
-            <div class="catalog__item">
-              <img
-                class="item__img"
-                src="./assets/images/catalog3_2.svg"
-                alt="flowers"
-              />
-              <div class="item__content">
-                <h5 class="item__title">Букет роз Ред наоми 60 см</h5>
-                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-              </div>
-              <div class="item__footer">
-                <div class="item__price">
-                  <div class="item__price_new">
-                    <span class="item__price-value">13 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                  <div class="item__price_old">
-                    <span class="item__price-value">15 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                </div>
-                <button class="button item__button">
-                  <img
-                    class="button_icon"
-                    src="./assets/images/shopping-cart-basket.png"
-                    alt="shopping cart"
-                  />
-                  <div class="button_text">В корзину</div>
-                </button>
-              </div>
-            </div>
-            <div class="catalog__item">
-              <img
-                class="item__img"
-                src="./assets/images/catalog3_3.svg"
-                alt="flowers"
-              />
-              <div class="item__content">
-                <h5 class="item__title">Букет 5 пионовидных роз Мисти баблс</h5>
-                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-              </div>
-              <div class="item__footer">
-                <div class="item__price">
-                  <div class="item__price_new">
-                    <span class="item__price-value">13 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                  <div class="item__price_old">
-                    <span class="item__price-value">15 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                </div>
-                <button class="button item__button">
-                  <img
-                    class="button_icon"
-                    src="./assets/images/shopping-cart-basket.png"
-                    alt="shopping cart"
-                  />
-                  <div class="button_text">В корзину</div>
-                </button>
-              </div>
-            </div>
-            <div class="catalog__item">
-              <img
-                class="item__img"
-                src="./assets/images/catalog3_4.svg"
-                alt="flowers"
-              />
-              <div class="item__content">
-                <h5 class="item__title">Букет роз микс 40 см</h5>
-                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-              </div>
-              <div class="item__footer">
-                <div class="item__price">
-                  <div class="item__price_new">
-                    <span class="item__price-value">13 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                  <div class="item__price_old">
-                    <span class="item__price-value">15 499</span>
-                    <span class="item__price-currancy">&#8381;</span>
-                  </div>
-                </div>
-                <button class="button item__button">
-                  <img
-                    class="button_icon"
-                    src="./assets/images/shopping-cart-basket.png"
-                    alt="shopping cart"
-                  />
-                  <div class="button_text">В корзину</div>
-                </button>
-              </div>
-          </div>
-        </div>
-      </section>
+    </section>
 
-      <!--Категории -->
-      <section class="category">
-        <div class="container"></div>
-      </section>
-      <!--Отзывы -->
-      <section class="reviews">
-        <div class="container"></div>
-      </section>
-      <!--Новости-->
-      <section class="news">
-        <div class="container"></div>
-      </section>
-      <!--Цветы в Воронеже с доставкой на дом -->
-      <section class="copyright">
-        <div class="container"></div>
-      </section>
-      <!--Почему лавка роз -->
-      <section class="features">
-        <div class="container"></div>
-      </section>
-      <!--Карта-->
-      <section class="map">
-        <div class="container"></div>
-      </section>
-    </main>
-    <footer>
+    <!--Категории -->
+    <section class="category">
       <div class="container"></div>
-    </footer>
-    <script src="assets/styles/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
-  </body>
+    </section>
+    <!--Отзывы -->
+    <section class="reviews">
+      <div class="container"></div>
+    </section>
+    <!--Новости-->
+    <section class="news">
+      <div class="container"></div>
+    </section>
+    <!--Цветы в Воронеже с доставкой на дом -->
+    <section class="copyright">
+      <div class="container"></div>
+    </section>
+    <!--Почему лавка роз -->
+    <section class="features">
+      <div class="container"></div>
+    </section>
+    <!--Карта-->
+    <section class="map">
+      <div class="container"></div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer_container">
+      <div class="footer_container1_1">
+        <a href="" target="_blank
+      ">Цветы поштучно</a>
+        <a href="" target="_blank
+      ">Розы поштучно</a>
+        <a href="" target="_blank
+      ">Кустовая роза</a>
+        <a href="" target="_blank
+      ">Пионовидная роза</a>
+        <a href="" target="_blank
+      ">Пионовидная роза</a>
+        <a href="" target="_blank
+      ">Хризантемы поштучно</a>
+        <a href="" target="_blank
+      ">Альстромерия</a>
+        <a href="" target="_blank
+      ">Тюльпаны</a>
+        <a href="" target="_blank
+      ">Герберы поштучно</a>
+        <a href="" target="_blank
+      ">Лилии поштучно</a>
+        <a href="" target="_blank
+      ">Пионы</a>
+        <a href="" target="_blank
+      ">Эустома</a>
+        <a href="" target="_blank
+      ">Каллы поштучно</a>
+        <a href="" target="_blank
+      ">Маттиола</a>
+      </div>
+      <div class="footer_container1_2">
+        <a href="" target="_blank
+      ">Розы</a>
+        <a href="" target="_blank
+      ">Голландские розы</a>
+        <a href="" target="_blank
+      ">Местная роза</a>
+        <a href="" target="_blank
+      ">Кустовые розы</a>
+        <a href="" target="_blank
+      ">Пионовидные розы</a>
+        <a href="" target="_blank
+      ">Букет из 101 розы</a>
+      </div>
+      <div class="footer_container1_3">
+        <a href="" target="_blank
+      ">Букеты</a>
+        <a href="" target="_blank
+      ">Сборные букеты</a>
+        <a href="" target="_blank
+      ">Букеты из хризантем</a>
+        <a href="" target="_blank
+      ">Букеты из Альстромерий</a>
+        <a href="" target="_blank
+      ">Букеты из эустом</a>
+        <a href="" target="_blank
+      ">Букеты из Гипсофилы</a>
+        <a href="" target="_blank
+      ">Букеты из гербер</a>
+        <a href="" target="_blank
+      ">Букеты из пионов</a>
+        <a href="" target="_blank
+      ">Букеты из тюльпанов</a>
+
+      </div>
+      <div class="footer_container1_4">
+        <a href="" target="_blank
+      ">Композиции</a>
+        <a href="" target="_blank
+      ">Ящики с цветами</a>
+        <a href="" target="_blank
+      ">Коробки с цветами</a>
+        <a href="" target="_blank
+      ">Корзины с цветами</a>
+        <a href="" target="_blank
+      ">Подарки</a>
+        <a href="" target="_blank
+      ">Мягкие игрушки</a>
+        <a href="" target="_blank
+      ">Коробки конфет</a>
+        <a href="" target="_blank
+      ">Шары</a>
+        <a href="" target="_blank
+      ">Шары в виде цифр</a>
+        <a href="" target="_blank
+      ">Фотльгированные шары</a>
+        <a href="" target="_blank
+      ">Латексные шары</a>
+      </div>
+      <div class="footer_container1_5">
+        <a href="" target="_blank
+      ">Информация</a>
+        <a href="" target="_blank
+      ">Доставка</a>
+        <a href="" target="_blank
+      ">Оплата</a>
+        <a href="" target="_blank
+      ">Отзывы</a>
+        <a href="" target="_blank
+      ">Блог</a>
+        <a href="" target="_blank
+      ">Гарантии</a>
+        <a href="" target="_blank
+      ">Вопрос и ответ</a>
+        <a href="" target="_blank
+      ">Корпоративным клиентам</a>
+        <a href="" target="_blank
+      ">О компании</a>
+        <a href="" target="_blank
+      ">Контакты</a>
+      </div>
+      <div class="footer_container1_6">
+        <span>Наши координаты</span>
+
+        <span>Служба доставки</span>
+        <span><a href="tel:+79202114903">+7(920)211-49-03</a></span>
+        <span>Ул. Вл. Невского 17</span>
+        <span><a href="tel:+79202114903">+7(920)211-49-03</a></span>
+        <span>Ул.Революции 1905 года 80</span>
+        <span><a href="tel:+79066786599">+7(906)678-65-99</a></span>
+        <span>E-mail:</span>
+        <a href="mailto:info@lavkaroz.ru">info@lavkaroz.ru</a>
+      </div>
+    </div>
+    <div class="footer_container2">
+      <div class="copyright">
+        <p>&copy;2014-2022. Интернет-магазин &laquo;Лавка Роз&raquo;</p>
+      </div>
+      <div class="links_to_pay">
+        <a class="link_to_pay-icon__link" href="" target="_blank"><img src="assets/images/Wallet.svg" alt="wallet"></a>
+        <a class="link_to_pay-icon__link" href="" target="_blank"><img src="assets/images/VISA.svg" alt="VISA"></a>
+        <a class="link_to_pay-icon__link" href="" target="_blank"><img src="assets/images/mastercard.svg"
+            alt="mastercard"></a>
+        <a class="link_to_pay-icon__link" href="" target="_blank"><img src="assets/images/maestro.svg"
+            alt="maestro"></a>
+        <a class="link_to_pay-icon__link" href="" target="_blank"><img src="assets/images/MIR.svg" alt="MIR"></a>
+        <a class="link_to_pay-icon__link" href="" target="_blank"><img src="assets/images/Sber.svg" alt="Sber"></a>
+        <a class="link_to_pay-icon__link" href="" target="_blank"><img src="assets/images/YMoney.svg" alt="YMoney"></a>
+
+
+      </div>
+      <div class="social_networks">
+        <p>Мы в социальных сетях:</p>
+        <a class="link social-icon__link" href="#" target="_blank"><img src="assets/images/Vkontakte.svg"
+            alt="Vkontakte"></a>
+        <a class="link social-icon__link" href="" target="_blank"><img src="assets/images/facebook.svg"
+            alt="facebook"></a>
+        <a class="link social-icon__link" href="" target="_blank"><img src="assets/images/instagram-footer.svg"
+            alt="instagram"></a>
+        <a class="link social-icon__link" href="" target="_blank"><img src="assets/images/YouTube.svg"
+            alt="YouTube"></a>
+
+
+      </div>
+    </div>
+  </footer>
+  <script src="assets/styles/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+</body>
+
 </html>
