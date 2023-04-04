@@ -1,7 +1,7 @@
 @import "default_variables";
 
 //общие параметры стилей
-* {
+*{
   box-sizing: border-box;
 }
 
@@ -352,6 +352,44 @@ img {
   width: 873px;
   height: 440px;
   background-color: pink;
+}
+//каталог
+.catalog{
+  width: 1170px;
+  height: hug(1,650.01px) ;
+  margin-top: 60px;
+
+}
+.catalog__catalog-1{
+  height:510px;
+display: flex;
+flex-direction: column;
+}
+.catalog__header{
+text-align: start;
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+color: #222A46;
+
+
+}
+
+.catalog__content {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 20px;
+  width: 1172px;
+  height: 430px;
+  left: 0px;
+}
+.catalog__item{
+  width: 178px;
+  height: 430px;
+  margin right: 20px;
 }
 
 //адаптив планшет
