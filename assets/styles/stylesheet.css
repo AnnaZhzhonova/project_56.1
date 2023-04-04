@@ -410,7 +410,7 @@ height: 1650px;
 
 
 
-.catalog__catalog-1 {
+.catalog-1 .catalog-2 .catalog-3{
   height: 510px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -420,14 +420,18 @@ height: 1650px;
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.catalog__header{
-  text-align: start;
+.catalog__name{
   font-family: 'Yeseva One';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 50px;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
   color: #222A46;
+  }
+  .catalog__header{
+    height: 80;
+    text-align: start;
+    display: flex;
   }
 
 .catalog__content {
@@ -448,13 +452,18 @@ height: 1650px;
   width: 23.7%;
   height: 430px;
   border: 1px solid #E2E4EB;
-border-radius: 5px;
+  border-radius: 5px;
   margin right: 20px;
 }
-.product_content{
-  margin: 20px 20px 45px 20px;
+.item__content{
+  margin-left: 20px;
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 45px;
+
+
 }
-.product__title{
+.item__title{
 font-family:'TT Norms';
 font-size: 16px;
 font-weight: 700;
@@ -464,7 +473,7 @@ text-align: left;
 color: #222A46;
 
 }
-.product__description{
+.item__description{
   font-family: 'TT Norms';
   font-style: normal;
   font-weight: 400;
@@ -472,7 +481,7 @@ color: #222A46;
   line-height: 20px;
   color: #505567;
 }
-.product__footer{
+.item__footer{
 display: flex ;
 flex-direction: row;
 justify-content: space-between;
@@ -480,7 +489,7 @@ padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
 }
-.product__price_new{
+.item__price_new{
   font-family: 'TT Norms';
 font-style: normal;
 font-weight: 700;
@@ -488,7 +497,7 @@ font-size: 16px;
 line-height: 22px;
 color: #222A46;
 }
-.product__price_old{
+.item__price_old{
   font-family: 'TT Norms';
 font-style: normal;
 font-weight: 400;
