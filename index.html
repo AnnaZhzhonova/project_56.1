@@ -23,6 +23,10 @@
       crossorigin="anonymous"
     />
     <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
       type="text/css"
       rel="stylesheet"
       href="assets/styles/stylesheet.css"
@@ -42,108 +46,139 @@
                 9&colon;00&ndash;20&colon;00
               </p>
             </div>
-            <nav
-              class="navigation navbar navbar-expand-md navbar-light bg-light"
-            >
-              <div class="container-fluid">
-                <button
-                  class="navigation__btn navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarText"
-                  aria-controls="navbarText"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
+            <input class="switcher" id="menu" type="checkbox" />
+            <label class="open" for="menu">
+              <i class="fa fa-bars"></i>
+            </label>
+            <nav class="navigation">
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a class="link navigation__link" href="#">Доставка</a>
+                </li>
+                <li class="navigation__item">
+                  <a class="link navigation__link" href="#">Оплата</a>
+                </li>
+                <li class="navigation__item">
+                  <a class="link navigation__link" href="#">Отзывы</a>
+                </li>
+                <li class="navigation__item">
+                  <a class="link navigation__link" href="#">Блог</a>
+                </li>
+                <li class="navigation__item navigation__item--mobile">
+                  <a class="link navigation__link" href="#">Гарантии</a>
+                </li>
+                <li class="navigation__item navigation__item--mobile">
+                  <a class="link navigation__link" href="#">Вопрос и ответ</a>
+                </li>
+                <li class="navigation__item navigation__item--mobile">
+                  <a class="link navigation__link" href="#"
+                    >Корпоративным клиентам</a
+                  >
+                </li>
+                <li class="navigation__item navigation__item--mobile">
+                  <a class="link navigation__link" href="#">О компании</a>
+                </li>
+
+                <li
+                  class="navigation__item navigation__item--screen nav-item dropdown"
                 >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  class="navigation__container collapse navbar-collapse"
-                  id="navbarText"
-                >
-                  <ul class="navigation__list navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="navigation__item nav-item">
-                      <a
-                        class="navigation__link nav-link"
-                        aria-current="page"
-                        href="#"
-                        >Доставка</a
-                      >
+                  <a
+                    class="link navigation__link nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Информация</a
+                  >
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
                     </li>
-                    <li class="navigation__item nav-item">
-                      <a
-                        class="navigation__link nav-link"
-                        aria-current="page"
-                        href="#"
-                        >Оплата</a
-                      >
-                    </li>
-                    <li class="navigation__item nav-item">
-                      <a
-                        class="navigation__link navigation__link--hidden nav-link"
-                        aria-current="page"
-                        href="#"
-                        >Отзывы</a
-                      >
-                    </li>
-                    <li class="navigation__item nav-item">
-                      <a
-                        class="navigation__link navigation__link--hidden nav-link"
-                        aria-current="page"
-                        href="#"
-                        >Блог</a
-                      >
-                    </li>
-                    <li class="navigation__item nav-item dropdown">
-                      <a
-                        class="navigation__link nav-link dropdown-toggle"
-                        data-bs-toggle="dropdown"
-                        href="#"
-                        role="button"
-                        aria-expanded="false"
-                        >Информация</a
-                      >
-                      <ul class="navigation__list--drop dropdown-menu">
-                        <li>
-                          <a
-                            class="navigation__link--drop dropdown-item"
-                            href="#"
-                            >Гарантии</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="navigation__link--drop dropdown-item"
-                            href="#"
-                            >Вопрос и ответ</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="navigation__link--drop dropdown-item"
-                            href="#"
-                            >Корпоративным клиентам</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="navigation__link--drop dropdown-item"
-                            href="#"
-                            >О компании</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="navigation__item nav-item">
-                      <a
-                        class="navigation__link nav-link navigation__link--hidden"
-                        href="#"
-                        >Контакты</a
-                      >
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
                     </li>
                   </ul>
-                </div>
-              </div>
+                </li>
+                <li class="navigation__item">
+                  <a class="link navigation__link" href="#">Контакты</a>
+                </li>
+                <li class="navigation__item navigation__item--mobile">
+                  <div class="contact-box--mobile">
+                    <ul class="list call-box__list">
+                      <li class="call-box__item">
+                        <a class="call-box__link" href="tel:+79202114903"
+                          ><img src="assets/images/phone.svg" alt="phone" />+7
+                          (920) 211-49-03</a
+                        >
+                      </li>
+                      <li class="call-box__item">
+                        <a class="call-box__link" href="#"
+                          ><img
+                            src="assets/images/map-location.svg"
+                            alt="map"
+                          />ул. Революции 1905 года 80</a
+                        >
+                      </li>
+                      <li class="call-box__item">
+                        <a class="call-box__link" href="#"
+                          ><img
+                            src="assets/images/map-location.svg"
+                            alt="map"
+                          />ул. Вл. Невского 17</a
+                        >
+                      </li>
+                      <li class="call-box__item">
+                        <a
+                          class="call-box__link call-box__link--blue"
+                          href="mailto:info@lavkaroz.ru"
+                          ><img
+                            src="assets/images/envelope.svg"
+                            alt="mail"
+                          />info@lavkaroz.ru</a
+                        >
+                      </li>
+                      <li class="call-box__item--link-title">
+                        <p>Напишите нам:</p>
+                        <div class="social-icon">
+                          <a
+                            class="link social-icon__link"
+                            href="https://www.whatsapp.com/"
+                            ><img
+                              src="assets/images/whatsapp.svg"
+                              alt="whatsapp"
+                          /></a>
+                          <a
+                            class="link social-icon__link"
+                            href="https://telegram.org/"
+                            ><img
+                              src="assets/images/Telegram.svg"
+                              alt="Telegram"
+                          /></a>
+                          <a
+                            class="link social-icon__link"
+                            href="https://vk.com/"
+                            ><img src="assets/images/Vkontakte.svg" alt="vk"
+                          /></a>
+                          <a
+                            class="link social-icon__link"
+                            href="hhttps://instagram.com/"
+                            ><img src="assets/images/Instagram.svg" alt="inst"
+                          /></a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <label class="close" for="menu">
+                <i class="fa fa-times"></i>
+              </label>
             </nav>
             <div class="delivery-ad delivery-ad--mobile">
               <p class="delivety-ad__text">Доставка цветов в Воронеже</p>
@@ -181,15 +216,17 @@
                 /></a>
               </div>
             </div>
-            <form class="search-form">
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                placeholder="Поиск по сайту"
-              />
-              <button type="submit" class="btn btn-primary"></button>
-            </form>
+            <div class="search-form">
+              <form>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  placeholder="Поиск по сайту"
+                />
+                <button type="submit" class="btn btn-primary"></button>
+              </form>
+            </div>
             <div class="call-box">
               <div class="call-box__btn">
                 <a href="tel:+79202114903"
