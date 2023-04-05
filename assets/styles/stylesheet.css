@@ -77,8 +77,7 @@ img {
   left: -9999px;
 }
 
-.open,
-.close {
+.open, .close {
   font-size: 30px;
   cursor: pointer;
   display: none;
@@ -114,11 +113,11 @@ img {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   font-size: 14px;
-  color: #222a46;
+  color: #222A46;
 }
 
 .navigation__link:hover {
-  color: #0093a2;
+  color: #0093A2;
 }
 
 .contact-box--mobile {
@@ -205,7 +204,7 @@ img {
   margin: 0;
   padding: 0;
   font-family: "TT Norms";
-  color: #222a46;
+  color: #222A46;
   font-weight: 400;
   font-size: 14px;
 }
@@ -220,7 +219,7 @@ img {
   padding: 0 0 0 21px;
 }
 .search-form input {
-  border: 1px solid #d0d2d7;
+  border: 1px solid #D0D2D7;
   border-radius: 60px;
 }
 .search-form button {
@@ -252,7 +251,7 @@ img {
 .call-box__btn {
   width: 44px;
   border-radius: 50%;
-  border: 1px solid #d0d2d7;
+  border: 1px solid #D0D2D7;
 }
 .call-box__btn a {
   display: block;
@@ -274,13 +273,13 @@ img {
   font-family: "TT Norms";
   font-size: 14px;
   font-weight: bold;
-  color: #e2195b;
+  color: #E2195B;
 }
 
 .call-box__drop {
   margin: 0;
   padding: 0;
-  color: #222a46;
+  color: #222A46;
   border: none;
   font-family: "TT Norms";
   font-weight: 700;
@@ -291,7 +290,7 @@ img {
   width: 260px;
   height: 254px;
   padding: 20px 20px 15px 20px;
-  border: 1px solid #d0d2d7;
+  border: 1px solid #D0D2D7;
   border-radius: 10px;
 }
 
@@ -300,14 +299,14 @@ img {
   font-family: "TT Norms";
   font-size: 14px;
   font-weight: bold;
-  color: #222a46;
+  color: #222A46;
 }
 .call-box__link img {
   margin: 0 5px;
 }
 
 .call-box__link--blue {
-  color: #0093a2;
+  color: #0093A2;
 }
 
 .call-box__item--link-title {
@@ -344,7 +343,7 @@ img {
 .basket__pic {
   width: 44px;
   border-radius: 50%;
-  border: 1px solid #d0d2d7;
+  border: 1px solid #D0D2D7;
   padding: 7px 10px 10px 10px;
 }
 .basket__pic img {
@@ -360,7 +359,7 @@ img {
   font-family: "TT Norms";
   font-weight: bold;
   font-size: 16px;
-  color: #e2195b;
+  color: #E2195B;
 }
 
 .header-bottom {
@@ -387,7 +386,7 @@ img {
   font-family: "TT Norms";
   font-weight: bold;
   text-transform: uppercase;
-  color: #e2195b;
+  color: #E2195B;
 }
 
 .catalog-menu__link--pink::before {
@@ -401,7 +400,7 @@ img {
   padding: 3px 0 0 0;
   font-family: "TT Norms";
   font-weight: bold;
-  color: #222a46;
+  color: #222A46;
 }
 
 .catalog-menu__link--drop {
@@ -410,7 +409,7 @@ img {
 }
 
 .catalog-menu__link--drop:hover {
-  color: #0093a2;
+  color: #0093A2;
   font-weight: bold;
 }
 
@@ -421,15 +420,12 @@ img {
 }
 
 .catalog {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 1170px;
-  height: 1650px;
+  height: hug(1, 650.01px);
+  margin-top: 60px;
 }
 
-.catalog_catalog-1 {
+.catalog__catalog-1 {
   height: 510px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -438,19 +434,6 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 40px;
-}
-.catalog_catalog-2 {
-  height: 510px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 40px;
-}
-.catalog_catalog-3 {
-  height: 510px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 40px;
 }
 
 .catalog__header {
@@ -460,13 +443,7 @@ img {
   font-weight: 400;
   font-size: 40px;
   line-height: 50px;
-  color: #222a46;
-}
-
-.catalog__header {
-  width: 1170px;
-  height: 80px;
-  text-align: start;
+  color: #222A46;
 }
 
 .catalog__content {
@@ -481,91 +458,15 @@ img {
       -ms-flex-align: stretch;
           align-items: stretch;
   gap: 20px;
-  width: 1170px;
+  width: 1172px;
   height: 430px;
   left: 0px;
 }
 
 .catalog__item {
-  position: relative;
-  width: 278px;
+  width: 178px;
   height: 430px;
-  border: 1px solid #e2e4eb;
-  border-radius: 5px;
-}
-.gradient {
-  position: absolute;
-  z-index: 100;
-}
-.item__content {
-  max-width: 238px;
-  height: 74px;
-  margin-left: 20px;
-  margin-top: 20px;
   margin-right: 20px;
-  margin-bottom: 25px;
-}
-.item__title {
-  font-family: "TT Norms";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #222a46;
-}
-.item__description {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: #505567;
-}
-.item__footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-}
-.item__price_new {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 22px;
-  color: #222a46;
-}
-.item__price_old {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  text-decoration-line: line-through;
-  color: #b0b2b9;
-}
-.button {
-  width: 130px;
-  height: 44px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background: #e2195b;
-  border-radius: 5px;
-}
-.button_text {
-  width: 66px;
-  height: 20px;
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: #ffffff;
 }
 
 /* разделы */
@@ -620,6 +521,7 @@ img {
       -ms-grid-row-align: center;
       align-self: center;
   font-family: "TT Norms";
+  font-size: 20px;
   font-weight: bold;
   color: #222A46;
 }
@@ -707,8 +609,7 @@ img {
 .header-bottom {
     display: none;
   }
-  .open,
-  .close {
+  .open, .close {
     display: block;
     max-width: 800px;
   }
@@ -717,9 +618,7 @@ img {
     top: 15px;
     right: 35px;
   }
-  .fa-remove:before,
-  .fa-close:before,
-  .fa-times:before {
+  .fa-remove:before, .fa-close:before, .fa-times:before {
     content: url(../images/close.svg);
     width: 14px;
     height: 14px;
