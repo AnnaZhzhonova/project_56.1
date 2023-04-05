@@ -848,3 +848,80 @@ h3 {
     margin: 0 15px 0 15px;
   }
 }
+.footer-container1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-container2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-container1__1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container1__2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container1__3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container1__4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container1__5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container1__6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container1__title {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+
+}
+
+.footer-container1__text-link {
+  text-decoration: none;
+  /* width: 70px;*/
+
+  height: 22px;
+
+  /* 16/Regular */
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  color: #353949;
+}
+
+.footer-container1__phone-number {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000000;
+
+}
+
+.footer-container1__e-mail {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000000;
+}
