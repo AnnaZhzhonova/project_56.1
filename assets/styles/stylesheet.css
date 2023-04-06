@@ -2,7 +2,7 @@
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -15,11 +15,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .container {
@@ -41,11 +41,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 50px;
 }
 
@@ -97,11 +97,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .navigation__item--mobile {
@@ -133,11 +133,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contact-icon {
@@ -147,8 +147,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .contact-icon img {
@@ -162,8 +162,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .account__link {
@@ -178,11 +178,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .logo {
@@ -244,8 +244,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   height: 44px;
   width: 230px;
 }
@@ -271,8 +271,8 @@ img {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 168px;
 }
 
@@ -335,8 +335,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .basket {
@@ -344,8 +344,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 206px;
   height: 44px;
 }
@@ -388,8 +388,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -447,8 +447,8 @@ img {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-top: 40px;
 }
 
@@ -487,11 +487,11 @@ h3 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   gap: 20px;
   width: 1170px;
   height: 430px;
@@ -516,17 +516,18 @@ h3 {
 }
 
 .carousel-heart img {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   position: absolute;
   top: 10px;
   right: 10px;
   background: #ffffff;
   border-radius: 30px;
+  padding: 7px;
   z-index: 100;
 }
 
-.carousel-heart a:hover {
+.carousel-heart a: :hover {
   color: red;
 }
 
@@ -622,8 +623,8 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   height: 430px;
 }
 
@@ -631,7 +632,7 @@ h3 {
   width: 278px;
   height: 351px;
   -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .category-item__image {
@@ -645,21 +646,21 @@ h3 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
 }
 
 .category-item__title,
 .category-item__price {
   display: inline-block;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   font-family: "TT Norms";
   font-size: 20px;
   font-weight: bold;
@@ -675,7 +676,7 @@ h3 {
   font-family: "TT Norms";
   font-size: 20px;
   font-weight: bold;
-  color: #222A46;
+  color: #222a46;
   text-decoration: none;
 }
 
@@ -689,8 +690,8 @@ h3 {
   }
 
   .delivery-ad,
-.call-box,
-.navigation__link--hidden {
+  .call-box,
+  .navigation__link--hidden {
     display: none;
   }
 
@@ -708,12 +709,12 @@ h3 {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .catalog-menu__list {
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     overflow-x: scroll;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
@@ -725,8 +726,8 @@ h3 {
 
   .catalog-menu__item {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
     margin: 0 15px 0 15px;
   }
 
@@ -736,12 +737,12 @@ h3 {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .category-box {
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     overflow-x: scroll;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
@@ -753,8 +754,8 @@ h3 {
 
   .category-item {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
     margin: 0 15px 0 15px;
   }
 }
@@ -765,11 +766,11 @@ h3 {
   }
 
   .worktime,
-.basket,
-.account,
-.delivery-ad--screen,
-.call-box,
-.header-bottom {
+  .basket,
+  .account,
+  .delivery-ad--screen,
+  .call-box,
+  .header-bottom {
     display: none;
   }
 
@@ -793,7 +794,7 @@ h3 {
     height: 14px;
   }
 
-  .switcher:checked~nav {
+  .switcher:checked ~ nav {
     right: 0;
   }
 
@@ -821,11 +822,11 @@ h3 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     position: absolute;
     width: 100%;
   }
@@ -859,7 +860,7 @@ h3 {
 
   .contact-box--mobile ul li p {
     -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     margin-bottom: 15px;
     font-weight: normal;
   }
@@ -874,14 +875,14 @@ h3 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .account-link {
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .search-form {
@@ -908,12 +909,12 @@ h3 {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .category-box {
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     overflow-x: scroll;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
@@ -925,8 +926,8 @@ h3 {
 
   .category-item {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
     margin: 0 15px 0 15px;
   }
 }
@@ -941,7 +942,7 @@ h3 {
 }
 
 .features__list {
-  font-family: 'TT Norms';
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -961,7 +962,6 @@ h3 {
   justify-content: space-between;
 
   padding: 40px 0px 29px 0px;
-
 }
 
 .footer-container2 {
@@ -970,7 +970,7 @@ h3 {
 
   padding: 25px 0px 25px 0px;
 
-  font-family: 'TT Norms';
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1004,22 +1004,21 @@ h3 {
 }
 
 .footer-container1__title {
-  font-family: 'TT Norms';
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
 
   text-decoration: none;
-  color: #222A46;
+  color: #222a46;
   padding: 0px 0px 10px 0px;
-
 }
 
 .footer-container1__text-link {
   text-decoration: none;
 
-  font-family: 'TT Norms';
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1031,7 +1030,7 @@ h3 {
 }
 
 .footer-container1__text {
-  font-family: 'TT Norms';
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1046,28 +1045,27 @@ h3 {
 
   text-decoration: none;
 
-  font-family: 'TT Norms';
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
 
-  color: #222A46;
+  color: #222a46;
 
   padding: 0px 0px 15px 0px;
-
 }
 
 .footer-container1__e-mail {
   text-decoration: none;
 
-  font-family: 'TT Norms';
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
 
-  color: #222A46;
+  color: #222a46;
 
   padding: 5px 0px 0px 0px;
 }
