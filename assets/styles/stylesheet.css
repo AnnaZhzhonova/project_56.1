@@ -794,6 +794,54 @@ h3 {
     flex: 0 0 auto;
     margin: 0 15px 0 15px;
   }
+
+  /* Почему Лавка Роз */
+
+
+  .features__list-item {
+    padding-bottom: 15px;
+  }
+
+  .features__list {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #353949;
+
+    /* width: 50%; */
+
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 70px;
+  }
+
+  .features__list-type {
+    list-style-type: disc;
+  }
+
+
+
+  .features_flowers {
+    position: relative;
+    left: 40%;
+  }
+
+
+  .features_pictures {
+    display: flex;
+  }
+
+  .features__container {
+    display: flex;
+    max-width: 600px;
+
+  }
+
+  /* Футер */
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
@@ -1068,6 +1116,11 @@ h3 {
   padding: 0px 0px 10px 0px;
 }
 
+.footer-container1__title:hover {
+  text-decoration: underline;
+  color: #222a46;
+}
+
 .footer-container1__text-link {
   text-decoration: none;
 
@@ -1080,6 +1133,11 @@ h3 {
   color: #353949;
 
   padding: 0px 0px 5px 0px;
+}
+
+.footer-container1__text-link:hover {
+  text-decoration: underline;
+  color: #353949;
 }
 
 .footer-container1__text {
@@ -1109,6 +1167,11 @@ h3 {
   padding: 0px 0px 15px 0px;
 }
 
+.footer-container1__phone-number:hover {
+  text-decoration: underline;
+  color: #222a46;
+}
+
 .footer-container1__e-mail {
   text-decoration: none;
 
@@ -1121,6 +1184,11 @@ h3 {
   color: #222a46;
 
   padding: 5px 0px 0px 0px;
+}
+
+.footer-container1__e-mail:hover {
+  text-decoration: underline;
+  color: #222a46;
 }
 
 .link-to-pay-icon__link {
