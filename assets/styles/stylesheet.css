@@ -31,82 +31,6 @@ img {
   max-width: 100%;
 }
 
-<<<<<<< HEAD
-.hero {
-  max-width: 1170px;
-  margin: 30px auto;
-}
-
-.hero__conteiner {
-  display: grid;
-  grid-template-columns: 75% 25%;
-  grid-template-rows: 440px;
-  max-width: 1170px;
-  margin: 0 auto;
-  gap: 19px;
-}
-.hero__conteiner .info-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  max-width: 307px;
-  text-align: left;
-  color: black;
-}
-.hero__conteiner .hero__h5 {
-  font-family: "Yeseva One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 44px;
-}
-.hero__conteiner .hero__p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-}
-.hero__conteiner .hero__p {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-}
-.hero__conteiner .hero__btn {
-  display: grid;
-  grid-template-columns: 75% 25%;
-  width: 203px;
-  height: 50px;
-  color: #E2195B;
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.1em;
-  padding: 0;
-  border-radius: 10px;
-  align-items: center;
-}
-.hero__conteiner .hero__btn_green {
-  background: #0093A2;
-  width: 51px;
-  height: 50px;
-  opacity: 0.5;
-  border-radius: 0px 10px 10px 0px;
-}
-.hero__conteiner .flowers {
-  background-color: #F4E5E2;
-  border-radius: 10px;
-  max-height: 440px;
-  max-width: 873px;
-}
-
-.hero__maincard {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 7% 93%;
-  height: 440px;
-}
-.hero__maincard .card__heading {
-=======
 .link {
   text-decoration: none;
   cursor: pointer;
@@ -870,7 +794,7 @@ h3 {
     height: 14px;
   }
 
-  .switcher:checked~nav {
+  .switcher:checked ~ nav {
     right: 0;
   }
 
@@ -1010,88 +934,15 @@ h3 {
 
 /* Почему Лавка Роз */
 
-
 .features__list-item {
   padding-bottom: 15px;
 }
 
 .features__list {
->>>>>>> 52ef1869b2513c8b0861816bbfff55c74cd46c7f
   font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-<<<<<<< HEAD
-  font-weight: bolder;
-  text-align: center;
-}
-.hero__maincard .card__titel {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-}
-.hero__maincard .card__text {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-}
-.hero__maincard .hero__price {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  align-items: end;
-}
-.hero__maincard .hero__sale {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-}
-.hero__maincard .hero__nosale {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  text-decoration: line-through;
-}
-.hero__maincard .color {
-  background-color: #E2195B;
-  border: #E2195B;
-  max-width: 130px;
-  max-height: 44px;
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-}
-.hero__maincard .hero__basket {
-  width: 18px;
-  height: 18px;
-}
-
-.hero__conteiner2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1170px;
-  height: 90px;
-  margin: 30px auto;
-}
-.hero__conteiner2 .i1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 15px 26px 15px 25px;
-  gap: 10px;
-  min-width: auto;
-  height: 90px;
-  border: 1px solid #F2F3F5;
-  box-shadow: 0px 4px 12px rgba(34, 42, 70, 0.03);
-  border-radius: 5px;
-  background: #FFFFFF;
-=======
   line-height: 26px;
 
   color: #353949;
@@ -1108,13 +959,10 @@ h3 {
   list-style-type: disc;
 }
 
-
-
 .features_flowers {
   position: relative;
   left: 40%;
 }
-
 
 .features_pictures {
   display: flex;
@@ -1122,7 +970,6 @@ h3 {
 
 .features__container {
   display: flex;
-
 }
 
 /* Футер */
@@ -1140,20 +987,10 @@ h3 {
 
   padding: 25px 0px 25px 0px;
 
->>>>>>> 52ef1869b2513c8b0861816bbfff55c74cd46c7f
   font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-<<<<<<< HEAD
-  margin: 7px;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .hero__maincard {
-    display: none;
-  }
-=======
   line-height: 20px;
 
   color: #505567;
@@ -1256,5 +1093,4 @@ h3 {
 
 .link-social-icon__link {
   padding: 0px 15px 0px 0px;
->>>>>>> 52ef1869b2513c8b0861816bbfff55c74cd46c7f
 }
