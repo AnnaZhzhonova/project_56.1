@@ -794,7 +794,7 @@ h3 {
     height: 14px;
   }
 
-  .switcher:checked ~ nav {
+  .switcher:checked~nav {
     right: 0;
   }
 
@@ -933,9 +933,7 @@ h3 {
 }
 
 /* Почему Лавка Роз */
-.features {
-  display: flex;
-}
+
 
 .features__list-item {
   padding-bottom: 15px;
@@ -949,10 +947,34 @@ h3 {
   line-height: 26px;
 
   color: #353949;
+
+  /* width: 50%; */
+
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 70px;
 }
 
 .features__list-type {
   list-style-type: disc;
+}
+
+
+
+.features_flowers {
+  position: relative;
+  left: 40%;
+}
+
+
+.features_pictures {
+  display: flex;
+}
+
+.features__container {
+  display: flex;
+
 }
 
 /* Футер */
