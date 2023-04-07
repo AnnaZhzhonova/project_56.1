@@ -479,6 +479,17 @@ h3 {
   width: 1170px;
   height: 80px;
   text-align: start;
+  display: flex;
+  justify-content: space-between;
+}
+.catalog_navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.catalog__arrow-right {
+  background-color: #ffffff;
+  border: none;
 }
 
 .catalog__content {
