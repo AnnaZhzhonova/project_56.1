@@ -468,22 +468,22 @@
       <section class="product">
         <div class="container">
           <div
-            class="breadcrumb-links"
+            class="breadcrumb-box"
             style="--bs-breadcrumb-divider: '>'"
             aria-label="breadcrumb"
           >
             <ol class="breadcrumb">
-              <li class="breadcrumb__item breadcrumb-item">
-                <a class="breadcrumb__link" href="index.html">Главная</a>
+              <li class="breadcrumb-box__item breadcrumb-item">
+                <a class="breadcrumb-box__link" href="index.html">Главная</a>
               </li>
               <li
-                class="breadcrumb__item breadcrumb-item active"
+                class="breadcrumb-box__item breadcrumb-item active"
                 aria-current="page"
               >
                 Букеты из роз
               </li>
               <li
-                class="breadcrumb__item breadcrumb-item active"
+                class="breadcrumb-box__item breadcrumb-item active"
                 aria-current="page"
               >
                 Букеты из роз
@@ -492,306 +492,311 @@
           </div>
 
           <div class="card">
-            <div class="card-item">
-              <div class="card-item__gallery">
-                <div
-                  id="carouselExampleIndicators"
-                  class="carousel slide"
-                  data-bs-ride="carousel"
-                >
-                  <div class="carousel-indicators">
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="0"
-                      class="active"
-                      aria-current="true"
-                      aria-label="Slide 1"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="1"
-                      aria-label="Slide 2"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="2"
-                      aria-label="Slide 3"
-                    ></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img
-                        src="assets/images/card-1.svg"
-                        class="d-block w-100"
-                        alt="pic"
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="assets/images/card-2.svg"
-                        class="d-block w-100"
-                        alt="pic"
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="assets/images/card-3.svg"
-                        class="d-block w-100"
-                        alt="pic"
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="assets/images/card-4.svg"
-                        class="d-block w-100"
-                        alt="pic"
-                      />
-                    </div>
-                  </div>
+            <div class="card-gallery">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
                   <button
-                    class="carousel-control-prev"
                     type="button"
                     data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev"
-                  >
-                    <span
-                      class="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                  </button>
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
                   <button
-                    class="carousel-control-next"
                     type="button"
                     data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next"
-                  >
-                    <span
-                      class="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Следующий</span>
-                  </button>
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
                 </div>
-              </div>
-
-              <div class="card-item__desc">
-                Сто одна красная роза – безупречный выбор для тех, кто хочет
-                показать свою любовь и преданность, поразить свою избранницу и
-                вызвать настоящий восторг. Цвет и размеры бутонов могут
-                отличаться представленных на фото, цветы являются природным
-                материалом.
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="assets/images/card-1.svg"
+                      class="d-block w-100"
+                      alt="pic"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/card-2.svg"
+                      class="d-block w-100"
+                      alt="pic"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/card-3.svg"
+                      class="d-block w-100"
+                      alt="pic"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/card-4.svg"
+                      class="d-block w-100"
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
               </div>
             </div>
-            <div class="card-desc">
-              <h4 class="card-desc__title">Букет малиновых роз</h4>
-              <p class="card-desc__rewiews">
-                4.0 &lpar;<a class="card-desc__link" href="#" target="_blank"
-                  >15 отзывов</a
-                >&rpar;
+            <div class="card-text">
+              <p>
+                Сто одна красная роза – безупречный выбор для тех, кто хочет
+                показать свою любовь и преданность, поразить свою избранницу и
+                вызвать настоящий восторг.
               </p>
-              <div class="card-outcomes">
-                <ul class="card-outcomes__list">
-                  <li class="card-outcomes__item">
-                    Высота:&nbsp;<span>50см</span>
-                  </li>
-                  <li class="card-outcomes__item">
-                    Ширина:&nbsp;<span>35см</span>
-                  </li>
-                  <li class="card-outcomes__item">
-                    Размер:&nbsp;<span>Standart</span>
-                  </li>
-                  <li class="card-outcomes__item">
-                    Цвет:&nbsp;<span>Красный</span>
-                  </li>
-                </ul>
-              </div>
-              <form class="form-choise">
-                <div class="form-choise--height">
-                  <h5 class="form-choise__title">Длина</h5>
-                  <input
-                    type="radio"
-                    class="form-choise__btn form-choise__btn--height btn-check"
-                    name="options"
-                    id="option1"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label class="btn btn-secondary" for="option1">40 см</label>
+              <p>
+                Цвет и размеры бутонов могут отличаться представленных на фото,
+                цветы являются природным материалом.
+              </p>
+            </div>
 
-                  <input
-                    type="radio"
-                    class="form-choise__btn form-choise__btn--height btn-check"
-                    name="options"
-                    id="option2"
-                    autocomplete="off"
-                  />
-                  <label class="btn btn-secondary" for="option2">50 см</label>
-
-                  <input
-                    type="radio"
-                    class="form-choise__btn form-choise__btn--height btn-check"
-                    name="options"
-                    id="option3"
-                    autocomplete="off"
-                  />
-                  <label class="btn btn-secondary" for="option3">60 см</label>
-
-                  <input
-                    type="radio"
-                    class="form-choise__btn form-choise__btn--height btn-check"
-                    name="options"
-                    id="option4"
-                    autocomplete="off"
-                  />
-                  <label class="btn btn-secondary" for="option4">70 см</label>
+            <div class="card-desc">
+              <div class="card-desc__content">
+                <h4 class="card-desc__title">Букет малиновых роз</h4>
+                <p class="card-desc__rewiews">
+                  4.0 &lpar;<a class="card-desc__link" href="#" target="_blank"
+                    >15 отзывов</a
+                  >&rpar;
+                </p>
+                <div class="card-outcomes">
+                  <ul class="card-outcomes__list">
+                    <li class="card-outcomes__item">
+                      Высота:&nbsp;<span>50см</span>
+                    </li>
+                    <li class="card-outcomes__item">
+                      Ширина:&nbsp;<span>35см</span>
+                    </li>
+                    <li class="card-outcomes__item">
+                      Размер:&nbsp;<span>Standart</span>
+                    </li>
+                    <li class="card-outcomes__item">
+                      Цвет:&nbsp;<span>Красный</span>
+                    </li>
+                  </ul>
                 </div>
-                <div class="form-choise--cover">
-                  <h5 class="form-choise__title">Упаковка</h5>
-                  <input
-                    type="radio"
-                    class="form-choise__btn form-choise__btn--cover btn-check"
-                    name="option"
-                    id="option5"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label class="btn btn-secondary" for="option5"
-                    >Ленточка</label
-                  >
-                  <input
-                    type="radio"
-                    class="form-choise__btn form-choise__btn--cover btn-check"
-                    name="option"
-                    id="option6"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label class="btn btn-secondary" for="option6"
-                    >Крафт&nbsp;&lpar;+290₽&lpar;</label
-                  >
-                  <input
-                    type="radio"
-                    class="form-choise__btn form-choise__btn--cover btn-check"
-                    name="options"
-                    id="option7"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label class="btn btn-secondary" for="option7"
-                    >Корейская&nbsp;&lpar;+390₽&lpar;</label
-                  >
-                  <input
-                    type="radio"
-                    class="form-choise__btn form-choise__btn--cover btn-check"
-                    name="options"
-                    id="option8"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label class="btn btn-secondary" for="option8"
-                    >Премиум&nbsp;&lpar;+490₽&lpar;</label
-                  >
-                  <input
-                    type="radio"
-                    class="form-choise__btn form-choise__btn--cover btn-check"
-                    name="options"
-                    id="option9"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label class="btn btn-secondary" for="option9"
-                    >Корзинка&nbsp;&lpar;+1000₽&lpar;</label
-                  >
-                  <div class="form-choise--grass">
-                    <h5 class="form-choise__title">Зелень</h5>
+                <form class="form-choise--height">
+                    <h5 class="form-choise__title">Длина</h5>
                     <input
                       type="radio"
-                      class="form-choise__btn form-choise__btn--grass btn-check"
+                      class="btn-check"
                       name="options"
-                      id="option10"
+                      id="option1"
                       autocomplete="off"
                       checked
                     />
-                    <label class="btn btn-secondary" for="option11">Нет</label>
+                    <label class="form-choise__btn btn btn-secondary" for="option1">40 см</label>
+
                     <input
                       type="radio"
-                      class="form-choise__btn form-choise__btn--grass btn-check"
+                      class="btn-check"
                       name="options"
-                      id="option11"
+                      id="option2"
+                      autocomplete="off"
+                    />
+                    <label class="form-choise__btn btn btn-secondary" for="option2">50 см</label>
+
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="options"
+                      id="option3"
+                      autocomplete="off"
+                    />
+                    <label class="form-choise__btn btn btn-secondary" for="option3">60 см</label>
+
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="options"
+                      id="option4"
+                      autocomplete="off"
+                    />
+                    <label class="form-choise__btn btn btn-secondary" for="option4">70 см</label>
+                </form>
+                <form class="form-choise--cover">
+                    <h5 class="form-choise__title">Упаковка</h5>
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="option"
+                      id="option5"
                       autocomplete="off"
                       checked
                     />
-                    <label class="btn btn-secondary" for="option11"
-                      >Немного&nbsp;&lpar;+150₽&lpar;</label
+                    <label class="form-choise__btn btn btn-secondary" for="option5"
+                      >Ленточка</label
                     >
                     <input
                       type="radio"
-                      class="form-choise__btn form-choise__btn--grass btn-check"
-                      name="options"
-                      id="option12"
+                      class="btn-check"
+                      name="option"
+                      id="option6"
                       autocomplete="off"
                       checked
                     />
-                    <label class="btn btn-secondary" for="option12"
-                      >Побольше&nbsp;&lpar;+300₽&lpar;</label
+                    <label class="form-choise__btn btn btn-secondary" for="option6"
+                      >Крафт&nbsp;&lpar;+290₽&rpar;</label
                     >
-                  </div>
-                  <div class="outcome-box">
-                    <div class="outcome-box__price">
-                      <p class="outcome-price__discount">13 499 ₽</p>
-                      <p class="outcome-price__discount">13 499 ₽</p>
-                    </div>
-                    <div class="outcome-box__count">
-                      <span class="outcome-box__change--minus min">
-                        <span>-</span>
-                      </span>
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="options"
+                      id="option7"
+                      autocomplete="off"
+                      checked
+                    />
+                    <label class="form-choise__btn btn btn-secondary" for="option7"
+                      >Корейская&nbsp;&lpar;+390₽&rpar;</label
+                    >
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="options"
+                      id="option8"
+                      autocomplete="off"
+                      checked
+                    />
+                    <label class="form-choise__btn btn btn-secondary" for="option8"
+                      >Премиум&nbsp;&lpar;+490₽&rpar;</label
+                    >
+                    <input
+                      type="radio"
+                      class=" btn-check"
+                      name="options"
+                      id="option9"
+                      autocomplete="off"
+                      checked
+                    />
+                    <label class="form-choise__btn btn btn-secondary" for="option9"
+                      >Корзинка&nbsp;&lpar;+1000₽&rpar;</label
+                    >
+                  </form>
+                    <form class="form-choise--grass">
+                      <h5 class="form-choise__title">Зелень</h5>
                       <input
-                        type="text"
-                        name="productСount"
-                        value="1"
-                        disabled=""
+                        type="radio"
+                        class="btn-check"
+                        name="options"
+                        id="option10"
+                        autocomplete="off"
+                        checked
                       />
-                      <span class="outcome-box__change--plus">
-                        <span>+</span>
-                      </span>
-                    </div>
+                      <label class="form-choise__btn btn btn-secondary" for="option11"
+                        >Нет</label
+                      >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="options"
+                        id="option11"
+                        autocomplete="off"
+                        checked
+                      />
+                      <label class="form-choise__btn form__btn btn btn-secondary" for="option11"
+                        >Немного&nbsp;&lpar;+150₽&rpar;</label
+                      >
+                      <input
+                        type="radio"
+                        class="btn-check"
+                        name="options"
+                        id="option12"
+                        autocomplete="off"
+                        checked
+                      />
+                      <label class="form-choise__btn btn btn-secondary" for="option12"
+                        >Побольше&nbsp;&lpar;+300₽&rpar;</label
+                      >
+                    </form>
+                    <form class="outcome-box">
+                      <div class="outcome-box__price">
+                        <p class="outcome-price__discount">13 499 ₽</p>
+                        <p class="outcome-price__discount">13 499 ₽</p>
+                      </div>
+                      <div class="outcome-box__count">
+                        <span class="outcome-box__change--minus min">
+                          <span>-</span>
+                        </span>
+                        <input
+                          type="text"
+                          name="productСount"
+                          value="1"
+                          disabled=""
+                        />
+                        <span class="outcome-box__change--plus">
+                          <span>+</span>
+                        </span>
+                      </div>
+                    </form>
                   </div>
-                </div>
-                <div class="form-btn">
-                  <button
-                    type="button"
-                    class="form-btn__btn form-btn__btn--pink btn btn-primary"
-                  >
-                    <i class="bi bi-cloud-upload-fill"></i> Купить
-                  </button>
-                  <button type="button" class="form-btn__btn btn btn-primary">
-                    Купить в 1 клик
-                  </button>
-                </div>
-              </form>
-              <div class="composition">
-                <ul class="composition__list">
-                  <li class="composition__item">
-                    <p>Роза пионовидная вайлд лук</p>
-                    <p>-7шт</p>
-                  </li>
-                  <li class="composition__item">
-                    <p>Роза кустовая пионовидная</p>
-                    <p>-3шт</p>
-                  </li>
-                  <li class="composition__item">
-                    <p>Озотамнус</p>
-                    <p>-2 шт</p>
-                  </li>
-                  <li class="composition__item">
-                    <p>Эвкалипт</p>
-                    <p>-6 шт</p>
-                  </li>
-                </ul>
+                  <div class="form-btn">
+                    <button
+                      type="button"
+                      class="form-btn__btn form-btn__btn--pink btn btn-primary"
+                    >
+                      <i class="bi bi-cloud-upload-fill"></i> Купить
+                    </button>
+                    <button type="button" class="form-btn__btn btn btn-primary">
+                      Купить в 1 клик
+                    </button>
+                  </div>
+                </form>
+                <div class="composition">
+                  <ul class="composition__list">
+                    <li class="composition__item">
+                      <p>Роза пионовидная вайлд лук</p>
+                      <p>-7шт</p>
+                    </li>
+                    <li class="composition__item">
+                      <p>Роза кустовая пионовидная</p>
+                      <p>-3шт</p>
+                    </li>
+                    <li class="composition__item">
+                      <p>Озотамнус</p>
+                      <p>-2 шт</p>
+                    </li>
+                    <li class="composition__item">
+                      <p>Эвкалипт</p>
+                      <p>-6 шт</p>
+                    </li>
+                  </ul>
               </div>
             </div>
             <div class="info-box">
