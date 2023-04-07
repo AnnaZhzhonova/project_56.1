@@ -752,6 +752,7 @@ h3 {
     flex: 0 0 auto;
     margin: 0 15px 0 15px;
   }
+  /* каталог */
 
   /*   Категории */
   .category {
@@ -924,7 +925,34 @@ h3 {
     justify-self: flex-start;
     margin: 0 0 0 15px;
   }
-
+  /* каталог */
+  .catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 1170px;
+    height: 1520.01px;
+    left: 15px;
+    top: 570px;
+  }
+  .catalog-item {
+    box-sizing: border-box;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+  h3 {
+    width: 258px;
+    height: 30px;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
   /*   Категории */
   .category {
     display: -webkit-box;
@@ -932,6 +960,8 @@ h3 {
     display: flex;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+  }
+  .catalog {
   }
 
   .category-box {
