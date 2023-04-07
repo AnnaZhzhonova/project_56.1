@@ -1,5 +1,7 @@
 @import "default_variables";
 
+
+
 //общие параметры стилей
 * {
     box-sizing: border-box;
@@ -21,15 +23,170 @@
   }
 
 //стили
-.container__hero {
-  width: 873px;
+.hero {
+  max-width: 1170px;
+  margin: 30px auto;
+}
+.hero__conteiner {
+display: grid;
+grid-template-columns: 75% 25%;
+grid-template-rows: 440px;
+max-width: 1170px;
+margin: 0 auto;
+gap: 19px;
+
+
+  .info-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 307px;
+    text-align: left;
+    color: black;
+  }
+  .hero__h5 {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  }
+  .hero__p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    }
+    .hero__p {
+      font-family: 'TT Norms';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    .hero__btn {
+      display: grid;
+      grid-template-columns: 75% 25%;
+      width: 203px;
+      height: 50px;
+      color: #E2195B;
+      font-family: 'TT Norms';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 0.1em;
+      padding: 0;
+      border-radius: 10px;
+      align-items: center;
+    }
+    .hero__btn_green {
+      background: #0093A2;
+      width: 51px;
+      height: 50px;
+      opacity: 0.5;
+      border-radius: 0px 10px 10px 0px;
+    }
+    .flowers {
+      background-color:
+      #F4E5E2;
+      border-radius: 10px;
+      max-height: 440px;
+      max-width: 873px;
+    }
+  }
+
+.hero__maincard {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 7% 93%;
   height: 440px;
-  background-color: pink;
+
+  .card__heading{
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .card__titel {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .card__text {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .hero__price {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: end;
+  }
+  .hero__sale {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .hero__nosale {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: line-through;
+  }
+  .color {
+    background-color: #E2195B;
+    border: #E2195B;
+    max-width: 130px;
+    max-height: 44px;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .hero__basket {
+    width: 18px;
+    height: 18px;
+  }
 }
 
+.hero__conteiner2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1170px;
+  height: 90px;
+  margin: 30px auto;
+
+  .i1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 26px 15px 25px;
+    gap: 10px;
+    min-width: auto;
+    height: 90px;
+    border: 1px solid #F2F3F5;
+    box-shadow: 0px 4px 12px rgba(34, 42, 70, 0.03);
+    border-radius: 5px;
+    background: #FFFFFF;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 7px;
+  }
+}
 //адаптив планшет
 @media screen and (min-width:768px) and (max-width:1023px){
-}
+  .hero__maincard {
+    display: none;
+  }
+  }
 
 //адаптив мобайл
 @media screen and (min-width:375px) and (max-width:767px){
