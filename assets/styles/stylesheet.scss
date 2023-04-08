@@ -123,7 +123,7 @@ color: #222A46;
   height: 430px;
   left: 0px;
 }
-.catalog__item{
+.catalog-item{
   width: 178px;
   height: 430px;
   margin-right: 20px;
@@ -239,6 +239,7 @@ color: #222A46;
     flex: 0 0 auto;
     margin: 0 15px 0 15px;
   }
+  /* каталог */
 /*   Категории */
 .category{
   display: flex;
@@ -366,6 +367,7 @@ color: #222A46;
       margin: 0 0 0 15px;
     }
   }
+
   /*   Категории */
 .category{
   display: flex;
