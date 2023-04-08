@@ -632,6 +632,7 @@ h3 {
   align-items: center;
   background: #e2195b;
   border-radius: 5px;
+  border: none;
 }
 
 .button_text {
@@ -720,327 +721,6 @@ h3 {
   margin: 10px 0 0 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .container {
-    max-width: 768px;
-  }
-
-  .delivery-ad,
-  .call-box,
-  .navigation__link--hidden {
-    display: none;
-  }
-
-  .call-box--mobile {
-    display: inline-block;
-  }
-
-  .search-form {
-    width: 265px;
-    padding: 0;
-  }
-
-  .catalog-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-
-  .catalog-menu__list {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .catalog-menu__list::-webkit-scrollbar {
-    display: none;
-  }
-
-  .catalog-menu__item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0 15px 0 15px;
-  }
-  /* каталог */
-
-  /*   Категории */
-  .category {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-
-  .category-box {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .category-box::-webkit-scrollbar {
-    display: none;
-  }
-
-  .category-item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0 15px 0 15px;
-  }
-
-  /* Почему Лавка Роз */
-
-  .features__list-item {
-    padding-bottom: 15px;
-  }
-
-  .features__list {
-    font-family: "TT Norms";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-
-    color: #353949;
-
-    /* width: 50%; */
-
-    display: flex;
-    flex-direction: column;
-
-    padding-bottom: 70px;
-  }
-
-  .features__list-type {
-    list-style-type: disc;
-  }
-
-  .features_flowers {
-    position: relative;
-    left: 40%;
-  }
-
-  .features_pictures {
-    display: flex;
-  }
-
-  .features__container {
-    display: flex;
-    max-width: 600px;
-  }
-
-  /* Футер */
-}
-
-@media screen and (min-width: 375px) and (max-width: 767px) {
-  .container {
-    max-width: 767px;
-  }
-
-  .worktime,
-  .basket,
-  .account,
-  .delivery-ad--screen,
-  .call-box,
-  .header-bottom {
-    display: none;
-  }
-
-  .open,
-  .close {
-    display: block;
-    max-width: 800px;
-  }
-
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-  }
-
-  .fa-remove:before,
-  .fa-close:before,
-  .fa-times:before {
-    content: url(../images/close.svg);
-    width: 14px;
-    height: 14px;
-  }
-
-  .switcher:checked ~ nav {
-    right: 0;
-  }
-
-  .navigation {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    padding: 100px 0;
-    top: 0;
-    right: -100%;
-    text-align: center;
-    background-color: #fff;
-    -webkit-transition: 0.7s;
-    transition: 0.7s;
-    z-index: 1;
-  }
-
-  .navigation__item--mobile {
-    display: block;
-  }
-
-  .navigation__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    position: absolute;
-    width: 100%;
-  }
-
-  .navigation__link {
-    padding-top: 20px;
-    padding-left: 15px;
-    font-weight: bold;
-  }
-
-  .contact-box--mobile {
-    display: block;
-    width: 100vw;
-    padding-top: 30px;
-    margin-top: 30px;
-    border-top: 1px solid #505567;
-  }
-
-  .contact-box--mobile ul {
-    border: none;
-    list-style-type: none;
-    padding: 0;
-  }
-
-  .contact-box--mobile ul li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 15px;
-  }
-
-  .contact-box--mobile ul li p {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
-    margin-bottom: 15px;
-    font-weight: normal;
-  }
-
-  .call-box__link {
-    text-decoration: none;
-  }
-
-  .call-box__item--link-title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .account-link {
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
-
-  .search-form {
-    padding: 0;
-    width: 180px;
-    z-index: 0.9999;
-  }
-
-  .delivery-ad--mobile {
-    display: inline-block;
-    width: 100%;
-    font-size: 12px;
-  }
-
-  .delivery-ad--mobile p {
-    width: 109px;
-    justify-self: flex-start;
-    margin: 0 0 0 15px;
-  }
-  /* каталог */
-  .catalog {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-    width: 1170px;
-    height: 1520.01px;
-    left: 15px;
-    top: 570px;
-  }
-  .catalog-item {
-    box-sizing: border-box;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-  }
-  h3 {
-    width: 258px;
-    height: 30px;
-    font-family: "TT Norms";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-  }
-  /*   Категории */
-  .category {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-  .catalog {
-  }
-
-  .category-box {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .category-box::-webkit-scrollbar {
-    display: none;
-  }
-
-  .category-item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0 15px 0 15px;
-  }
-}
-
 /* Почему Лавка Роз */
 
 .features__list-item {
@@ -1079,6 +759,7 @@ h3 {
 
 .features__container {
   display: flex;
+  max-width: 600px;
 }
 
 /* Футер */
@@ -1253,7 +934,16 @@ h3 {
   grid-area: 1/1/2/1;
   height: 500px;
 }
-
+.card-gallery__list {
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.card-gallery__item {
+  width: 105px;
+}
 .card-text {
   grid-area: 2/1/3/2;
   display: flex;
