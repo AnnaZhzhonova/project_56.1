@@ -632,6 +632,7 @@ h3 {
   align-items: center;
   background: #e2195b;
   border-radius: 5px;
+  border: none;
 }
 
 .button_text {
@@ -718,302 +719,6 @@ h3 {
 
 .category-item__price {
   margin: 10px 0 0 0;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .container {
-    max-width: 768px;
-  }
-
-  .delivery-ad,
-  .call-box,
-  .navigation__link--hidden {
-    display: none;
-  }
-
-  .call-box--mobile {
-    display: inline-block;
-  }
-
-  .search-form {
-    width: 265px;
-    padding: 0;
-  }
-
-  .catalog-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-
-  .catalog-menu__list {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .catalog-menu__list::-webkit-scrollbar {
-    display: none;
-  }
-
-  .catalog-menu__item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0 15px 0 15px;
-  }
-
-  /*   Категории */
-  .category {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-
-  .category-box {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .category-box::-webkit-scrollbar {
-    display: none;
-  }
-
-  .category-item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0 15px 0 15px;
-  }
-
-  /* Почему Лавка Роз */
-
-
-  .features__list-item {
-    padding-bottom: 15px;
-  }
-
-  .features__list {
-    font-family: "TT Norms";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-
-    color: #353949;
-
-    /* width: 50%; */
-
-    display: flex;
-    flex-direction: column;
-
-    padding-bottom: 70px;
-  }
-
-  .features__list-type {
-    list-style-type: disc;
-  }
-
-
-
-  .features_flowers {
-    position: relative;
-    left: 40%;
-  }
-
-
-  .features_pictures {
-    display: flex;
-  }
-
-  .features__container {
-    display: flex;
-    max-width: 600px;
-
-  }
-
-  /* Футер */
-}
-
-@media screen and (min-width: 375px) and (max-width: 767px) {
-  .container {
-    max-width: 767px;
-  }
-
-  .worktime,
-  .basket,
-  .account,
-  .delivery-ad--screen,
-  .call-box,
-  .header-bottom {
-    display: none;
-  }
-
-  .open,
-  .close {
-    display: block;
-    max-width: 800px;
-  }
-
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-  }
-
-  .fa-remove:before,
-  .fa-close:before,
-  .fa-times:before {
-    content: url(../images/close.svg);
-    width: 14px;
-    height: 14px;
-  }
-
-  .switcher:checked ~ nav {
-    right: 0;
-  }
-
-  .navigation {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    padding: 100px 0;
-    top: 0;
-    right: -100%;
-    text-align: center;
-    background-color: #fff;
-    -webkit-transition: 0.7s;
-    transition: 0.7s;
-    z-index: 1;
-  }
-
-  .navigation__item--mobile {
-    display: block;
-  }
-
-  .navigation__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    position: absolute;
-    width: 100%;
-  }
-
-  .navigation__link {
-    padding-top: 20px;
-    padding-left: 15px;
-    font-weight: bold;
-  }
-
-  .contact-box--mobile {
-    display: block;
-    width: 100vw;
-    padding-top: 30px;
-    margin-top: 30px;
-    border-top: 1px solid #505567;
-  }
-
-  .contact-box--mobile ul {
-    border: none;
-    list-style-type: none;
-    padding: 0;
-  }
-
-  .contact-box--mobile ul li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 15px;
-  }
-
-  .contact-box--mobile ul li p {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
-    margin-bottom: 15px;
-    font-weight: normal;
-  }
-
-  .call-box__link {
-    text-decoration: none;
-  }
-
-  .call-box__item--link-title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .account-link {
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
-
-  .search-form {
-    padding: 0;
-    width: 180px;
-    z-index: 0.9999;
-  }
-
-  .delivery-ad--mobile {
-    display: inline-block;
-    width: 100%;
-    font-size: 12px;
-  }
-
-  .delivery-ad--mobile p {
-    width: 109px;
-    justify-self: flex-start;
-    margin: 0 0 0 15px;
-  }
-
-  /*   Категории */
-  .category {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-
-  .category-box {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .category-box::-webkit-scrollbar {
-    display: none;
-  }
-
-  .category-item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0 15px 0 15px;
-  }
 }
 
 /* Почему Лавка Роз */
@@ -1227,7 +932,16 @@ h3 {
   grid-area: 1/1/2/1;
   height: 500px;
 }
-
+.card-gallery__list{
+  list-style-type: none;
+  margin: 10px 0 0 0 ;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.card-gallery__item{
+  width: 105px;
+}
 .card-text {
   grid-area: 2/1/3/2;
   display: flex;
@@ -1328,4 +1042,542 @@ h3 {
 .info-box {
   grid-area: 1/3/3/4;
   border: 1px #D0D2D7 solid;
+}
+.outcome-box{
+  height: 48px;
+  margin: 20px 0 15px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 310px;
+}
+.outcome-price__discount{
+  margin: 0;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #222A46;
+}
+.outcome-price{
+  margin: 0;
+  font-family: 'TT Norms';
+  font-size: 14px;
+  text-decoration-line: line-through;
+  color: #B0B2B9;
+}
+.outcome-box__count{
+  position: relative;
+  z-index: 0.999;
+}
+.outcome-box__input{
+  width: 150px;
+  height: 48px;
+  background-color: #fff;
+  border: 1px #D0D2D7 solid;
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+.outcome-box__change--minus{
+  position: absolute;
+  z-index: 0.999;
+  left: 18px;
+  top: 12px;
+}
+
+.outcome-box__change--plus{
+  position: absolute;
+  z-index: 0.999;
+  right: 18px;
+  top: 12px;
+}
+.form-btn{
+  display: flex;
+  justify-content: space-between;
+  width: 310px;
+}
+.form-btn__btn{
+  width: 150px;
+  height: 48px;
+}
+.form-btn__btn--bye{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 25px;
+  gap: 10px;
+  border: none;
+  background: #E2195B;
+  border-radius: 5px;
+}
+.form-btn__btn--click {
+  margin: 0 0 0 20px;
+  display: flex;
+  padding: auto;
+  background: #FFF;
+  border-radius: 5px;
+  border: 1px solid #0093A2;
+
+}
+.button_text--click{
+  margin: auto;
+  width: 100%;
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0093a2;
+}
+.composition{
+  height: 107px;
+  width: 239px;
+}
+.composition__list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.composition__item{
+  display: flex;
+  justify-content: space-between;
+}
+.composition__item p{
+  margin: 0;
+  padding: 0;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #505567;
+}
+.info-box__border{
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 20px 0 20px 0;
+  background-color: #D0D2D7;
+}
+.delivery-info{
+  width: 194px;
+  margin-top:25px;
+  margin-left: 20px;
+}
+.delivery-info__list{
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+.info-box__title{
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #1B1C21;
+}
+.delivery-info__item{
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #505567;
+}
+.delivery-info__item span{
+  font-weight: bold;
+}
+.delivery-info__link{
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #0093A2;
+}
+.payment{
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.payment__text{
+  margin: 0 0 10px 0;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #505567;
+}
+.payment__list{
+  list-style-type: none;
+  width: 195px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.payment__item{
+  width: 45px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  border: 1px solid #E2E4EB;
+  border-radius: 5px;
+}
+.payment__item img{
+ height: 15px;
+}
+.return{
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.return__text{
+  margin: 0;
+  padding: 0;
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #505567;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .delivery-ad,
+  .call-box,
+  .navigation__link--hidden {
+    display: none;
+  }
+
+  .call-box--mobile {
+    display: inline-block;
+  }
+
+  .search-form {
+    width: 265px;
+    padding: 0;
+  }
+
+  .catalog-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .catalog-menu__list {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .catalog-menu__list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .catalog-menu__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0 15px 0 15px;
+  }
+
+  /*   Категории */
+  .category {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .category-box {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .category-box::-webkit-scrollbar {
+    display: none;
+  }
+
+  .category-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0 15px 0 15px;
+  }
+
+  /* Почему Лавка Роз */
+
+
+  .features__list-item {
+    padding-bottom: 15px;
+  }
+
+  .features__list {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #353949;
+
+    /* width: 50%; */
+
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 70px;
+  }
+
+  .features__list-type {
+    list-style-type: disc;
+  }
+
+
+
+  .features_flowers {
+    position: relative;
+    left: 40%;
+  }
+
+
+  .features_pictures {
+    display: flex;
+  }
+
+  .features__container {
+    display: flex;
+    max-width: 600px;
+
+  }
+  .card {
+    display: grid;
+    grid-template-columns: 354px 1fr;
+    grid-template-rows: 1fr 176px 210px;
+    gap: 0;
+  }
+  .card-gallery{
+    grid-area: 1/1/2/2;
+  }
+  .card-text{
+    grid-area: 2/1/3/2;
+  }
+  .card-desc{
+    grid-area:1/2/3/3;
+    border: none;
+  }
+  .card-desc__content{
+    margin: 0px auto 20px 20px;
+  }
+  .card-text{
+    margin: 0;
+  }
+  .info-box{
+    grid-area: 3/1/4/4;
+    display: flex;
+    justify-content: space-between;
+  }
+  .delivery-info{
+    width: 270px;
+  }
+  .card-outcomes{
+    width: 80%;
+  }
+  .info-box__border{
+    display: none;
+  }
+  .payment{
+    width: 198px;
+  }
+  .return{
+    width: 188px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .container {
+    max-width: 767px;
+  }
+
+  .worktime,
+  .basket,
+  .account,
+  .delivery-ad--screen,
+  .call-box,
+  .header-bottom {
+    display: none;
+  }
+
+  .open,
+  .close {
+    display: block;
+    max-width: 800px;
+  }
+
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+  }
+
+  .fa-remove:before,
+  .fa-close:before,
+  .fa-times:before {
+    content: url(../images/close.svg);
+    width: 14px;
+    height: 14px;
+  }
+
+  .switcher:checked ~ nav {
+    right: 0;
+  }
+
+  .navigation {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    top: 0;
+    right: -100%;
+    text-align: center;
+    background-color: #fff;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    z-index: 1;
+  }
+
+  .navigation__item--mobile {
+    display: block;
+  }
+
+  .navigation__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+  }
+
+  .navigation__link {
+    padding-top: 20px;
+    padding-left: 15px;
+    font-weight: bold;
+  }
+
+  .contact-box--mobile {
+    display: block;
+    width: 100vw;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #505567;
+  }
+
+  .contact-box--mobile ul {
+    border: none;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .contact-box--mobile ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  .contact-box--mobile ul li p {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-bottom: 15px;
+    font-weight: normal;
+  }
+
+  .call-box__link {
+    text-decoration: none;
+  }
+
+  .call-box__item--link-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .account-link {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .search-form {
+    padding: 0;
+    width: 180px;
+    z-index: 0.9999;
+  }
+
+  .delivery-ad--mobile {
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .delivery-ad--mobile p {
+    width: 109px;
+    justify-self: flex-start;
+    margin: 0 0 0 15px;
+  }
+
+  /*   Категории */
+  .category {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .category-box {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .category-box::-webkit-scrollbar {
+    display: none;
+  }
+
+  .category-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0 15px 0 15px;
+  }
 }
