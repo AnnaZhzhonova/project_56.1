@@ -426,11 +426,269 @@ img {
   font-weight: bold;
 }
 
-.container__hero {
-  width: 873px;
-  height: 440px;
-  background-color: pink;
+/* Хиро */
+.hero {
+  max-width: 1170px;
+  margin: 30px auto;
 }
+.hero__conteiner {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 440px;
+  max-width: 1170px;
+  margin: 0 auto;
+  gap: 19px;
+}
+.hero__conteiner .hero__hand-right {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+/*   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg filter='url(%23a)'%3E%3Crect width='40' height='40' x='15' y='11' fill='%23fff'
+  rx='20'/%3E%3Cpath stroke='%23353949' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m33.415 26.305 5.057
+  3.572c.331.22.528.577.528.957s-.197.736-.528.956l-5.057 3.905a1.576 1.576 0 0
+  1-1.513.194c-.505-.2-.85-.642-.902-1.151V27.26c.052-.51.399-.95.903-1.15a1.576
+  1.576 0 0 1 1.512.195Z' clip-rule='evenodd'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter
+  id='a' width='70' height='70' x='0' y='0' color-interpolation-filters='sRGB'
+  filterUnits='userSpaceOnUse'%3E%3CfeFlood flood-opacity='0'
+  result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha'
+  result='hardAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'/%3E
+  %3CfeOffset dy='4'/%3E%3CfeGaussianBlur stdDeviation='7.5'/%3E
+  %3CfeColorMatrix values='0 0 0 0 0.133333 0 0 0 0 0.164706 0 0 0 0 0.27451 0 0 0
+  0.08 0'/%3E%3CfeBlend in2='BackgroundImageFix'
+  result='effect1_dropShadow_645_18855'/%3E%3CfeBlend in='SourceGraphic'
+  in2='effect1_dropShadow_645_18855' result='shape'/%3E%3C/filter%3E%3C/defs
+  %3E%3C/svg%3E"); */
+}
+
+.hero__conteiner .hero__hand-left{
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+/*   background-image: url("data:image/svg+xml,%3Csvg 
+  xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg 
+  filter='url(%23a)'%3E%3Crect width='40' height='40' fill='%23fff' rx='20' 
+  transform='matrix(-1 0 0 1 55 11)'/%3E%3Cpath stroke='%23353949' stroke-
+  linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m36.585 26.305-
+  5.057 3.572c-.331.22-.528.577-.528.957s.197.736.528.956l5.057 3.905c.428.32 
+  1.009.394 1.513.194.505-.2.85-.642.902-1.151V27.26c-.052-.51-.399-.95-.903-
+  1.15a1.576 1.576 0 0 0-1.512.195Z' clip-rule='evenodd'/%3E%3C/g%3E%3Cdefs
+  %3E%3Cfilter id='a' width='70' height='70' x='0' y='0' color-interpolation-
+  filters='sRGB' filterUnits='userSpaceOnUse'%3E%3CfeFlood flood-opacity='0' 
+  result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' 
+  result='hardAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'/%3E
+  %3CfeOffset dy='4'/%3E%3CfeGaussianBlur stdDeviation='7.5'/%3E
+  %3CfeColorMatrix values='0 0 0 0 0.133333 0 0 0 0 0.164706 0 0 0 0 0.27451 0 0 0
+  0.08 0'/%3E%3CfeBlend in2='BackgroundImageFix' 
+  result='effect1_dropShadow_645_18856'/%3E%3CfeBlend in='SourceGraphic' 
+  in2='effect1_dropShadow_645_18856' result='shape'/%3E%3C/filter%3E%3C/defs
+  %3E%3C/svg%3E"); */
+}
+
+
+.hero__conteiner .info-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 307px;
+  text-align: left;
+  color: black;
+}
+.hero__conteiner .hero__h5 {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+}
+.hero__conteiner .hero__p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.hero__conteiner .hero__p {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.hero__conteiner .hero__btn {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  width: 203px;
+  height: 50px;
+  color: #E2195B;
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  padding: 0;
+  border-radius: 10px;
+  align-items: center;
+  border: none;
+}
+.hero__conteiner .hero__btn_green {
+  position: relative;
+  background: #0093A2;
+  width: 51px;
+  height: 50px;
+  opacity: 0.5;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.hero__conteiner .btn_green_icon {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+.hero__conteiner .flowers {
+  background-color: #F4E5E2;
+  border-radius: 10px;
+  max-height: 100%;
+  max-width: 100%;
+}
+.hero__maincard {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 7% 93%;
+  height: 440px;
+  max-width: 278px;
+}
+.hero__maincard .card__heading {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+}
+.hero__maincard .card__titel {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.hero__maincard .card__text {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+.hero__maincard .hero__price {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: end;
+}
+.hero__maincard .hero__sale {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+.hero__maincard .hero__nosale {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: line-through;
+}
+.hero__maincard .color {
+  background-color: #E2195B;
+  border: #E2195B;
+  max-width: 130px;
+  max-height: 44px;
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+.hero__maincard .hero__basket {
+  width: 18px;
+  height: 18px;
+}
+.hero__maincard .hero__hand-right1 {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+/*   background-image:url("data:image/svg+xml,%3Csvg 
+  xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg 
+  filter='url(%23a)'%3E%3Crect width='40' height='40' fill='%23fff' rx='20' 
+  transform='matrix(-1 0 0 1 55 11)'/%3E%3Cpath stroke='%23353949' stroke-
+  linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m36.585 26.305-
+  5.057 3.572c-.331.22-.528.577-.528.957s.197.736.528.956l5.057 3.905c.428.32 
+  1.009.394 1.513.194.505-.2.85-.642.902-1.151V27.26c-.052-.51-.399-.95-.903-
+  1.15a1.576 1.576 0 0 0-1.512.195Z' clip-rule='evenodd'/%3E%3C/g%3E%3Cdefs
+  %3E%3Cfilter id='a' width='70' height='70' x='0' y='0' color-interpolation-
+  filters='sRGB' filterUnits='userSpaceOnUse'%3E%3CfeFlood flood-opacity='0' 
+  result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' 
+  result='hardAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'/%3E
+  %3CfeOffset dy='4'/%3E%3CfeGaussianBlur stdDeviation='7.5'/%3E
+  %3CfeColorMatrix values='0 0 0 0 0.133333 0 0 0 0 0.164706 0 0 0 0 0.27451 0 0 0
+  0.08 0'/%3E%3CfeBlend in2='BackgroundImageFix' 
+  result='effect1_dropShadow_645_18856'/%3E%3CfeBlend in='SourceGraphic' 
+  in2='effect1_dropShadow_645_18856' result='shape'/%3E%3C/filter%3E%3C/defs
+  %3E%3C/svg%3E"); */
+}
+
+.hero__maincard .hero__hand-left1 {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg filter='url(%23a)'%3E%3Crect width='40' height='40' fill='%23fff' rx='20' transform='matrix(-1 0 0 1 55 11)'/%3E%3Cpath stroke='%23353949' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m36.585 26.305-5.057 3.572c-.331.22-.528.577-.528.957s.197.736.528.956l5.057 3.905c.428.32 1.009.394 1.513.194.505-.2.85-.642.902-1.151V27.26c-.052-.51-.399-.95-.903-1.15a1.576 1.576 0 0 0-1.512.195Z' clip-rule='evenodd'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='a' width='70' height='70' x='0' y='0' color-interpolation-filters='sRGB' filterUnits='userSpaceOnUse'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' result='hardAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'/%3E%3CfeOffset dy='4'/%3E%3CfeGaussianBlur stdDeviation='7.5'/%3E%3CfeColorMatrix values='0 0 0 0 0.133333 0 0 0 0 0.164706 0 0 0 0 0.27451 0 0 0 0.08 0'/%3E%3CfeBlend in2='BackgroundImageFix' result='effect1_dropShadow_645_18856'/%3E%3CfeBlend in='SourceGraphic' in2='effect1_dropShadow_645_18856' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+}
+.hero__maincard .carousel-indicators button {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 8px;
+  height: 8px;
+  line-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: unset;
+  background-color: #fff;
+  background-clip: unset;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.hero__conteiner2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1170px;
+  height: 90px;
+  margin: 30px auto;
+}
+.hero__conteiner2 .i1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 26px 15px 25px;
+  gap: 10px;
+  min-width: auto;
+  height: 90px;
+  border: 1px solid #F2F3F5;
+  box-shadow: 0px 4px 12px rgba(34, 42, 70, 0.03);
+  border-radius: 5px;
+  background: #FFFFFF;
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 7px;
+}
+
+
+
+
 
 .catalog {
   margin: 0 auto;
@@ -978,7 +1236,7 @@ h3 {
   text-decoration: none;
 }
 
-.card {
+.card-product{
   display: grid;
   grid-template-columns: 2fr 2fr 1fr;
   grid-template-rows: 500px 160px;
@@ -1000,7 +1258,7 @@ h3 {
 .card-gallery__item {
   width: 105px;
 }
-.card-text {
+.card-product-text {
   grid-area: 2/1/3/2;
   display: flex;
   flex-direction: column;
@@ -1009,7 +1267,7 @@ h3 {
   height: 132px;
   margin: 25px 0;
 }
-.card-text p {
+.card-product-text p {
   margin: 0;
   padding: 0;
   font-family: "TT Norms";
@@ -1359,7 +1617,17 @@ h3 {
     margin: 0 15px 0 15px;
   }
 
-
+/* Хиро */
+.hero__maincard {
+  display: none;
+}
+.hero__conteiner {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 440px;
+  max-width: 1023px;
+  margin: 0 auto;
+}
 /*  каталог*/
 .catalog{
   width: 100vw;
@@ -1465,7 +1733,7 @@ h3 {
     max-width: 600px;
 
   }
-  .card {
+  .card-product {
     display: grid;
     grid-template-columns: 354px 1fr;
     grid-template-rows: 1fr 176px 210px;
@@ -1474,18 +1742,16 @@ h3 {
   .card-gallery{
     grid-area: 1/1/2/2;
   }
-  .card-text{
+  .card-product-text{
     grid-area: 2/1/3/2;
+    margin: 0;
   }
-  .card-desc{
+  .card-product-desc{
     grid-area:1/2/3/3;
     border: none;
   }
-  .card-desc__content{
+  .card-product-desc__content{
     margin: 0px auto 20px 20px;
-  }
-  .card-text{
-    margin: 0;
   }
   .info-box{
     grid-area: 3/1/4/4;
@@ -1655,6 +1921,19 @@ h3 {
     justify-self: flex-start;
     margin: 0 0 0 15px;
   }
+/*   Хиро */
+
+.hero__maincard {
+  display: none;
+}
+.hero__conteiner {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 440px;
+  max-width: 767px;
+  margin: 0 auto;
+}
+
 /*  каталог*/
 .catalog{
   width: 100vw;
@@ -1710,15 +1989,16 @@ h3 {
     flex: 0 0 auto;
     margin: 0 10px 0 10px;
   }
-  .card{
+/*   карточка */
+  .card-product{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  .card-gallery{
+  .card-product-gallery{
     height: auto;
   }
-  .card-text{
+  .card-product-text{
     order: 1;
   }
   .info-box, .payment{
@@ -1728,3 +2008,4 @@ h3 {
     margin-bottom: 20px;
   }
 }
+
