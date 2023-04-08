@@ -998,6 +998,8 @@ h3 {
   margin: 0 auto;
   height: 100%;
   position: relative;
+  background-color: #f2f3f5;
+  padding-bottom: 70px;
 }
 .container-max::before {
   content: url(../images/text-flowers.svg);
@@ -1076,7 +1078,9 @@ h3 {
 .features__container {
   display: flex;
 }
-
+.container--map {
+  width: 1140px;
+}
 /* Футер */
 
 .footer-container1 {
