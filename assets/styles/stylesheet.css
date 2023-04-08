@@ -982,10 +982,11 @@ h3 {
 /* Доставка цветов в Воронеже */
 .copyright{
   background-color: #F2F3F5;
-  height: 840px;
+  height: auto;
+  padding-bottom: 70px;
 }
 .copyright-content{
-  width: 1170px;
+  width: 82%;
   height: 100%;
   margin: auto;
   display: flex;
@@ -1058,18 +1059,20 @@ h3 {
   list-style-type: disc;
 }
 
-.features_flowers {
-  position: relative;
-  left: 40%;
-}
 
 .features_pictures {
   display: flex;
 }
-.features_pictures::after{
+.features{
+  position: relative;
+}
+.features::after{
   content: url(../images/features_foliage.svg);
   display: inline-block;
+  position: absolute;
+  top: 0;
   right: 0;
+
 }
 .features__container {
   display: flex;
@@ -1635,7 +1638,7 @@ h3 {
   padding-left: 20px;
 }
 .catalog__header{
-  width: 100vw;
+  width: 100%;
 }
 .catalog__content {
   width: 100vw;
@@ -1941,7 +1944,7 @@ h3 {
   padding-left: 20px;
 }
 .catalog__header{
-  width: 100vw;
+  width: 100%;
 }
 .catalog__content {
   width: 100vw;
@@ -1998,7 +2001,7 @@ h3 {
   .card-product-gallery{
     height: auto;
   }
-  .card-product-text{
+  .card-product--text{
     order: 1;
   }
   .info-box, .payment{
