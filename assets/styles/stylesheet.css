@@ -122,7 +122,8 @@ img {
   color: #0093a2;
 }
 
-.contact-box--mobile, .border-mobile {
+.contact-box--mobile,
+.border-mobile {
   display: none;
 }
 
@@ -223,8 +224,8 @@ img {
   position: relative;
   padding: 0 0 0 21px;
 }
-.search-form::after{
-  content:url('../images/Search_4.svg');
+.search-form::after {
+  content: url("../images/Search_4.svg");
   position: relative;
   width: 24px;
   height: 24px;
@@ -237,8 +238,6 @@ img {
   border-radius: 60px;
   width: 100%;
 }
-
-
 
 .call-box {
   display: -webkit-box;
@@ -444,7 +443,7 @@ img {
   background-position: center;
   width: 70px;
   height: 70px;
-/*   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg filter='url(%23a)'%3E%3Crect width='40' height='40' x='15' y='11' fill='%23fff'
+  /*   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg filter='url(%23a)'%3E%3Crect width='40' height='40' x='15' y='11' fill='%23fff'
   rx='20'/%3E%3Cpath stroke='%23353949' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m33.415 26.305 5.057
   3.572c.331.22.528.577.528.957s-.197.736-.528.956l-5.057 3.905a1.576 1.576 0 0
   1-1.513.194c-.505-.2-.85-.642-.902-1.151V27.26c.052-.51.399-.95.903-1.15a1.576
@@ -461,12 +460,12 @@ img {
   %3E%3C/svg%3E"); */
 }
 
-.hero__conteiner .hero__hand-left{
+.hero__conteiner .hero__hand-left {
   background-repeat: no-repeat;
   background-position: center;
   width: 70px;
   height: 70px;
-/*   background-image: url("data:image/svg+xml,%3Csvg 
+  /*   background-image: url("data:image/svg+xml,%3Csvg 
   xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg 
   filter='url(%23a)'%3E%3Crect width='40' height='40' fill='%23fff' rx='20' 
   transform='matrix(-1 0 0 1 55 11)'/%3E%3Cpath stroke='%23353949' stroke-
@@ -485,7 +484,6 @@ img {
   in2='effect1_dropShadow_645_18856' result='shape'/%3E%3C/filter%3E%3C/defs
   %3E%3C/svg%3E"); */
 }
-
 
 .hero__conteiner .info-1 {
   display: flex;
@@ -517,7 +515,7 @@ img {
   grid-template-columns: 75% 25%;
   width: 203px;
   height: 50px;
-  color: #E2195B;
+  color: #e2195b;
   font-family: "TT Norms";
   font-style: normal;
   font-weight: 500;
@@ -530,7 +528,7 @@ img {
 }
 .hero__conteiner .hero__btn_green {
   position: relative;
-  background: #0093A2;
+  background: #0093a2;
   width: 51px;
   height: 50px;
   opacity: 0.5;
@@ -543,7 +541,7 @@ img {
   left: 30%;
 }
 .hero__conteiner .flowers {
-  background-color: #F4E5E2;
+  background-color: #f4e5e2;
   border-radius: 10px;
   max-height: 100%;
   max-width: 100%;
@@ -596,8 +594,8 @@ img {
   text-decoration: line-through;
 }
 .hero__maincard .color {
-  background-color: #E2195B;
-  border: #E2195B;
+  background-color: #e2195b;
+  border: #e2195b;
   max-width: 130px;
   max-height: 44px;
   font-family: "TT Norms";
@@ -614,7 +612,7 @@ img {
   background-position: center;
   width: 40px;
   height: 40px;
-/*   background-image:url("data:image/svg+xml,%3Csvg 
+  /*   background-image:url("data:image/svg+xml,%3Csvg 
   xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg 
   filter='url(%23a)'%3E%3Crect width='40' height='40' fill='%23fff' rx='20' 
   transform='matrix(-1 0 0 1 55 11)'/%3E%3Cpath stroke='%23353949' stroke-
@@ -675,20 +673,16 @@ img {
   gap: 10px;
   min-width: auto;
   height: 90px;
-  border: 1px solid #F2F3F5;
+  border: 1px solid #f2f3f5;
   box-shadow: 0px 4px 12px rgba(34, 42, 70, 0.03);
   border-radius: 5px;
-  background: #FFFFFF;
+  background: #ffffff;
   font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   margin: 7px;
 }
-
-
-
-
 
 .catalog {
   margin: 0 auto;
@@ -762,7 +756,7 @@ h3 {
   border-radius: 5px;
 }
 
-.gradient {
+.catalog-item__gradient {
   position: absolute;
   z-index: 100;
 }
@@ -771,36 +765,43 @@ h3 {
   border-radius: 5px;
 }
 
-.carousel-heart {
-  width: 30px;
-  height: 30px;
+.catalog-item__heart {
+  width: 36px;
+  height: 36px;
   position: absolute;
   top: 10px;
   right: 10px;
   background: #ffffff;
   background-position-x: center;
   background-position-y: center;
-  background-size: 15px 15px;
+  background-size: 16px 18px;
   border-radius: 30px;
-  padding: 7px;
   z-index: 100;
   background-image: url("../images/Heart3.svg");
   background-repeat: no-repeat;
 }
 
-.carousel-heart:hover {
+.catalog-item__heart:hover {
   background-image: url("../images/heart_red.svg");
   background-repeat: no-repeat;
 }
-.carousel-indicators .carousel-buttons {
-  width: 6px;
-  height: 6px;
-  border-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 15px;
-  margin-top: 9px;
+.catalog .carousel-indicators button {
+  flex: 0 1 auto;
+  width: 8px;
+  height: 8px;
+  line-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: unset;
+  background-color: #fff;
+  background-clip: unset;
+  border-top: 0;
+  border-bottom: 0;
 }
-.carousel-button {
+
+.catalog-item__special {
   position: absolute;
   width: 51px;
   height: 26px;
@@ -816,7 +817,7 @@ h3 {
   padding: 5px 10px;
   gap: 10px;
 }
-.carousel-button_text {
+.catalog-item__special_text {
   width: 29px;
   height: 16px;
   font-family: "TT Norms";
@@ -980,31 +981,31 @@ h3 {
   margin: 10px 0 0 0;
 }
 /* Доставка цветов в Воронеже */
-.copyright{
-  background-color: #F2F3F5;
+.copyright {
+  background-color: #f2f3f5;
   height: auto;
   padding-bottom: 70px;
 }
-.copyright-content{
+.copyright-content {
   width: 82%;
   height: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
-.container-max{
+.container-max {
   max-width: 1440px;
   margin: 0 auto;
   height: 100%;
   position: relative;
 }
-.container-max::before{
+.container-max::before {
   content: url(../images/text-flowers.svg);
   display: inline-block;
   position: absolute;
   z-index: 0.999;
 }
-.container-max::after{
+.container-max::after {
   content: url(../images/text-flowers.svg);
   display: inline-block;
   position: absolute;
@@ -1013,20 +1014,20 @@ h3 {
   top: 0;
   z-index: 0.999;
 }
-.copyright-title{
+.copyright-title {
   text-align: center;
   margin-top: 70px;
   margin-bottom: 30px;
 }
-.copyright__text{
+.copyright__text {
   padding: 50px 99px 50px 99px;
-  background-color: #FFF;
+  background-color: #fff;
   box-shadow: 0px 4px 15px rgba(34, 42, 70, 0.15);
   border-radius: 10px;
   z-index: 1;
 }
-.copyright__text p{
-  font-family: 'TT Norms';
+.copyright__text p {
+  font-family: "TT Norms";
   font-style: normal;
   font-size: 18px;
   line-height: 26px;
@@ -1059,20 +1060,18 @@ h3 {
   list-style-type: disc;
 }
 
-
 .features_pictures {
   display: flex;
 }
-.features{
+.features {
   position: relative;
 }
-.features::after{
+.features::after {
   content: url(../images/features_foliage.svg);
   display: inline-block;
   position: absolute;
   top: 0;
   right: 0;
-
 }
 .features__container {
   display: flex;
@@ -1239,7 +1238,7 @@ h3 {
   text-decoration: none;
 }
 
-.card-product{
+.card-product {
   display: grid;
   grid-template-columns: 2fr 2fr 1fr;
   grid-template-rows: 500px 160px;
@@ -1362,67 +1361,67 @@ h3 {
   grid-area: 1/3/3/4;
   border: 1px #d0d2d7 solid;
 }
-.outcome-box{
+.outcome-box {
   height: 48px;
   margin: 20px 0 15px 0;
   display: flex;
   justify-content: space-between;
   width: 310px;
 }
-.outcome-price__discount{
+.outcome-price__discount {
   margin: 0;
-  font-family: 'TT Norms';
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  color: #222A46;
+  color: #222a46;
 }
-.outcome-price{
+.outcome-price {
   margin: 0;
-  font-family: 'TT Norms';
+  font-family: "TT Norms";
   font-size: 14px;
   text-decoration-line: line-through;
-  color: #B0B2B9;
+  color: #b0b2b9;
 }
-.outcome-box__count{
+.outcome-box__count {
   position: relative;
   z-index: 0.999;
 }
-.outcome-box__input{
+.outcome-box__input {
   width: 150px;
   height: 48px;
   background-color: #fff;
-  border: 1px #D0D2D7 solid;
+  border: 1px #d0d2d7 solid;
   border-radius: 8px;
   text-align: center;
-  font-family: 'TT Norms';
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
 }
-.outcome-box__change--minus{
+.outcome-box__change--minus {
   position: absolute;
   z-index: 0.999;
   left: 18px;
   top: 12px;
 }
 
-.outcome-box__change--plus{
+.outcome-box__change--plus {
   position: absolute;
   z-index: 0.999;
   right: 18px;
   top: 12px;
 }
-.form-btn{
+.form-btn {
   display: flex;
   justify-content: space-between;
   width: 310px;
 }
-.form-btn__btn{
+.form-btn__btn {
   width: 150px;
   height: 48px;
 }
-.form-btn__btn--bye{
+.form-btn__btn--bye {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1430,19 +1429,18 @@ h3 {
   padding: 12px 25px;
   gap: 10px;
   border: none;
-  background: #E2195B;
+  background: #e2195b;
   border-radius: 5px;
 }
 .form-btn__btn--click {
   margin: 0 0 0 20px;
   display: flex;
   padding: auto;
-  background: #FFF;
+  background: #fff;
   border-radius: 5px;
-  border: 1px solid #0093A2;
-
+  border: 1px solid #0093a2;
 }
-.button_text--click{
+.button_text--click {
   margin: auto;
   width: 100%;
   font-family: "TT Norms";
@@ -1452,83 +1450,83 @@ h3 {
   line-height: 20px;
   color: #0093a2;
 }
-.composition{
+.composition {
   height: 107px;
   width: 239px;
 }
-.composition__list{
+.composition__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-.composition__item{
+.composition__item {
   display: flex;
   justify-content: space-between;
 }
-.composition__item p{
+.composition__item p {
   margin: 0;
   padding: 0;
-  font-family: 'TT Norms';
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #505567;
 }
-.info-box__border{
+.info-box__border {
   display: block;
   width: 100%;
   height: 1px;
   margin: 20px 0 20px 0;
-  background-color: #D0D2D7;
+  background-color: #d0d2d7;
 }
-.delivery-info{
+.delivery-info {
   width: 194px;
-  margin-top:25px;
+  margin-top: 25px;
   margin-left: 20px;
 }
-.delivery-info__list{
+.delivery-info__list {
   margin: 0;
   padding: 0 0 0 15px;
 }
 
-.info-box__title{
-  font-family: 'TT Norms';
+.info-box__title {
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  color: #1B1C21;
+  color: #1b1c21;
 }
-.delivery-info__item{
-  font-family: 'TT Norms';
+.delivery-info__item {
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   color: #505567;
 }
-.delivery-info__item span{
+.delivery-info__item span {
   font-weight: bold;
 }
-.delivery-info__link{
-  font-family: 'TT Norms';
+.delivery-info__link {
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: #0093A2;
+  color: #0093a2;
 }
-.payment{
+.payment {
   margin-top: 25px;
   margin-left: 20px;
 }
-.payment__text{
+.payment__text {
   margin: 0 0 10px 0;
-  font-family: 'TT Norms';
+  font-family: "TT Norms";
   font-style: normal;
   font-size: 14px;
   line-height: 20px;
   color: #505567;
 }
-.payment__list{
+.payment__list {
   list-style-type: none;
   width: 195px;
   height: 65px;
@@ -1538,46 +1536,43 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.payment__item{
+.payment__item {
   width: 45px;
   height: 30px;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  border: 1px solid #E2E4EB;
+  border: 1px solid #e2e4eb;
   border-radius: 5px;
 }
-.payment__item img{
- height: 15px;
+.payment__item img {
+  height: 15px;
 }
-.return{
+.return {
   margin-top: 25px;
   margin-left: 20px;
 }
-.return__text{
+.return__text {
   margin: 0;
   padding: 0;
-  font-family: 'TT Norms';
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #505567;
 }
-.card-catalog__title{
-  font-family: 'TT Norms';
+.card-catalog__title {
+  font-family: "TT Norms";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 40px;
-  color: #222A46;
-
+  color: #222a46;
 }
 
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
   .delivery-ad,
   .call-box,
   .navigation__link--hidden {
@@ -1620,50 +1615,50 @@ h3 {
     margin: 0 15px 0 15px;
   }
 
-/* Хиро */
-.hero__maincard {
-  display: none;
-}
-.hero__conteiner {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 440px;
-  max-width: 1023px;
-  margin: 0 auto;
-}
-/*  каталог*/
-.catalog{
-  width: 100vw;
-  align-items: flex-start;
-  padding-left: 20px;
-}
-.catalog__header{
-  width: 100%;
-}
-.catalog__content {
-  width: 100vw;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-}
+  /* Хиро */
+  .hero__maincard {
+    display: none;
+  }
+  .hero__conteiner {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 440px;
+    max-width: 1023px;
+    margin: 0 auto;
+  }
+  /*  каталог*/
+  .catalog {
+    width: 100vw;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  .catalog__header {
+    width: 100%;
+  }
+  .catalog__content {
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
 
-.catalog__content::-webkit-scrollbar {
-  display: none;
-}
-.catalog-item {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  margin: 0 10px 0 10px;
-  height: 100%;
-}
+  .catalog__content::-webkit-scrollbar {
+    display: none;
+  }
+  .catalog-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0 10px 0 10px;
+    height: 100%;
+  }
 
-.catalog-menu__list::-webkit-scrollbar {
-  display: none;
-}
+  .catalog-menu__list::-webkit-scrollbar {
+    display: none;
+  }
 
- /*   Категории */
+  /*   Категории */
   .category {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1693,7 +1688,6 @@ h3 {
 
   /* Почему Лавка Роз */
 
-
   .features__list-item {
     padding-bottom: 15px;
   }
@@ -1719,13 +1713,10 @@ h3 {
     list-style-type: disc;
   }
 
-
-
   .features_flowers {
     position: relative;
     left: 40%;
   }
-
 
   .features_pictures {
     display: flex;
@@ -1734,7 +1725,6 @@ h3 {
   .features__container {
     display: flex;
     max-width: 600px;
-
   }
   .card-product {
     display: grid;
@@ -1742,44 +1732,44 @@ h3 {
     grid-template-rows: 1fr 176px 210px;
     gap: 0;
   }
-  .card-gallery{
+  .card-gallery {
     grid-area: 1/1/2/2;
   }
-  .card-product-text{
+  .card-product-text {
     grid-area: 2/1/3/2;
     margin: 0;
   }
-  .card-product-desc{
-    grid-area:1/2/3/3;
+  .card-product-desc {
+    grid-area: 1/2/3/3;
     border: none;
   }
-  .card-product-desc__content{
+  .card-product-desc__content {
     margin: 0px auto 20px 20px;
   }
-  .info-box{
+  .info-box {
     grid-area: 3/1/4/4;
     display: flex;
     justify-content: space-between;
   }
-  .delivery-info{
+  .delivery-info {
     width: 270px;
   }
-  .card-outcomes{
+  .card-outcomes {
     width: 80%;
   }
-  .info-box__border{
+  .info-box__border {
     display: none;
   }
-  .payment{
+  .payment {
     width: 198px;
   }
-  .return{
+  .return {
     width: 188px;
   }
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
-  .container{
+  .container {
     max-width: 760px;
     margin: 0 auto;
   }
@@ -1848,12 +1838,12 @@ h3 {
     position: absolute;
     width: 100%;
   }
-  .border-mobile{
+  .border-mobile {
     display: block;
     width: 100%;
     height: 1px;
     margin: 20px 0 20px 0;
-    background-color: #D0D2D7;
+    background-color: #d0d2d7;
   }
   .navigation__link {
     padding-top: 20px;
@@ -1924,46 +1914,53 @@ h3 {
     justify-self: flex-start;
     margin: 0 0 0 15px;
   }
-/*   Хиро */
+  /*   Хиро */
 
-.hero__maincard {
-  display: none;
-}
-.hero__conteiner {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 440px;
-  max-width: 767px;
-  margin: 0 auto;
-}
+  .hero__maincard {
+    display: none;
+  }
+  .hero__conteiner {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 440px;
+    max-width: 767px;
+    margin: 0 auto;
+  }
 
-/*  каталог*/
-.catalog{
-  width: 100vw;
-  align-items: flex-start;
-  padding-left: 20px;
-}
-.catalog__header{
-  width: 100%;
-}
-.catalog__content {
-  width: 100vw;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-}
+  /*  каталог*/
+  .catalog {
+    width: 100vw;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  .catalog__header {
+    width: 100%;
+  }
+  h3 {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .catalog__content {
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
 
-.catalog__content::-webkit-scrollbar {
-  display: none;
-}
-.catalog-item {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  margin: 0 10px 0 10px;
-  height: 100%;
-}
+  .catalog__content::-webkit-scrollbar {
+    display: none;
+  }
+  .catalog-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0 10px 0 10px;
+    height: 100%;
+  }
 
   /*   Категории */
   .category {
@@ -1981,6 +1978,13 @@ h3 {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
   }
+  .block-title {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
 
   .category-box::-webkit-scrollbar {
     display: none;
@@ -1992,23 +1996,23 @@ h3 {
     flex: 0 0 auto;
     margin: 0 10px 0 10px;
   }
-/*   карточка */
-  .card-product{
+  /*   карточка */
+  .card-product {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  .card-product-gallery{
+  .card-product-gallery {
     height: auto;
   }
-  .card-product--text{
+  .card-product--text {
     order: 1;
   }
-  .info-box, .payment{
+  .info-box,
+  .payment {
     order: 2;
   }
-  .return{
+  .return {
     margin-bottom: 20px;
   }
 }
-
