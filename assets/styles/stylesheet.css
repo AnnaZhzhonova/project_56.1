@@ -513,20 +513,34 @@ h3 {
   border-radius: 5px;
 }
 
-.carousel-heart img {
+.carousel-heart {
   width: 30px;
   height: 30px;
   position: absolute;
   top: 10px;
   right: 10px;
   background: #ffffff;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 15px 15px;
   border-radius: 30px;
   padding: 7px;
   z-index: 100;
+  background-image: url("../images/Heart3.svg");
+  background-repeat: no-repeat;
 }
 
-.carousel-heart a:active {
-  color: red;
+.carousel-heart:hover {
+  background-image: url("../images/heart_red.svg");
+  background-repeat: no-repeat;
+}
+.carousel-indicators .carousel-buttons {
+  width: 6px;
+  height: 6px;
+  border-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  margin-top: 9px;
 }
 .carousel-button {
   position: absolute;
@@ -801,6 +815,7 @@ h3 {
 }
 .features__container {
   display: flex;
+  max-width: 600px;
 }
 
 /* Футер */
@@ -952,10 +967,11 @@ h3 {
   margin: 22px 0 32px 0;
 }
 
-.breadcrumb-box__item, .breadcrumb-box__link {
+.breadcrumb-box__item,
+.breadcrumb-box__link {
   font-family: "TT Norms";
   font-size: 14px;
-  color: #222A46;
+  color: #222a46;
 }
 
 .breadcrumb-box__link {
@@ -975,14 +991,14 @@ h3 {
   grid-area: 1/1/2/1;
   height: 500px;
 }
-.card-gallery__list{
+.card-gallery__list {
   list-style-type: none;
-  margin: 10px 0 0 0 ;
+  margin: 10px 0 0 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
 }
-.card-gallery__item{
+.card-gallery__item {
   width: 105px;
 }
 .card-text {
@@ -1003,7 +1019,7 @@ h3 {
 
 .card-desc {
   grid-area: 1/2/3/3;
-  border: 1px #D0D2D7 solid;
+  border: 1px #d0d2d7 solid;
 }
 
 .card-desc__content {
@@ -1015,7 +1031,7 @@ h3 {
   font-family: "TT Norms";
   font-size: 30px;
   font-weight: bold;
-  color: #222A46;
+  color: #222a46;
 }
 
 .card-desc__rewiews {
@@ -1037,7 +1053,7 @@ h3 {
 }
 
 .card-desc__link {
-  color: #0093A2;
+  color: #0093a2;
 }
 
 .card-outcomes {
@@ -1072,19 +1088,19 @@ h3 {
   height: 35px;
   padding: auto;
   margin: 3.5px 0 3.5px 0;
-  border: 1px #D0D2D7 solid;
-  color: #222A46;
+  border: 1px #d0d2d7 solid;
+  color: #222a46;
   background-color: #fff;
 }
 
 .btn-check:checked + .btn-secondary {
-  background-color: #0093A2;
+  background-color: #0093a2;
   color: #fff;
 }
 
 .info-box {
   grid-area: 1/3/3/4;
-  border: 1px #D0D2D7 solid;
+  border: 1px #d0d2d7 solid;
 }
 .outcome-box{
   height: 48px;
