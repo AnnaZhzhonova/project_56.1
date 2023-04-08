@@ -980,6 +980,31 @@ h3 {
 .category-item__price {
   margin: 10px 0 0 0;
 }
+/* галерея */
+
+.gallery-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 1172px;
+  height: 300px;
+  left: 135px;
+}
+.gallery-title {
+  margin: 10px 0 30px;
+  font-weight: 400;
+  color: #222a46;
+  font-family: "Yeseva One";
+  font-size: 40px;
+}
+.gallery_item {
+  width: 278px;
+  height: 300px;
+}
+
 /* Доставка цветов в Воронеже */
 .copyright {
   background-color: #f2f3f5;
