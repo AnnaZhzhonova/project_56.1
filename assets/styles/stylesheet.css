@@ -815,7 +815,6 @@ h3 {
 }
 .features__container {
   display: flex;
-  max-width: 600px;
 }
 
 /* Футер */
