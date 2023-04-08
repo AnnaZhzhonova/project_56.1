@@ -1714,7 +1714,33 @@ h3 {
     flex: 0 0 auto;
     margin: 0 10px 0 10px;
   }
+  /*Галерея*/
+  .gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
 
+  .gallery-box {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .gallery-box::-webkit-scrollbar {
+    display: none;
+  }
+
+  .gallery-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0 10px 0 10px;
+  }
   /* Почему Лавка Роз */
 
   .features__list-item {
@@ -2020,6 +2046,40 @@ h3 {
   }
 
   .category-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0 10px 0 10px;
+  }
+  /*Галерея*/
+  .gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .gallery-box {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  .gallery-title {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .gallery-box::-webkit-scrollbar {
+    display: none;
+  }
+
+  .gallery-item {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
