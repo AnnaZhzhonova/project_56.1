@@ -2260,45 +2260,235 @@ h3 {
 
   /*  каталог*/
   .catalog {
-    width: 100vw;
-    align-items: flex-start;
-    padding-left: 20px;
-  }
-
-  .catalog__header {
-    min-width: 100%;
-  }
-
-  h3 {
-    font-family: "TT Norms";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  .catalog__content {
-    min-width: 100%;
+    margin: 0 auto;
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
+    flex-direction: column;
+    align-items: center;
+    width: 1170px;
+    height: 1650px;
   }
-
-  .catalog__content::-webkit-scrollbar {
-    display: none;
+  
+  .catalog-box {
+    height: 510px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 40px;
   }
-
+  
+  h3 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #222a46;
+  }
+  
+  .catalog__header {
+    min-width: 1170px;
+    min-height: 80px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .catalog_navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  <<<<<<< HEAD
+  .catalog__navigation-link {
+  =======
+  
+  .catalog__arrow-right {
+  >>>>>>> 0dcc86df3d36356d40361a8696bab7cc63e55968
+    background-color: #ffffff;
+    border: none;
+  }
+  
+  .catalog__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    gap: 20px;
+    min-width: 1170px;
+    min-height: 430px;
+    left: 0px;
+  }
+  
   .catalog-item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    height: 100%;
+    position: relative;
+    width: 278px;
+    border: 1px solid #e2e4eb;
+    border-radius: 5px;
   }
-
+  
+  .catalog-item__gradient {
+    position: absolute;
+    z-index: 100;
+  }
+  
   .catalog-item img {
     border-radius: 5px;
   }
+  
+  .catalog-item__heart {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ffffff;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 16px 18px;
+    border-radius: 30px;
+    z-index: 100;
+    background-image: url("../images/Heart3.svg");
+    background-repeat: no-repeat;
+  }
+  
+  .catalog-item__heart:hover {
+    background-image: url("../images/heart_red.svg");
+    background-repeat: no-repeat;
+  }
+  
+  .catalog .carousel-indicators button {
+    flex: 0 1 auto;
+    width: 8px;
+    height: 8px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: unset;
+    background-color: #fff;
+    background-clip: unset;
+    border-top: 0;
+    border-bottom: 0;
+  }
+  
+  .catalog-item__icon {
+    position: absolute;
+    width: 51px;
+    height: 26px;
+    left: 15px;
+    top: 14.99px;
+    background: #0093a2;
+    border-radius: 5px;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+  }
+  
+  .catalog-item__icon_text {
+    width: 29px;
+    height: 16px;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+  }
+  
+  .item__content {
+    max-width: 238px;
+    height: 74px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .item__title {
+    font-family: "TT Norms";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222a46;
+  }
+  
+  .item__description {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #505567;
+  }
+  
+  .item__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .item__price_new {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222a46;
+  }
+  
+  .item__price_old {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration-line: line-through;
+    color: #b0b2b9;
+  }
+  
+  .button {
+    width: 130px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #e2195b;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .button_text {
+    width: 66px;
+    height: 20px;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  
 
   /*   Категории */
   .category {
@@ -2336,41 +2526,142 @@ h3 {
     margin: 0 10px 0 10px;
   }
 
-  /*Галерея*/
-  .gallery {
+  .gallery-box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 300px;
   }
-
-  .gallery-box {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-
+  
   .gallery-title {
+    margin: 10px 0 30px;
+    font-weight: 400;
+    color: #222a46;
+    font-family: "Yeseva One";
+    font-size: 40px;
+  }
+  
+  .gallery_item {
+    width: 278px;
+    height: 300px;
+  }
+  /*новости*/
+  .news {
+    margin-top: 40px;
+  }
+  .news h3 {
+    margin: 60px 0 30px;
+    font-weight: 400;
+    color: #222a46;
+    font-family: "Yeseva One";
+    font-size: 40px;
+  }
+  
+  .news-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 632px;
+  }
+  .news__header {
+    min-width: 1170px;
+    min-height: 134px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+  }
+  .news__navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .news__navigation-description {
+    width: 81px;
+    height: 20px;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1b1c21;
+    text-decoration: none;
+  }
+  .news__navigation-link {
+    background-color: #ffffff;
+    border: none;
+  }
+  .news__title {
+    font-family: "TT Norms";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222a46;
+  }
+  
+  .news-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 20px;
+    gap: 20px;
+    width: 377px;
+    height: 432px;
+    background: #ffffff;
+    border: 1px solid #f2f3f5;
+    box-shadow: 0px 4px 15px rgba(34, 42, 70, 0.08);
+    border-radius: 5px;
+  }
+  .news-item__image {
+    width: 100%;
+    height: 253.167px;
+  }
+  
+  .news-item img {
+    border-radius: 5px;
+    margin-bottom: 0;
+  }
+  .news-item__description {
+    margin-top: 0;
+  }
+  .news-item__title {
     font-family: "TT Norms";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1b1c21;
   }
-
-  .gallery-box::-webkit-scrollbar {
-    display: none;
+  .news-item__content {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #353949;
+    height: 66px;
   }
-
-  .gallery-item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0 10px 0 10px;
+  .news-item__description-wrapper {
+    margin-right: 25px;
+    margin-bottom: 0px;
+    margin-left: 25px;
   }
+  .news-item__footer {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #7d818e;
+  }
+  
   /*   карточка */
   .card-product {
     display: flex;
