@@ -1208,7 +1208,6 @@ min-width: 100%;
 }
 
 /* Почему Лавка Роз */
-
 .features__list-item {
   padding-bottom: 15px;
 }
@@ -1238,7 +1237,6 @@ min-width: 100%;
   display: flex;
 }
 
-<<<<<<< HEAD
 .container-max--feauteres {
   background-image: url(../images/features_foliage.svg);
   background-repeat: no-repeat;
@@ -2055,7 +2053,6 @@ border-radius: 10px;
 
   .features_flowers {
     position: relative;
-    left: 40%;
   }
 
   .features_pictures {
