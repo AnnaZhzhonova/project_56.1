@@ -2015,7 +2015,9 @@ border-radius: 10px;
   .container--map {
     width: 1140px;
   }
-
+  .call-box--map{
+    display: flex;
+  }
   /* Футер */
   .footer-container1__adaptiv-tablet-container1 {
     display: flex;
@@ -3014,7 +3016,18 @@ border-radius: 10px;
   .return {
     margin-bottom: 20px;
   }
-
+  .copyright__text{
+    padding: 25px 40px;
+  }
+  .call-box--map{
+    display: flex;
+  }
+  .map-card{
+    left: 15px;
+  }
+  .worktime--map{
+    display: inline-block;
+  }
   /* Футер */
   /* .footer-container2__adaptiv-tablet {
     display: flex;
