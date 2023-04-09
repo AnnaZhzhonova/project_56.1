@@ -726,7 +726,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
 }
-.catalog__arrow-right {
+.catalog__navigation-link {
   background-color: #ffffff;
   border: none;
 }
@@ -980,7 +980,6 @@ h3 {
   margin: 10px 0 0 0;
 }
 /* галерея */
-
 .gallery-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1000,6 +999,119 @@ h3 {
 .gallery_item {
   width: 278px;
   height: 300px;
+}
+/*новости*/
+.news {
+  margin-top: 40px;
+}
+.news h3 {
+  margin: 60px 0 30px;
+  font-weight: 400;
+  color: #222a46;
+  font-family: "Yeseva One";
+  font-size: 40px;
+}
+
+.news-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 632px;
+}
+.news__header {
+  min-width: 1170px;
+  min-height: 134px;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+}
+.news__navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.news__navigation-description {
+  width: 81px;
+  height: 20px;
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1b1c21;
+  text-decoration: none;
+}
+.news__navigation-link {
+  background-color: #ffffff;
+  border: none;
+}
+.news__title {
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222a46;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 20px;
+  gap: 20px;
+  width: 377px;
+  height: 432px;
+  background: #ffffff;
+  border: 1px solid #f2f3f5;
+  box-shadow: 0px 4px 15px rgba(34, 42, 70, 0.08);
+  border-radius: 5px;
+}
+.news-item__image {
+  width: 100%;
+  height: 253.167px;
+}
+
+.news-item img {
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+.news-item__description {
+  margin-top: 0;
+}
+.news-item__title {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1b1c21;
+}
+.news-item__content {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #353949;
+  height: 66px;
+}
+.news-item__description-wrapper {
+  margin-right: 25px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+}
+.news-item__footer {
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #7d818e;
 }
 
 /* Доставка цветов в Воронеже */
@@ -1743,6 +1855,39 @@ h3 {
   .gallery-item:last-child {
     display: none;
   }
+  /*новости*/
+  .news {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .news-box {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .news-box::-webkit-scrollbar {
+    display: none;
+  }
+
+  .news-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0 10px 0 10px;
+    width: 354px;
+    height: 432px;
+    margin-left: 20px;
+  }
+  .news-item:last-child {
+    display: none;
+  }
   /* Почему Лавка Роз */
 
   .features__list-item {
@@ -2088,6 +2233,68 @@ h3 {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     margin: 0 10px 0 10px;
+  }
+  /*новости*/
+  .news {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .news-box {
+    width: 375px;
+    height: 536px;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  .news-item {
+    padding: 0px 0px 20px;
+    gap: 20px;
+    width: 320px;
+    height: 406px;
+  }
+  .news-item__title {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .news-item__content {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .new-item__footer {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .news-box::-webkit-scrollbar {
+    display: none;
+  }
+
+  .news-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0 10px 0 10px;
+  }
+  .news h3{
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
   }
   /*   карточка */
   .card-product {
