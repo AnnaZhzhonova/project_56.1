@@ -2380,7 +2380,6 @@ h3 {
       flex: 0 0 auto;
       margin: 0 10px 0 10px;
     }
-  <<<<<<< HEAD
     /*новости*/
     .news {
       display: -webkit-box;
@@ -2398,11 +2397,6 @@ h3 {
       overflow-y: scroll;
       -webkit-overflow-scrolling: touch;
     }
-  .news-item {
-  .news-item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     .news-item {
     display: flex;
     flex-direction: column;
@@ -2437,12 +2431,6 @@ h3 {
       display: none;
     }
   
-    .news-item {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
-      margin: 0 10px 0 10px;
-    }
     .news h3{
       font-family: "TT Norms";
       font-style: normal;
