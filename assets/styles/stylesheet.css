@@ -753,7 +753,7 @@ h3 {
 }
 
 .catalog__header {
-/*   min-width: 1170px; */
+min-width: 100%;
   min-height: 80px;
   text-align: start;
   display: flex;
@@ -782,7 +782,7 @@ h3 {
   -ms-flex-align: stretch;
   align-items: stretch;
   gap: 20px;
-/*   min-width: 1170px; */
+  min-width: 100%;
   min-height: 430px;
   left: 0px;
 }
@@ -2037,15 +2037,6 @@ border-radius: 10px;
     position: relative;
   }
 
-  .features::after {
-    content: url(../images/features_foliage.svg);
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: -320px;
-    right: 0;
-  }
-
   .features__container {
     display: flex;
     max-width: 100%;
@@ -3005,7 +2996,6 @@ border-radius: 10px;
     .header-bottom {
       display: none;
     }
-
     .open,
     .close {
       display: block;
@@ -3218,7 +3208,6 @@ border-radius: 10px;
     .catalog {
       width: 100vw;
       align-items: flex-start;
-      padding-left: 20px;
     }
 
     .catalog__header {
@@ -3252,7 +3241,6 @@ border-radius: 10px;
       margin: 0 10px 0 10px;
       height: 100%;
     }
-  }
 
   .catalog-item__gradient {
     position: absolute;
@@ -3487,7 +3475,7 @@ border-radius: 10px;
     height: 632px;
   }
   .news__header {
-    min-width: 1170px;
+    min-width: 100%;
     min-height: 134px;
     text-align: start;
     display: flex;
@@ -3638,4 +3626,4 @@ border-radius: 10px;
     display: flex;
     flex-direction: column;
   }
-}
+  }
