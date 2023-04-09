@@ -1289,28 +1289,6 @@ border-radius: 10px;
 .map-card__contact__img{
   margin: 0 7px 0 0;
 }
-=======
-.features {
-  position: relative;
-}
-
-.features::after {
-  content: url(../images/features_foliage.svg);
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.features__container {
-  display: flex;
-}
-
-.container--map {
-  width: 1140px;
-}
-
->>>>>>> f21abe85474ccaff0abdddd3d0d3b4a098e384a0
 /* Футер */
 .footer-container1__adaptiv-tablet-container1 {
   display: flex;
@@ -2001,9 +1979,6 @@ border-radius: 10px;
   }
 
   /*Галерея*/
-=======
-    /*Галерея*/
->>>>>>> f21abe85474ccaff0abdddd3d0d3b4a098e384a0
   .gallery {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2034,9 +2009,6 @@ border-radius: 10px;
   .gallery-item:last-child {
     display: none;
   }
-<<<<<<< HEAD
-  /* Почему Лавка Роз */
-=======
 
   /*новости*/
   .news {
@@ -2074,7 +2046,6 @@ border-radius: 10px;
 
   /* Почему Лавка Роз */
 
->>>>>>> f21abe85474ccaff0abdddd3d0d3b4a098e384a0
   .features__list-item {
     padding-bottom: 15px;
   }
@@ -2102,14 +2073,11 @@ border-radius: 10px;
 
   .features_flowers {
     position: relative;
-<<<<<<< HEAD
-=======
     left: 40%;
   }
 
   .features_pictures {
     display: flex;
->>>>>>> f21abe85474ccaff0abdddd3d0d3b4a098e384a0
   }
 
   .features__container {
