@@ -1901,26 +1901,10 @@ border-radius: 10px;
   .catalog {
     width: 100vw;
     align-items: flex-start;
-<<<<<<< HEAD
-  }
-
-  .catalog__header {
-    min-width: 100%;
-  }
-
-  .catalog__content {
-    min-width: 100%;
-=======
-    padding-left: 20px;
-  }
-
-  .catalog__header {
-    width: 100%;
   }
 
   .catalog__content {
     width: 100vw;
->>>>>>> f21abe85474ccaff0abdddd3d0d3b4a098e384a0
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;
@@ -1935,10 +1919,7 @@ border-radius: 10px;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-<<<<<<< HEAD
-=======
     height: 100%;
->>>>>>> f21abe85474ccaff0abdddd3d0d3b4a098e384a0
   }
 
   .catalog-menu__list::-webkit-scrollbar {
@@ -1949,7 +1930,7 @@ border-radius: 10px;
     border-radius: 5px;
   }
 
-<<<<<<< HEAD
+
   /*   Категории */
   .category {
     display: -webkit-box;
@@ -1979,6 +1960,7 @@ border-radius: 10px;
   }
 
   /*Галерея*/
+  
   .gallery {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2566,7 +2548,6 @@ border-radius: 10px;
     display: none;
   }
 
-<<<<<<< HEAD
     .worktime,
     .basket,
     .account,
@@ -2820,14 +2801,13 @@ border-radius: 10px;
       margin: 0 10px 0 10px;
       height: 100%;
     }
-=======
+
   .catalog-item {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     height: 100%;
   }
->>>>>>> f21abe85474ccaff0abdddd3d0d3b4a098e384a0
 
   .catalog-item img {
     border-radius: 5px;
@@ -2868,30 +2848,42 @@ border-radius: 10px;
     flex: 0 0 auto;
     margin: 0 10px 0 10px;
   }
-
-<<<<<<< HEAD
+/*Галерея*/
+  .gallery {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+    -ms-flex-wrap: nowrap;
+     flex-wrap: nowrap;
+    }
+  
   .gallery-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    height: 300px;
-  }
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    }
 
   .gallery-title {
-    margin: 10px 0 30px;
-    font-weight: 400;
-    color: #222a46;
-    font-family: "Yeseva One";
-    font-size: 40px;
-  }
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    }
 
-  .gallery_item {
-    width: 278px;
-    height: 300px;
-  }
+  .gallery-box::-webkit-scrollbar {
+    display: none;
+    }
+
+  .gallery-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0 10px 0 10px;
+    }
+
   /*новости*/
   .news {
     margin-top: 40px;
@@ -2951,61 +2943,8 @@ border-radius: 10px;
   }
 
   .news-item {
-=======
-    /*Галерея*/
-    .gallery {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-    }
-  
-    .gallery-box {
-      -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-      overflow-x: scroll;
-      overflow-y: scroll;
-      -webkit-overflow-scrolling: touch;
-    }
-  
-    .gallery-title {
-      font-family: "TT Norms";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 30px;
-    }
-  
-    .gallery-box::-webkit-scrollbar {
-      display: none;
-    }
-  
-    .gallery-item {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
-      margin: 0 10px 0 10px;
-    }
-    /*новости*/
-    .news {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-    }
-    .news-box {
-      width: 375px;
-      height: 536px;
-      -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-      overflow-x: scroll;
-      overflow-y: scroll;
-      -webkit-overflow-scrolling: touch;
-    }
-    .news-item {
->>>>>>> f21abe85474ccaff0abdddd3d0d3b4a098e384a0
+    width: 320px;
+    height: 406px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
