@@ -1422,6 +1422,10 @@ h3 {
   padding: 0px 15px 0px 0px;
 }
 
+.mobile-footer-menu {
+  display: none;
+}
+
 /* Карточка товара */
 .breadcrumb-box {
   height: 24px;
