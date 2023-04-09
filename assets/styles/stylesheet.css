@@ -441,30 +441,22 @@ img {
   margin: 0 auto;
   gap: 19px;
 }
+.my-carousel {
+  margin: 0 auto;
+  max-width: 873px;
+  max-height: 440px;
+}
 
 .hero__conteiner .hero__hand-right {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg filter='url(%23a)'%3E%3Crect width='40' height='40' x='15' y='11' fill='%23fff' rx='20'/%3E%3Cpath stroke='%23353949' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m33.415 26.305 5.057 3.572c.331.22.528.577.528.957s-.197.736-.528.956l-5.057 3.905a1.576 1.576 0 0 1-1.513.194c-.505-.2-.85-.642-.902-1.151V27.26c.052-.51.399-.95.903-1.15a1.576 1.576 0 0 1 1.512.195Z' clip-rule='evenodd'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='a' width='70' height='70' x='0' y='0' color-interpolation-filters='sRGB' filterUnits='userSpaceOnUse'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' result='hardAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'/%3E%3CfeOffset dy='4'/%3E%3CfeGaussianBlur stdDeviation='7.5'/%3E%3CfeColorMatrix values='0 0 0 0 0.133333 0 0 0 0 0.164706 0 0 0 0 0.27451 0 0 0 0.08 0'/%3E%3CfeBlend in2='BackgroundImageFix' result='effect1_dropShadow_645_18855'/%3E%3CfeBlend in='SourceGraphic' in2='effect1_dropShadow_645_18855' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: center;
   width: 70px;
   height: 70px;
-  /*   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg filter='url(%23a)'%3E%3Crect width='40' height='40' x='15' y='11' fill='%23fff'
-  rx='20'/%3E%3Cpath stroke='%23353949' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m33.415 26.305 5.057
-  3.572c.331.22.528.577.528.957s-.197.736-.528.956l-5.057 3.905a1.576 1.576 0 0
-  1-1.513.194c-.505-.2-.85-.642-.902-1.151V27.26c.052-.51.399-.95.903-1.15a1.576
-  1.576 0 0 1 1.512.195Z' clip-rule='evenodd'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter
-  id='a' width='70' height='70' x='0' y='0' color-interpolation-filters='sRGB'
-  filterUnits='userSpaceOnUse'%3E%3CfeFlood flood-opacity='0'
-  result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha'
-  result='hardAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'/%3E
-  %3CfeOffset dy='4'/%3E%3CfeGaussianBlur stdDeviation='7.5'/%3E
-  %3CfeColorMatrix values='0 0 0 0 0.133333 0 0 0 0 0.164706 0 0 0 0 0.27451 0 0 0
-  0.08 0'/%3E%3CfeBlend in2='BackgroundImageFix'
-  result='effect1_dropShadow_645_18855'/%3E%3CfeBlend in='SourceGraphic'
-  in2='effect1_dropShadow_645_18855' result='shape'/%3E%3C/filter%3E%3C/defs
-  %3E%3C/svg%3E"); */
 }
 
 .hero__conteiner .hero__hand-left {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg filter='url(%23a)'%3E%3Crect width='40' height='40' fill='%23fff' rx='20' transform='matrix(-1 0 0 1 55 11)'/%3E%3Cpath stroke='%23353949' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m36.585 26.305-5.057 3.572c-.331.22-.528.577-.528.957s.197.736.528.956l5.057 3.905c.428.32 1.009.394 1.513.194.505-.2.85-.642.902-1.151V27.26c-.052-.51-.399-.95-.903-1.15a1.576 1.576 0 0 0-1.512.195Z' clip-rule='evenodd'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='a' width='70' height='70' x='0' y='0' color-interpolation-filters='sRGB' filterUnits='userSpaceOnUse'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' result='hardAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'/%3E%3CfeOffset dy='4'/%3E%3CfeGaussianBlur stdDeviation='7.5'/%3E%3CfeColorMatrix values='0 0 0 0 0.133333 0 0 0 0 0.164706 0 0 0 0 0.27451 0 0 0 0.08 0'/%3E%3CfeBlend in2='BackgroundImageFix' result='effect1_dropShadow_645_18856'/%3E%3CfeBlend in='SourceGraphic' in2='effect1_dropShadow_645_18856' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: center;
   width: 70px;
@@ -627,6 +619,7 @@ img {
 }
 
 .hero__maincard .hero__hand-right1 {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg filter='url(%23a)'%3E%3Crect width='40' height='40' x='15' y='11' fill='%23fff' rx='20'/%3E%3Cpath stroke='%23353949' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m33.415 26.305 5.057 3.572c.331.22.528.577.528.957s-.197.736-.528.956l-5.057 3.905a1.576 1.576 0 0 1-1.513.194c-.505-.2-.85-.642-.902-1.151V27.26c.052-.51.399-.95.903-1.15a1.576 1.576 0 0 1 1.512.195Z' clip-rule='evenodd'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='a' width='70' height='70' x='0' y='0' color-interpolation-filters='sRGB' filterUnits='userSpaceOnUse'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' result='hardAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'/%3E%3CfeOffset dy='4'/%3E%3CfeGaussianBlur stdDeviation='7.5'/%3E%3CfeColorMatrix values='0 0 0 0 0.133333 0 0 0 0 0.164706 0 0 0 0 0.27451 0 0 0 0.08 0'/%3E%3CfeBlend in2='BackgroundImageFix' result='effect1_dropShadow_645_18855'/%3E%3CfeBlend in='SourceGraphic' in2='effect1_dropShadow_645_18855' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: center;
   width: 40px;
@@ -676,7 +669,31 @@ img {
   border-top: 0;
   border-bottom: 0;
 }
-
+.maincard_img {
+  background: #ffffff;
+  border: 1px solid #e2ece8;
+  border-radius: 5px 5px 0px 0px;
+}
+.carousel-heart1 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ffffff;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 15px 15px;
+  border-radius: 30px;
+  padding: 7px;
+  z-index: 100;
+  background-image: url("../images/Heart3.svg");
+  background-repeat: no-repeat;
+}
+.carousel-heart1:hover {
+  background-image: url("../images/heart_red.svg");
+  background-repeat: no-repeat;
+}
 .hero__conteiner2 {
   display: flex;
   align-items: center;
@@ -1144,7 +1161,6 @@ h3 {
 
 /* Доставка цветов в Воронеже */
 .copyright {
-  background-color: #f2f3f5;
   height: auto;
   padding-bottom: 70px;
 }
@@ -1235,938 +1251,472 @@ h3 {
 .features_pictures {
   display: flex;
 }
-
-.features {
+.features__list {
   position: relative;
 }
-
-.features::after {
-  content: url(../images/features_foliage.svg);
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.features__container {
-  display: flex;
-}
-
-.container--map {
-  width: 1140px;
-}
-
-/* Футер */
-.footer-container1__adaptiv-tablet-container1 {
-  display: flex;
-  padding-bottom: 20px;
-  justify-content: space-between;
-}
-
-.footer-container1__adaptiv-tablet-container2 {
-  display: flex;
-  padding-bottom: 20px;
-  justify-content: space-between;
-}
-
-.footer-container1 {
-  display: flex;
-  flex-direction: row;
-  /* justify-content: space-between; */
-
-  padding: 40px 0px 29px 0px;
-}
-
-.footer-container2 {
-  display: flex;
-  justify-content: space-between;
-
-  padding: 25px 0px 25px 0px;
-
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-
-  color: #505567;
-  align-items: center;
-}
-
-.footer-container2__adaptiv-tablet {
-  display: flex;
-  justify-content: space-around;
-}
-
-.footer-container2__copyright {
-  padding-right: 100px;
-}
-
-.footer-container1__1 {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 18px 0px 0px;
-}
-
-.footer-container1__2 {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 18px 0px 0px;
-}
-
-.footer-container1__3 {
-  display: flex;
-  flex-direction: column;
-  /* padding: 0px 0px 0px 0px; */
-}
-
-.footer-container1__2little {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 0px 30px 0px;
-}
-
-.footer-container1__title {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
-
-  text-decoration: none;
-  color: #222a46;
-  padding: 0px 0px 10px 0px;
-}
-
-.footer-container1__title:hover {
-  text-decoration: underline;
-  color: #222a46;
-}
-
-.footer-container1__text-link {
-  text-decoration: none;
-
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #353949;
-
-  padding: 0px 0px 5px 0px;
-}
-
-.footer-container1__text-link:hover {
-  text-decoration: underline;
-  color: #353949;
-}
-
-.footer-container1__text {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-
-  color: #505567;
-}
-
-.footer-container1__phone-number {
-  display: flex;
-  flex-direction: column;
-
-  text-decoration: none;
-
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
-
-  color: #222a46;
-
-  padding: 0px 0px 15px 0px;
-}
-
-.footer-container1__phone-number:hover {
-  text-decoration: underline;
-  color: #222a46;
-}
-
-.footer-container1__e-mail {
-  text-decoration: none;
-
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-
-  color: #222a46;
-
-  padding: 5px 0px 0px 0px;
-}
-
-.footer-container1__e-mail:hover {
-  text-decoration: underline;
-  color: #222a46;
-}
-
-.link-to-pay-icon__link {
-  padding: 0px 15px 0px 0px;
-}
-
-.link-social-icon__link {
-  padding: 0px 15px 0px 0px;
-}
-
-/* Карточка товара */
-.breadcrumb-box {
-  height: 24px;
-  width: 302px;
-  margin: 22px 0 32px 0;
-}
-
-.breadcrumb-box__item,
-.breadcrumb-box__link {
-  font-family: "TT Norms";
-  font-size: 14px;
-  color: #222a46;
-}
-
-.breadcrumb-box__link {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.card-product {
-  display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
-  grid-template-rows: 500px 160px;
-  gap: 20px;
-  border: none;
-}
-
-.card-gallery {
-  grid-area: 1/1/2/1;
-  height: 500px;
-}
-
-.card-gallery__list {
-  list-style-type: none;
-  margin: 10px 0 0 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.card-gallery__item {
-  width: 105px;
-}
-
-.card-product-text {
-  grid-area: 2/1/3/2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0 0 0 20px;
-  height: 132px;
-  margin: 25px 0;
-}
-
-.card-product-text p {
-  margin: 0;
-  padding: 0;
-  font-family: "TT Norms";
-  font-size: 16px;
-}
-
-.card-desc {
-  grid-area: 1/2/3/3;
-  border: 1px #d0d2d7 solid;
-}
-
-.card-desc__content {
-  margin: 20px auto 20px 20px;
-}
-
-.card-desc__title {
-  margin: 0 0 5px 0;
-  font-family: "TT Norms";
-  font-size: 30px;
-  font-weight: bold;
-  color: #222a46;
-}
-
-.card-desc__rewiews {
-  position: relative;
-  margin-left: 25px;
-  z-index: 0.999;
-  font-family: "TT Norms";
-  font-size: 14px;
-}
-
-.card-desc__rewiews::before {
-  content: url(../images/card-star.svg);
-  position: absolute;
-  display: inline-block;
-  left: -25px;
-  height: 20px;
-  width: 20px;
-  z-index: 0.999;
-}
-
-.card-desc__link {
-  color: #0093a2;
-}
-
-.card-outcomes {
-  height: 40px;
-  width: 60%;
-}
-
-.card-outcomes__list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.card-outcomes__item {
-  font-family: "TT Norms";
-  font-size: 14px;
-}
-
-.card-outcomes__item span {
-  font-weight: bold;
-}
-
-.form-choise__title {
-  margin: 10px 0 7px 0;
-  font-family: "TT Norms";
-  font-size: 14px;
-}
-
-.form-choise__btn {
-  height: 35px;
-  padding: auto;
-  margin: 3.5px 0 3.5px 0;
-  border: 1px #d0d2d7 solid;
-  color: #222a46;
-  background-color: #fff;
-}
-
-.btn-check:checked + .btn-secondary {
-  background-color: #0093a2;
-  color: #fff;
-}
-
-.info-box {
-  grid-area: 1/3/3/4;
-  border: 1px #d0d2d7 solid;
-}
-
-.outcome-box {
-  height: 48px;
-  margin: 20px 0 15px 0;
-  display: flex;
-  justify-content: space-between;
-  width: 310px;
-}
-
-.outcome-price__discount {
-  margin: 0;
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  color: #222a46;
-}
-
-.outcome-price {
-  margin: 0;
-  font-family: "TT Norms";
-  font-size: 14px;
-  text-decoration-line: line-through;
-  color: #b0b2b9;
-}
-
-.outcome-box__count {
-  position: relative;
-  z-index: 0.999;
-}
-
-.outcome-box__input {
-  width: 150px;
-  height: 48px;
-  background-color: #fff;
-  border: 1px #d0d2d7 solid;
-  border-radius: 8px;
-  text-align: center;
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.outcome-box__change--minus {
-  position: absolute;
-  z-index: 0.999;
-  left: 18px;
-  top: 12px;
-}
-
-.outcome-box__change--plus {
-  position: absolute;
-  z-index: 0.999;
-  right: 18px;
-  top: 12px;
-}
-
-.form-btn {
-  display: flex;
-  justify-content: space-between;
-  width: 310px;
-}
-
-.form-btn__btn {
-  width: 150px;
-  height: 48px;
-}
-
-.form-btn__btn--bye {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 25px;
-  gap: 10px;
-  border: none;
-  background: #e2195b;
-  border-radius: 5px;
-}
-
-.form-btn__btn--click {
-  margin: 0 0 0 20px;
-  display: flex;
-  padding: auto;
-  background: #fff;
-  border-radius: 5px;
-  border: 1px solid #0093a2;
-}
-
-.button_text--click {
-  margin: auto;
-  width: 100%;
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 20px;
-  color: #0093a2;
-}
-
-.composition {
-  height: 107px;
-  width: 239px;
-}
-
-.composition__list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.composition__item {
-  display: flex;
-  justify-content: space-between;
-}
-
-.composition__item p {
-  margin: 0;
-  padding: 0;
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: #505567;
-}
-
-.info-box__border {
-  display: block;
-  width: 100%;
-  height: 1px;
-  margin: 20px 0 20px 0;
-  background-color: #d0d2d7;
-}
-
-.delivery-info {
-  width: 194px;
-  margin-top: 25px;
-  margin-left: 20px;
-}
-
-.delivery-info__list {
-  margin: 0;
-  padding: 0 0 0 15px;
-}
-
-.info-box__title {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  color: #1b1c21;
-}
-
-.delivery-info__item {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: #505567;
-}
-
-.delivery-info__item span {
-  font-weight: bold;
-}
-
-.delivery-info__link {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: #0093a2;
-}
-
-.payment {
-  margin-top: 25px;
-  margin-left: 20px;
-}
-
-.payment__text {
-  margin: 0 0 10px 0;
-  font-family: "TT Norms";
-  font-style: normal;
-  font-size: 14px;
-  line-height: 20px;
-  color: #505567;
-}
-
-.payment__list {
-  list-style-type: none;
-  width: 195px;
-  height: 65px;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.payment__item {
-  width: 45px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  border: 1px solid #e2e4eb;
-  border-radius: 5px;
-}
-
-.payment__item img {
-  height: 15px;
-}
-
-.return {
-  margin-top: 25px;
-  margin-left: 20px;
-}
-
-.return__text {
-  margin: 0;
-  padding: 0;
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: #505567;
-}
-
-.card-catalog__title {
-  font-family: "TT Norms";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 40px;
-  color: #222a46;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .delivery-ad,
-  .call-box,
-  .navigation__link--hidden {
-    display: none;
-  }
-
-  .call-box--mobile {
-    display: inline-block;
-  }
-
-  .search-form {
-    width: 265px;
-    padding: 0;
-  }
-
-  .catalog-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-
-  .catalog-menu__list {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .catalog-menu__list::-webkit-scrollbar {
-    display: none;
-  }
-
-  .catalog-menu__item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0 15px 0 15px;
-  }
-
-  /* Хиро */
-  .hero__maincard {
-    display: none;
-  }
-
-  .hero__conteiner {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 440px;
-    max-width: 1023px;
-    margin: 0 auto;
-  }
-
-  /*  каталог*/
-  .catalog {
-    width: 100vw;
-    align-items: flex-start;
-  }
-
-  .catalog__header {
-    min-width: 100%;
-  }
-
-  .catalog__content {
-    min-width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .catalog__content::-webkit-scrollbar {
-    display: none;
-  }
-
-  .catalog-item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-  }
-
-  .catalog-menu__list::-webkit-scrollbar {
-    display: none;
-  }
-
-  .catalog-item img {
-    border-radius: 5px;
-  }
-
-  /*   Категории */
-  .category {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-
-  .category-box {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .category-box::-webkit-scrollbar {
-    display: none;
-  }
-
-  .category-item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0 10px 0 10px;
-  }
-
-  /*Галерея*/
-  .gallery {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-
-  .gallery-box {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .gallery-box::-webkit-scrollbar {
-    display: none;
-  }
-
-  .gallery-item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0 10px 0 10px;
-  }
-
-  .gallery-item:last-child {
-    display: none;
-  }
-  /* Почему Лавка Роз */
-
-  .features__list-item {
-    padding-bottom: 15px;
-  }
-
-  .features__list {
-    font-family: "TT Norms";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-
-    color: #353949;
-
-    /* width: 50%; */
-
-    display: flex;
-    flex-direction: column;
-
-    padding-bottom: 70px;
-  }
-
-  .features__list-type {
-    list-style-type: disc;
-  }
-
-  .features_flowers {
+.features__list::after {
+  .features {
     position: relative;
-    left: 40%;
   }
 
-  .features_pictures {
-    display: flex;
+  .features::after {
+    content: url(../images/features_foliage.svg);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -320px;
+    right: 0;
   }
 
   .features__container {
     display: flex;
-    max-width: 600px;
   }
 
-  .card-product {
-    display: grid;
-    grid-template-columns: 354px 1fr;
-    grid-template-rows: 1fr 176px 210px;
-    gap: 0;
-  }
-
-  .card-gallery {
-    grid-area: 1/1/2/2;
-  }
-
-  .card-product-text {
-    grid-area: 2/1/3/2;
-    margin: 0;
-  }
-
-  .card-product-desc {
-    grid-area: 1/2/3/3;
-    border: none;
-  }
-
-  .card-product-desc__content {
-    margin: 0px auto 20px 20px;
-  }
-
-  .info-box {
-    grid-area: 3/1/4/4;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .delivery-info {
-    width: 270px;
-  }
-
-  .card-outcomes {
-    width: 80%;
-  }
-
-  .info-box__border {
-    display: none;
-  }
-
-  .payment {
-    width: 198px;
-  }
-
-  .return {
-    width: 188px;
+  .container--map {
+    width: 1140px;
   }
 
   /* Футер */
-  .footer-container2__adaptiv-tablet {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .footer-container2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-  }
-
-  /* .footer-container2__p {
-    display: flex;
-    align-items: end;
-  } */
-
-  .footer-container2__copyright {
-    padding-right: 0px;
-  }
-
-  .footer-container1 {
-    display: flex;
-    /* justify-content: space-between; */
-    flex-direction: column;
-
-    padding: 40px 0px 29px 0px;
-  }
-
   .footer-container1__adaptiv-tablet-container1 {
     display: flex;
     padding-bottom: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .footer-container1__adaptiv-tablet-container2 {
     display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .footer-container1 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+
+    padding: 40px 0px 29px 0px;
+  }
+
+  .footer-container2 {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 25px 0px 25px 0px;
+
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #505567;
+    align-items: center;
+  }
+
+  .footer-container2__adaptiv-tablet {
+    display: flex;
     justify-content: space-around;
   }
-}
 
-@media screen and (min-width: 375px) and (max-width: 767px) {
-  .container {
-    max-width: 760px;
-    margin: 0 auto;
+  .footer-container2__copyright {
+    padding-right: 100px;
   }
 
-  .worktime,
-  .basket,
-  .account,
-  .delivery-ad--screen,
-  .call-box,
-  .header-bottom {
-    display: none;
-  }
-
-  .open,
-  .close {
-    display: block;
-    max-width: 800px;
-  }
-
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-  }
-
-  .fa-remove:before,
-  .fa-close:before,
-  .fa-times:before {
-    content: url(../images/close.svg);
-    width: 14px;
-    height: 14px;
-  }
-
-  .switcher:checked ~ nav {
-    right: 0;
-  }
-
-  .navigation {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    padding: 100px 0;
-    top: 0;
-    right: 100%;
-    text-align: center;
-    background-color: #fff;
-    -webkit-transition: 0.7s;
-    transition: 0.7s;
-    z-index: 1;
-  }
-
-  .navigation__item--mobile {
-    display: block;
-  }
-
-  .navigation__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
+  .footer-container1__1 {
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    position: absolute;
-    width: 100%;
+    padding: 0px 18px 0px 0px;
   }
 
-  .border-mobile {
+  .footer-container1__2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 18px 0px 0px;
+  }
+
+  .footer-container1__3 {
+    display: flex;
+    flex-direction: column;
+    /* padding: 0px 0px 0px 0px; */
+  }
+
+  .footer-container1__2little {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 30px 0px;
+  }
+
+  .footer-container1__title {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+
+    text-decoration: none;
+    color: #222a46;
+    padding: 0px 0px 10px 0px;
+  }
+
+  .footer-container1__title:hover {
+    text-decoration: underline;
+    color: #222a46;
+  }
+
+  .footer-container1__text-link {
+    text-decoration: none;
+
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #353949;
+
+    padding: 0px 0px 5px 0px;
+  }
+
+  .footer-container1__text-link:hover {
+    text-decoration: underline;
+    color: #353949;
+  }
+
+  .footer-container1__text {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #505567;
+  }
+
+  .footer-container1__phone-number {
+    display: flex;
+    flex-direction: column;
+
+    text-decoration: none;
+
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #222a46;
+
+    padding: 0px 0px 15px 0px;
+  }
+
+  .footer-container1__phone-number:hover {
+    text-decoration: underline;
+    color: #222a46;
+  }
+
+  .footer-container1__e-mail {
+    text-decoration: none;
+
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #222a46;
+
+    padding: 5px 0px 0px 0px;
+  }
+
+  .footer-container1__e-mail:hover {
+    text-decoration: underline;
+    color: #222a46;
+  }
+
+  .link-to-pay-icon__link {
+    padding: 0px 15px 0px 0px;
+  }
+
+  .link-social-icon__link {
+    padding: 0px 15px 0px 0px;
+  }
+
+  /* Карточка товара */
+  .breadcrumb-box {
+    height: 24px;
+    width: 302px;
+    margin: 22px 0 32px 0;
+  }
+
+  .breadcrumb-box__item,
+  .breadcrumb-box__link {
+    font-family: "TT Norms";
+    font-size: 14px;
+    color: #222a46;
+  }
+
+  .breadcrumb-box__link {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .card-product {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 500px 160px;
+    gap: 20px;
+    border: none;
+  }
+
+  .card-gallery {
+    grid-area: 1/1/2/1;
+    height: 500px;
+  }
+
+  .card-gallery__list {
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-gallery__item {
+    width: 105px;
+  }
+
+  .card-product-text {
+    grid-area: 2/1/3/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 0 20px;
+    height: 132px;
+    margin: 25px 0;
+  }
+
+  .card-product-text p {
+    margin: 0;
+    padding: 0;
+    font-family: "TT Norms";
+    font-size: 16px;
+  }
+
+  .card-desc {
+    grid-area: 1/2/3/3;
+    border: 1px #d0d2d7 solid;
+  }
+
+  .card-desc__content {
+    margin: 20px auto 20px 20px;
+  }
+
+  .card-desc__title {
+    margin: 0 0 5px 0;
+    font-family: "TT Norms";
+    font-size: 30px;
+    font-weight: bold;
+    color: #222a46;
+  }
+
+  .card-desc__rewiews {
+    position: relative;
+    margin-left: 25px;
+    z-index: 0.999;
+    font-family: "TT Norms";
+    font-size: 14px;
+  }
+
+  .card-desc__rewiews::before {
+    content: url(../images/card-star.svg);
+    position: absolute;
+    display: inline-block;
+    left: -25px;
+    height: 20px;
+    width: 20px;
+    z-index: 0.999;
+  }
+
+  .card-desc__link {
+    color: #0093a2;
+  }
+
+  .card-outcomes {
+    height: 40px;
+    width: 60%;
+  }
+
+  .card-outcomes__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card-outcomes__item {
+    font-family: "TT Norms";
+    font-size: 14px;
+  }
+
+  .card-outcomes__item span {
+    font-weight: bold;
+  }
+
+  .form-choise__title {
+    margin: 10px 0 7px 0;
+    font-family: "TT Norms";
+    font-size: 14px;
+  }
+
+  .form-choise__btn {
+    height: 35px;
+    padding: auto;
+    margin: 3.5px 0 3.5px 0;
+    border: 1px #d0d2d7 solid;
+    color: #222a46;
+    background-color: #fff;
+  }
+
+  .btn-check:checked + .btn-secondary {
+    background-color: #0093a2;
+    color: #fff;
+  }
+
+  .info-box {
+    grid-area: 1/3/3/4;
+    border: 1px #d0d2d7 solid;
+  }
+
+  .outcome-box {
+    height: 48px;
+    margin: 20px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+  }
+
+  .outcome-price__discount {
+    margin: 0;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #222a46;
+  }
+
+  .outcome-price {
+    margin: 0;
+    font-family: "TT Norms";
+    font-size: 14px;
+    text-decoration-line: line-through;
+    color: #b0b2b9;
+  }
+
+  .outcome-box__count {
+    position: relative;
+    z-index: 0.999;
+  }
+
+  .outcome-box__input {
+    width: 150px;
+    height: 48px;
+    background-color: #fff;
+    border: 1px #d0d2d7 solid;
+    border-radius: 8px;
+    text-align: center;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .outcome-box__change--minus {
+    position: absolute;
+    z-index: 0.999;
+    left: 18px;
+    top: 12px;
+  }
+
+  .outcome-box__change--plus {
+    position: absolute;
+    z-index: 0.999;
+    right: 18px;
+    top: 12px;
+  }
+
+  .form-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+  }
+
+  .form-btn__btn {
+    width: 150px;
+    height: 48px;
+  }
+
+  .form-btn__btn--bye {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 25px;
+    gap: 10px;
+    border: none;
+    background: #e2195b;
+    border-radius: 5px;
+  }
+
+  .form-btn__btn--click {
+    margin: 0 0 0 20px;
+    display: flex;
+    padding: auto;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #0093a2;
+  }
+
+  .button_text--click {
+    margin: auto;
+    width: 100%;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0093a2;
+  }
+
+  .composition {
+    height: 107px;
+    width: 239px;
+  }
+
+  .composition__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .composition__item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .composition__item p {
+    margin: 0;
+    padding: 0;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #505567;
+  }
+
+  .info-box__border {
     display: block;
     width: 100%;
     height: 1px;
@@ -2174,177 +1724,767 @@ h3 {
     background-color: #d0d2d7;
   }
 
-  .navigation__link {
-    padding-top: 20px;
-    padding-left: 15px;
+  .delivery-info {
+    width: 194px;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .delivery-info__list {
+    margin: 0;
+    padding: 0 0 0 15px;
+  }
+
+  .info-box__title {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1b1c21;
+  }
+
+  .delivery-info__item {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #505567;
+  }
+  .delivery-info__item span {
     font-weight: bold;
   }
 
-  .contact-box--mobile {
-    display: block;
-    width: 100vw;
-    padding-top: 30px;
+  .delivery-info__item span {
+    font-weight: bold;
   }
 
-  .contact-box--mobile ul {
-    border: none;
-    list-style-type: none;
-    padding: 0;
-  }
-
-  .contact-box--mobile ul li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 15px;
-  }
-
-  .contact-box--mobile ul li p {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
-    margin-bottom: 15px;
-    font-weight: normal;
-  }
-
-  .call-box__link {
-    text-decoration: none;
-  }
-
-  .call-box__item--link-title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .account-link {
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
-
-  .search-form {
-    padding: 0;
-    width: 180px;
-    z-index: 0.9999;
-  }
-
-  .delivery-ad--mobile {
-    display: inline-block;
-    width: 100%;
-    font-size: 12px;
-  }
-
-  .delivery-ad--mobile p {
-    width: 109px;
-    justify-self: flex-start;
-    margin: 0 0 0 15px;
-  }
-
-  /*   Хиро */
-
-  .hero__maincard {
-    display: none;
-  }
-
-  .hero__conteiner {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 440px;
-    max-width: 767px;
-    margin: 0 auto;
-  }
-
-  /*  каталог*/
-  .catalog {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1170px;
-    height: 1650px;
-  }
-  
-  .catalog-box {
-    height: 510px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin-top: 40px;
-  }
-  
-  h3 {
-    font-family: "Yeseva One";
+  .delivery-info__link {
+    font-family: "TT Norms";
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 50px;
-    color: #222a46;
+    font-size: 14px;
+    color: #0093a2;
   }
-  
-  .catalog__header {
-    min-width: 1170px;
-    min-height: 80px;
-    text-align: start;
+
+  .payment {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .payment__text {
+    margin: 0 0 10px 0;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #505567;
+  }
+
+  .payment__list {
+    list-style-type: none;
+    width: 195px;
+    height: 65px;
+    margin: 0;
+    padding: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
-  
-  .catalog_navigation {
+
+  .payment__item {
+    width: 45px;
+    height: 30px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-  }
-  <<<<<<< HEAD
-  .catalog__navigation-link {
-  =======
-  
-  .catalog__arrow-right {
-  >>>>>>> 0dcc86df3d36356d40361a8696bab7cc63e55968
-    background-color: #ffffff;
-    border: none;
-  }
-  
-  .catalog__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    gap: 20px;
-    min-width: 1170px;
-    min-height: 430px;
-    left: 0px;
-  }
-  
-  .catalog-item {
-    position: relative;
-    width: 278px;
+    align-content: center;
+    flex-wrap: wrap;
     border: 1px solid #e2e4eb;
     border-radius: 5px;
   }
-  
+  .payment__item img {
+    height: 15px;
+  }
+
+  .payment__item img {
+    height: 15px;
+  }
+
+  .return {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .return__text {
+    margin: 0;
+    padding: 0;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #505567;
+  }
+
+  .card-catalog__title {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #222a46;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .delivery-ad,
+    .call-box,
+    .navigation__link--hidden {
+      display: none;
+    }
+
+    .call-box--mobile {
+      display: inline-block;
+    }
+
+    .search-form {
+      width: 265px;
+      padding: 0;
+    }
+
+    .catalog-menu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+
+    .catalog-menu__list {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .catalog-menu__list::-webkit-scrollbar {
+      display: none;
+    }
+
+    .catalog-menu__item {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      margin: 0 15px 0 15px;
+    }
+
+    /* Хиро */
+    .hero__maincard {
+      display: none;
+    }
+    .hero {
+      max-width: 1022px;
+      margin: 30px auto;
+    }
+    .hero__conteiner {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 440px;
+      max-width: 1022px;
+      margin: 0 auto;
+    }
+    .my-carousel {
+      margin: 0 auto;
+      max-width: 728px;
+      max-height: 440px;
+    }
+    .hero__conteiner2 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      max-width: 1020px;
+      min-height: 220px;
+      margin: 0 auto;
+    }
+    .hero__conteiner2 .i1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 15px 26px 15px 25px;
+      gap: 10px;
+      min-width: auto;
+      height: 90px;
+      border: 1px solid #f2f3f5;
+      box-shadow: 0px 4px 12px rgba(34, 42, 70, 0.03);
+      border-radius: 5px;
+      background: #ffffff;
+      font-family: "TT Norms";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      margin: 7px;
+    }
+    /*  каталог*/
+    .catalog {
+      width: 100vw;
+      align-items: flex-start;
+      padding-left: 20px;
+    }
+    .catalog__header {
+      width: 100%;
+    }
+    .catalog__content {
+      width: 100vw;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .catalog__content::-webkit-scrollbar {
+      display: none;
+    }
+    .catalog-item {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      margin: 0 10px 0 10px;
+      height: 100%;
+    }
+
+    .catalog-menu__list::-webkit-scrollbar {
+      display: none;
+    }
+
+    .hero__conteiner {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 440px;
+      max-width: 1023px;
+      margin: 0 auto;
+    }
+
+    /*  каталог*/
+    .catalog {
+      width: 100vw;
+      align-items: flex-start;
+    }
+
+    .catalog__header {
+      min-width: 100%;
+    }
+
+    .catalog__content {
+      min-width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .catalog__content::-webkit-scrollbar {
+      display: none;
+    }
+
+    .catalog-item {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+    }
+
+    .catalog-menu__list::-webkit-scrollbar {
+      display: none;
+    }
+
+    .catalog-item img {
+      border-radius: 5px;
+    }
+
+    /*   Категории */
+    .category {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+
+    .category-box {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .category-box::-webkit-scrollbar {
+      display: none;
+    }
+
+    .category-item {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      margin: 0 10px 0 10px;
+    }
+
+    /*Галерея*/
+    .gallery {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+
+    .gallery-box {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .gallery-box::-webkit-scrollbar {
+      display: none;
+    }
+
+    .gallery-item {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      margin: 0 10px 0 10px;
+    }
+
+    .gallery-item:last-child {
+      display: none;
+    }
+    /* Почему Лавка Роз */
+
+    .features__list-item {
+      padding-bottom: 15px;
+    }
+
+    .features__list {
+      font-family: "TT Norms";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+
+      color: #353949;
+
+      /* width: 50%; */
+
+      display: flex;
+      flex-direction: column;
+
+      padding-bottom: 70px;
+    }
+
+    .features__list-type {
+      list-style-type: disc;
+    }
+
+    .features_flowers {
+      position: relative;
+      left: 40%;
+    }
+
+    .features_pictures {
+      display: flex;
+    }
+
+    .features__container {
+      display: flex;
+      max-width: 600px;
+    }
+
+    .card-product {
+      display: grid;
+      grid-template-columns: 354px 1fr;
+      grid-template-rows: 1fr 176px 210px;
+      gap: 0;
+    }
+    .card-gallery {
+      grid-area: 1/1/2/2;
+    }
+
+    .card-gallery {
+      grid-area: 1/1/2/2;
+    }
+
+    .card-product-text {
+      grid-area: 2/1/3/2;
+      margin: 0;
+    }
+
+    .card-product-desc {
+      grid-area: 1/2/3/3;
+      border: none;
+    }
+    .card-product-desc__content {
+      margin: 0px auto 20px 20px;
+    }
+
+    .card-product-desc__content {
+      margin: 0px auto 20px 20px;
+    }
+
+    .info-box {
+      grid-area: 3/1/4/4;
+      display: flex;
+      justify-content: space-between;
+    }
+    .delivery-info {
+      width: 270px;
+    }
+    .card-outcomes {
+      width: 80%;
+    }
+    .info-box__border {
+      display: none;
+    }
+    .payment {
+      width: 198px;
+    }
+
+    .delivery-info {
+      width: 270px;
+    }
+
+    .card-outcomes {
+      width: 80%;
+    }
+
+    .info-box__border {
+      display: none;
+    }
+
+    .payment {
+      width: 198px;
+    }
+
+    .return {
+      width: 188px;
+    }
+
+    /* Футер */
+    .footer-container2__adaptiv-tablet {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .footer-container2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    /* .footer-container2__p {
+    display: flex;
+    align-items: end;
+  } */
+
+    .footer-container2__copyright {
+      padding-right: 0px;
+    }
+
+    .footer-container1 {
+      display: flex;
+      /* justify-content: space-between; */
+      flex-direction: column;
+
+      padding: 40px 0px 29px 0px;
+    }
+
+    .footer-container1__adaptiv-tablet-container1 {
+      display: flex;
+      padding-bottom: 20px;
+      justify-content: space-around;
+    }
+
+    .footer-container1__adaptiv-tablet-container2 {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+  @media screen and (min-width: 375px) and (max-width: 767px) {
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .worktime,
+    .basket,
+    .account,
+    .delivery-ad--screen,
+    .call-box,
+    .header-bottom {
+      display: none;
+    }
+
+    .open,
+    .close {
+      display: block;
+      max-width: 800px;
+    }
+
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+    }
+
+    .fa-remove:before,
+    .fa-close:before,
+    .fa-times:before {
+      content: url(../images/close.svg);
+      width: 14px;
+      height: 14px;
+    }
+
+    .switcher:checked ~ nav {
+      right: 0;
+    }
+
+    .navigation {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      padding: 100px 0;
+      top: 0;
+      right: 100%;
+      text-align: center;
+      background-color: #fff;
+      -webkit-transition: 0.7s;
+      transition: 0.7s;
+      z-index: 1;
+    }
+
+    .navigation__item--mobile {
+      display: block;
+    }
+
+    .navigation__list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      position: absolute;
+      width: 100%;
+    }
+
+    .border-mobile {
+      display: block;
+      width: 100%;
+      height: 1px;
+      margin: 20px 0 20px 0;
+      background-color: #d0d2d7;
+    }
+
+    .navigation__link {
+      padding-top: 20px;
+      padding-left: 15px;
+      font-weight: bold;
+    }
+
+    .contact-box--mobile {
+      display: block;
+      width: 100vw;
+      padding-top: 30px;
+    }
+
+    .contact-box--mobile ul {
+      border: none;
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .contact-box--mobile ul li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 15px;
+    }
+
+    .contact-box--mobile ul li p {
+      -ms-flex-item-align: start;
+      align-self: flex-start;
+      margin-bottom: 15px;
+      font-weight: normal;
+    }
+
+    .call-box__link {
+      text-decoration: none;
+    }
+
+    .call-box__item--link-title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+    .account-link {
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+    }
+
+    .search-form {
+      padding: 0;
+      width: 180px;
+      z-index: 0.9999;
+    }
+
+    .delivery-ad--mobile {
+      display: inline-block;
+      width: 100%;
+      font-size: 12px;
+    }
+
+    .delivery-ad--mobile p {
+      width: 109px;
+      justify-self: flex-start;
+      margin: 0 0 0 15px;
+    }
+    /*   Хиро */
+
+    .hero__maincard {
+      display: none;
+    }
+    .hero__conteiner {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 100%;
+      min-height: 250px;
+      min-width: 345px;
+      margin: 0 auto;
+    }
+    .my-carousel {
+      margin: 0 auto;
+      min-height: 250px;
+      min-width: 345px;
+    }
+    .hero__conteiner .info-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      width: 224px;
+      height: 60px;
+      text-align: left;
+      color: black;
+    }
+    .hero__conteiner .hero__h5 {
+      font-family: "Yeseva One";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+    }
+    .hero__conteiner .hero__p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+    /*  каталог*/
+    .catalog {
+      width: 100vw;
+      align-items: flex-start;
+      padding-left: 20px;
+    }
+    .catalog__header {
+      width: 100%;
+    }
+    .catalog__content {
+      width: 100vw;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .catalog__content::-webkit-scrollbar {
+      display: none;
+    }
+
+    /*   Хиро */
+
+    .hero__maincard {
+      display: none;
+    }
+
+    .hero__conteiner {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 440px;
+      max-width: 767px;
+      margin: 0 auto;
+    }
+
+    /*  каталог*/
+    .catalog {
+      width: 100vw;
+      align-items: flex-start;
+      padding-left: 20px;
+    }
+
+    .catalog__header {
+      min-width: 100%;
+    }
+
+    h3 {
+      font-family: "TT Norms";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .catalog__content {
+      min-width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .catalog__content::-webkit-scrollbar {
+      display: none;
+    }
+
+    .catalog-item {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      margin: 0 10px 0 10px;
+      height: 100%;
+    }
+    height: 100%;
+  }
+
   .catalog-item__gradient {
     position: absolute;
     z-index: 100;
   }
-  
+
   .catalog-item img {
     border-radius: 5px;
   }
-  
+
   .catalog-item__heart {
     width: 36px;
     height: 36px;
@@ -2360,12 +2500,12 @@ h3 {
     background-image: url("../images/Heart3.svg");
     background-repeat: no-repeat;
   }
-  
+
   .catalog-item__heart:hover {
     background-image: url("../images/heart_red.svg");
     background-repeat: no-repeat;
   }
-  
+
   .catalog .carousel-indicators button {
     flex: 0 1 auto;
     width: 8px;
@@ -2381,7 +2521,7 @@ h3 {
     border-top: 0;
     border-bottom: 0;
   }
-  
+
   .catalog-item__icon {
     position: absolute;
     width: 51px;
@@ -2398,7 +2538,7 @@ h3 {
     padding: 5px 10px;
     gap: 10px;
   }
-  
+
   .catalog-item__icon_text {
     width: 29px;
     height: 16px;
@@ -2409,7 +2549,7 @@ h3 {
     line-height: 16px;
     color: #ffffff;
   }
-  
+
   .item__content {
     max-width: 238px;
     height: 74px;
@@ -2418,7 +2558,7 @@ h3 {
     margin-right: 20px;
     margin-bottom: 25px;
   }
-  
+
   .item__title {
     font-family: "TT Norms";
     font-size: 16px;
@@ -2428,7 +2568,7 @@ h3 {
     text-align: left;
     color: #222a46;
   }
-  
+
   .item__description {
     font-family: "TT Norms";
     font-style: normal;
@@ -2437,7 +2577,7 @@ h3 {
     line-height: 20px;
     color: #505567;
   }
-  
+
   .item__footer {
     display: flex;
     flex-direction: row;
@@ -2446,7 +2586,7 @@ h3 {
     padding-bottom: 20px;
     padding-left: 20px;
   }
-  
+
   .item__price_new {
     font-family: "TT Norms";
     font-style: normal;
@@ -2455,7 +2595,7 @@ h3 {
     line-height: 22px;
     color: #222a46;
   }
-  
+
   .item__price_old {
     font-family: "TT Norms";
     font-style: normal;
@@ -2465,7 +2605,7 @@ h3 {
     text-decoration-line: line-through;
     color: #b0b2b9;
   }
-  
+
   .button {
     width: 130px;
     height: 44px;
@@ -2477,7 +2617,7 @@ h3 {
     border-radius: 5px;
     border: none;
   }
-  
+
   .button_text {
     width: 66px;
     height: 20px;
@@ -2488,7 +2628,6 @@ h3 {
     line-height: 20px;
     color: #ffffff;
   }
-  
 
   /*   Категории */
   .category {
@@ -2535,7 +2674,7 @@ h3 {
     justify-content: space-between;
     height: 300px;
   }
-  
+
   .gallery-title {
     margin: 10px 0 30px;
     font-weight: 400;
@@ -2543,7 +2682,7 @@ h3 {
     font-family: "Yeseva One";
     font-size: 40px;
   }
-  
+
   .gallery_item {
     width: 278px;
     height: 300px;
@@ -2559,7 +2698,7 @@ h3 {
     font-family: "Yeseva One";
     font-size: 40px;
   }
-  
+
   .news-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2605,7 +2744,7 @@ h3 {
     text-align: left;
     color: #222a46;
   }
-  
+
   .news-item {
     display: flex;
     flex-direction: column;
@@ -2623,7 +2762,7 @@ h3 {
     width: 100%;
     height: 253.167px;
   }
-  
+
   .news-item img {
     border-radius: 5px;
     margin-bottom: 0;
@@ -2661,12 +2800,18 @@ h3 {
     line-height: 20px;
     color: #7d818e;
   }
-  
+
   /*   карточка */
   .card-product {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+  .card-product-gallery {
+    height: auto;
+  }
+  .card-product--text {
+    order: 1;
   }
 
   .card-product-gallery {
@@ -2680,6 +2825,9 @@ h3 {
   .info-box,
   .payment {
     order: 2;
+  }
+  .return {
+    margin-bottom: 20px;
   }
 
   .return {
