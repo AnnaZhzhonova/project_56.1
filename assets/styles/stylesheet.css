@@ -1206,7 +1206,7 @@ h3 {
 .map__widget {
   overflow: hidden;
 }
-.map-pointer {
+.map-card {
   position: absolute;
   top: 173px;
   left: 547px;
@@ -1905,7 +1905,6 @@ h3 {
   }
 
   /*Галерея*/
-
   .gallery {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2455,6 +2454,24 @@ h3 {
     grid-template-rows: 440px;
     max-width: 767px;
     margin: 0 auto;
+  }
+  .hero__conteiner2 {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .hero__conteiner2::-webkit-scrollbar {
+    display: none;
+  }
+
+  .i1 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin: 0 10px 0 10px;
   }
 
   /*  каталог*/
