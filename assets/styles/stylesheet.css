@@ -224,6 +224,7 @@ img {
   position: relative;
   padding: 0 0 0 21px;
 }
+
 .search-form::after {
   content: url("../images/Search_4.svg");
   position: relative;
@@ -233,6 +234,7 @@ img {
   display: inline-block;
   border: none;
 }
+
 .search-form input {
   border: 1px solid #d0d2d7;
   border-radius: 60px;
@@ -430,6 +432,7 @@ img {
   max-width: 1170px;
   margin: 30px auto;
 }
+
 .hero__conteiner {
   display: grid;
   grid-template-columns: 75% 25%;
@@ -438,6 +441,7 @@ img {
   margin: 0 auto;
   gap: 19px;
 }
+
 .hero__conteiner .hero__hand-right {
   background-repeat: no-repeat;
   background-position: center;
@@ -493,23 +497,27 @@ img {
   text-align: left;
   color: black;
 }
+
 .hero__conteiner .hero__h5 {
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
   font-size: 44px;
 }
+
 .hero__conteiner .hero__p {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
 }
+
 .hero__conteiner .hero__p {
   font-family: "TT Norms";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
 }
+
 .hero__conteiner .hero__btn {
   display: grid;
   grid-template-columns: 75% 25%;
@@ -526,6 +534,7 @@ img {
   align-items: center;
   border: none;
 }
+
 .hero__conteiner .hero__btn_green {
   position: relative;
   background: #0093a2;
@@ -540,12 +549,14 @@ img {
   top: 25%;
   left: 30%;
 }
+
 .hero__conteiner .flowers {
   background-color: #f4e5e2;
   border-radius: 10px;
   max-height: 100%;
   max-width: 100%;
 }
+
 .hero__maincard {
   display: grid;
   grid-template-columns: 1fr;
@@ -553,6 +564,7 @@ img {
   height: 440px;
   max-width: 278px;
 }
+
 .hero__maincard .card__heading {
   font-family: "TT Norms";
   font-style: normal;
@@ -561,6 +573,7 @@ img {
   font-weight: bolder;
   text-align: center;
 }
+
 .hero__maincard .card__titel {
   font-family: "TT Norms";
   font-style: normal;
@@ -574,18 +587,21 @@ img {
   font-weight: 400;
   font-size: 14px;
 }
+
 .hero__maincard .hero__price {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   align-items: end;
 }
+
 .hero__maincard .hero__sale {
   font-family: "TT Norms";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
 }
+
 .hero__maincard .hero__nosale {
   font-family: "TT Norms";
   font-style: normal;
@@ -593,6 +609,7 @@ img {
   font-size: 14px;
   text-decoration: line-through;
 }
+
 .hero__maincard .color {
   background-color: #e2195b;
   border: #e2195b;
@@ -603,10 +620,12 @@ img {
   font-weight: 400;
   font-size: 14px;
 }
+
 .hero__maincard .hero__basket {
   width: 18px;
   height: 18px;
 }
+
 .hero__maincard .hero__hand-right1 {
   background-repeat: no-repeat;
   background-position: center;
@@ -639,6 +658,7 @@ img {
   width: 40px;
   height: 40px;
 }
+
 .hero__maincard .carousel-indicators button {
   box-sizing: content-box;
   -ms-flex: 0 1 auto;
@@ -665,6 +685,7 @@ img {
   height: 90px;
   margin: 30px auto;
 }
+
 .hero__conteiner2 .i1 {
   display: flex;
   flex-direction: row;
@@ -721,6 +742,7 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+
 .catalog_navigation {
   display: flex;
   flex-direction: column;
@@ -784,6 +806,7 @@ h3 {
   background-image: url("../images/heart_red.svg");
   background-repeat: no-repeat;
 }
+
 .catalog .carousel-indicators button {
   flex: 0 1 auto;
   width: 8px;
@@ -816,6 +839,7 @@ h3 {
   padding: 5px 10px;
   gap: 10px;
 }
+
 .catalog-item__icon_text {
   width: 29px;
   height: 16px;
@@ -826,6 +850,7 @@ h3 {
   line-height: 16px;
   color: #ffffff;
 }
+
 .item__content {
   max-width: 238px;
   height: 74px;
@@ -979,6 +1004,7 @@ h3 {
 .category-item__price {
   margin: 10px 0 0 0;
 }
+
 /* галерея */
 .gallery-box {
   display: -webkit-box;
@@ -989,6 +1015,7 @@ h3 {
   justify-content: space-between;
   height: 300px;
 }
+
 .gallery-title {
   margin: 10px 0 30px;
   font-weight: 400;
@@ -996,6 +1023,7 @@ h3 {
   font-family: "Yeseva One";
   font-size: 40px;
 }
+
 .gallery_item {
   width: 278px;
   height: 300px;
@@ -1120,6 +1148,7 @@ h3 {
   height: auto;
   padding-bottom: 70px;
 }
+
 .copyright-content {
   width: 82%;
   height: 100%;
@@ -1127,6 +1156,7 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+
 .container-max {
   max-width: 1440px;
   margin: 0 auto;
@@ -1135,12 +1165,14 @@ h3 {
   background-color: #f2f3f5;
   padding-bottom: 70px;
 }
+
 .container-max::before {
   content: url(../images/text-flowers.svg);
   display: inline-block;
   position: absolute;
   z-index: 0.999;
 }
+
 .container-max::after {
   content: url(../images/text-flowers.svg);
   display: inline-block;
@@ -1150,11 +1182,13 @@ h3 {
   top: 0;
   z-index: 0.999;
 }
+
 .copyright-title {
   text-align: center;
   margin-top: 70px;
   margin-bottom: 30px;
 }
+
 .copyright__text {
   padding: 50px 99px 50px 99px;
   background-color: #fff;
@@ -1162,6 +1196,7 @@ h3 {
   border-radius: 10px;
   z-index: 1;
 }
+
 .copyright__text p {
   font-family: "TT Norms";
   font-style: normal;
@@ -1169,6 +1204,7 @@ h3 {
   line-height: 26px;
   color: #353949;
 }
+
 /* Почему Лавка Роз */
 
 .features__list-item {
@@ -1199,9 +1235,11 @@ h3 {
 .features_pictures {
   display: flex;
 }
+
 .features {
   position: relative;
 }
+
 .features::after {
   content: url(../images/features_foliage.svg);
   display: inline-block;
@@ -1209,17 +1247,32 @@ h3 {
   top: 0;
   right: 0;
 }
+
 .features__container {
   display: flex;
 }
+
 .container--map {
   width: 1140px;
 }
+
 /* Футер */
+.footer-container1__adaptiv-tablet-container1 {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+
+.footer-container1__adaptiv-tablet-container2 {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
 
 .footer-container1 {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  /* justify-content: space-between; */
 
   padding: 40px 0px 29px 0px;
 }
@@ -1237,6 +1290,16 @@ h3 {
   line-height: 20px;
 
   color: #505567;
+  align-items: center;
+}
+
+.footer-container2__adaptiv-tablet {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-container2__copyright {
+  padding-right: 100px;
 }
 
 .footer-container1__1 {
@@ -1357,6 +1420,7 @@ h3 {
 .link-social-icon__link {
   padding: 0px 15px 0px 0px;
 }
+
 /* Карточка товара */
 .breadcrumb-box {
   height: 24px;
@@ -1388,6 +1452,7 @@ h3 {
   grid-area: 1/1/2/1;
   height: 500px;
 }
+
 .card-gallery__list {
   list-style-type: none;
   margin: 10px 0 0 0;
@@ -1395,9 +1460,11 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+
 .card-gallery__item {
   width: 105px;
 }
+
 .card-product-text {
   grid-area: 2/1/3/2;
   display: flex;
@@ -1407,6 +1474,7 @@ h3 {
   height: 132px;
   margin: 25px 0;
 }
+
 .card-product-text p {
   margin: 0;
   padding: 0;
@@ -1471,6 +1539,7 @@ h3 {
   font-family: "TT Norms";
   font-size: 14px;
 }
+
 .card-outcomes__item span {
   font-weight: bold;
 }
@@ -1499,6 +1568,7 @@ h3 {
   grid-area: 1/3/3/4;
   border: 1px #d0d2d7 solid;
 }
+
 .outcome-box {
   height: 48px;
   margin: 20px 0 15px 0;
@@ -1506,6 +1576,7 @@ h3 {
   justify-content: space-between;
   width: 310px;
 }
+
 .outcome-price__discount {
   margin: 0;
   font-family: "TT Norms";
@@ -1514,6 +1585,7 @@ h3 {
   font-size: 20px;
   color: #222a46;
 }
+
 .outcome-price {
   margin: 0;
   font-family: "TT Norms";
@@ -1521,10 +1593,12 @@ h3 {
   text-decoration-line: line-through;
   color: #b0b2b9;
 }
+
 .outcome-box__count {
   position: relative;
   z-index: 0.999;
 }
+
 .outcome-box__input {
   width: 150px;
   height: 48px;
@@ -1537,6 +1611,7 @@ h3 {
   font-weight: bold;
   font-size: 16px;
 }
+
 .outcome-box__change--minus {
   position: absolute;
   z-index: 0.999;
@@ -1550,15 +1625,18 @@ h3 {
   right: 18px;
   top: 12px;
 }
+
 .form-btn {
   display: flex;
   justify-content: space-between;
   width: 310px;
 }
+
 .form-btn__btn {
   width: 150px;
   height: 48px;
 }
+
 .form-btn__btn--bye {
   display: flex;
   flex-direction: row;
@@ -1570,6 +1648,7 @@ h3 {
   background: #e2195b;
   border-radius: 5px;
 }
+
 .form-btn__btn--click {
   margin: 0 0 0 20px;
   display: flex;
@@ -1578,6 +1657,7 @@ h3 {
   border-radius: 5px;
   border: 1px solid #0093a2;
 }
+
 .button_text--click {
   margin: auto;
   width: 100%;
@@ -1588,19 +1668,23 @@ h3 {
   line-height: 20px;
   color: #0093a2;
 }
+
 .composition {
   height: 107px;
   width: 239px;
 }
+
 .composition__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
+
 .composition__item {
   display: flex;
   justify-content: space-between;
 }
+
 .composition__item p {
   margin: 0;
   padding: 0;
@@ -1611,6 +1695,7 @@ h3 {
   line-height: 20px;
   color: #505567;
 }
+
 .info-box__border {
   display: block;
   width: 100%;
@@ -1618,11 +1703,13 @@ h3 {
   margin: 20px 0 20px 0;
   background-color: #d0d2d7;
 }
+
 .delivery-info {
   width: 194px;
   margin-top: 25px;
   margin-left: 20px;
 }
+
 .delivery-info__list {
   margin: 0;
   padding: 0 0 0 15px;
@@ -1635,6 +1722,7 @@ h3 {
   font-size: 16px;
   color: #1b1c21;
 }
+
 .delivery-info__item {
   font-family: "TT Norms";
   font-style: normal;
@@ -1642,9 +1730,11 @@ h3 {
   font-size: 14px;
   color: #505567;
 }
+
 .delivery-info__item span {
   font-weight: bold;
 }
+
 .delivery-info__link {
   font-family: "TT Norms";
   font-style: normal;
@@ -1652,10 +1742,12 @@ h3 {
   font-size: 14px;
   color: #0093a2;
 }
+
 .payment {
   margin-top: 25px;
   margin-left: 20px;
 }
+
 .payment__text {
   margin: 0 0 10px 0;
   font-family: "TT Norms";
@@ -1664,6 +1756,7 @@ h3 {
   line-height: 20px;
   color: #505567;
 }
+
 .payment__list {
   list-style-type: none;
   width: 195px;
@@ -1674,6 +1767,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .payment__item {
   width: 45px;
   height: 30px;
@@ -1684,13 +1778,16 @@ h3 {
   border: 1px solid #e2e4eb;
   border-radius: 5px;
 }
+
 .payment__item img {
   height: 15px;
 }
+
 .return {
   margin-top: 25px;
   margin-left: 20px;
 }
+
 .return__text {
   margin: 0;
   padding: 0;
@@ -1701,6 +1798,7 @@ h3 {
   line-height: 20px;
   color: #505567;
 }
+
 .card-catalog__title {
   font-family: "TT Norms";
   font-style: normal;
@@ -1757,6 +1855,7 @@ h3 {
   .hero__maincard {
     display: none;
   }
+
   .hero__conteiner {
     display: grid;
     grid-template-columns: 100%;
@@ -1764,15 +1863,18 @@ h3 {
     max-width: 1023px;
     margin: 0 auto;
   }
+
   /*  каталог*/
   .catalog {
     width: 100vw;
     align-items: flex-start;
     padding-left: 20px;
   }
+
   .catalog__header {
     width: 100%;
   }
+
   .catalog__content {
     width: 100vw;
     display: flex;
@@ -1784,6 +1886,7 @@ h3 {
   .catalog__content::-webkit-scrollbar {
     display: none;
   }
+
   .catalog-item {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -1794,6 +1897,7 @@ h3 {
   .catalog-menu__list::-webkit-scrollbar {
     display: none;
   }
+
   .catalog-item img {
     border-radius: 5px;
   }
@@ -1825,6 +1929,7 @@ h3 {
     flex: 0 0 auto;
     margin: 0 10px 0 10px;
   }
+
   /*Галерея*/
   .gallery {
     display: -webkit-box;
@@ -1852,40 +1957,8 @@ h3 {
     flex: 0 0 auto;
     margin: 0 10px 0 10px;
   }
+
   .gallery-item:last-child {
-    display: none;
-  }
-  /*новости*/
-  .news {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-
-  .news-box {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .news-box::-webkit-scrollbar {
-    display: none;
-  }
-
-  .news-item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0 10px 0 10px;
-    width: 354px;
-    height: 432px;
-    margin-left: 20px;
-  }
-  .news-item:last-child {
     display: none;
   }
   /* Почему Лавка Роз */
@@ -1928,45 +2001,98 @@ h3 {
     display: flex;
     max-width: 600px;
   }
+
   .card-product {
     display: grid;
     grid-template-columns: 354px 1fr;
     grid-template-rows: 1fr 176px 210px;
     gap: 0;
   }
+
   .card-gallery {
     grid-area: 1/1/2/2;
   }
+
   .card-product-text {
     grid-area: 2/1/3/2;
     margin: 0;
   }
+
   .card-product-desc {
     grid-area: 1/2/3/3;
     border: none;
   }
+
   .card-product-desc__content {
     margin: 0px auto 20px 20px;
   }
+
   .info-box {
     grid-area: 3/1/4/4;
     display: flex;
     justify-content: space-between;
   }
+
   .delivery-info {
     width: 270px;
   }
+
   .card-outcomes {
     width: 80%;
   }
+
   .info-box__border {
     display: none;
   }
+
   .payment {
     width: 198px;
   }
+
   .return {
     width: 188px;
+  }
+
+  /* Футер */
+  .footer-container2__adaptiv-tablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  /* .footer-container2__p {
+    display: flex;
+    align-items: end;
+  } */
+
+  .footer-container2__copyright {
+    padding-right: 0px;
+  }
+
+  .footer-container1 {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+
+    padding: 40px 0px 29px 0px;
+  }
+
+  .footer-container1__adaptiv-tablet-container1 {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-around;
+  }
+
+  .footer-container1__adaptiv-tablet-container2 {
+    display: flex;
+    justify-content: space-around;
   }
 }
 
@@ -1975,6 +2101,7 @@ h3 {
     max-width: 760px;
     margin: 0 auto;
   }
+
   .worktime,
   .basket,
   .account,
@@ -2040,6 +2167,7 @@ h3 {
     position: absolute;
     width: 100%;
   }
+
   .border-mobile {
     display: block;
     width: 100%;
@@ -2047,6 +2175,7 @@ h3 {
     margin: 20px 0 20px 0;
     background-color: #d0d2d7;
   }
+
   .navigation__link {
     padding-top: 20px;
     padding-left: 15px;
@@ -2116,11 +2245,13 @@ h3 {
     justify-self: flex-start;
     margin: 0 0 0 15px;
   }
+
   /*   Хиро */
 
   .hero__maincard {
     display: none;
   }
+
   .hero__conteiner {
     display: grid;
     grid-template-columns: 100%;
@@ -2135,9 +2266,11 @@ h3 {
     align-items: flex-start;
     padding-left: 20px;
   }
+
   .catalog__header {
     width: 100%;
   }
+
   h3 {
     font-family: "TT Norms";
     font-style: normal;
@@ -2145,6 +2278,7 @@ h3 {
     font-size: 20px;
     line-height: 30px;
   }
+
   .catalog__content {
     width: 100vw;
     display: flex;
@@ -2156,12 +2290,14 @@ h3 {
   .catalog__content::-webkit-scrollbar {
     display: none;
   }
+
   .catalog-item {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     height: 100%;
   }
+
   .catalog-item img {
     border-radius: 5px;
   }
@@ -2182,6 +2318,7 @@ h3 {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
   }
+
   .block-title {
     font-family: "TT Norms";
     font-style: normal;
@@ -2200,6 +2337,7 @@ h3 {
     flex: 0 0 auto;
     margin: 0 10px 0 10px;
   }
+
   /*Галерея*/
   .gallery {
     display: -webkit-box;
@@ -2216,6 +2354,7 @@ h3 {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
   }
+
   .gallery-title {
     font-family: "TT Norms";
     font-style: normal;
@@ -2234,85 +2373,38 @@ h3 {
     flex: 0 0 auto;
     margin: 0 10px 0 10px;
   }
-  /*новости*/
-  .news {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-  .news-box {
-    width: 375px;
-    height: 536px;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
-  .news-item {
-    padding: 0px 0px 20px;
-    gap: 20px;
-    width: 320px;
-    height: 406px;
-  }
-  .news-item__title {
-    font-family: "TT Norms";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
-  }
-  .news-item__content {
-    font-family: "TT Norms";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-  }
-  .new-item__footer {
-    font-family: "TT Norms";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-  }
-  .news-box::-webkit-scrollbar {
-    display: none;
-  }
-
-  .news-item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    margin: 0 10px 0 10px;
-  }
-  .news h3{
-    font-family: "TT Norms";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-  }
-  }
   /*   карточка */
   .card-product {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
+
   .card-product-gallery {
     height: auto;
   }
+
   .card-product--text {
     order: 1;
   }
+
   .info-box,
   .payment {
     order: 2;
   }
+
   .return {
     margin-bottom: 20px;
+  }
+
+  /* Футер */
+  /* .footer-container2__adaptiv-tablet {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .footer-container2 {
+    display: flex;
+    flex-direction: column;
   }
 }
