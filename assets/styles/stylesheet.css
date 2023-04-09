@@ -1252,7 +1252,42 @@ h3 {
 .container--map {
   width: 1140px;
 }
-
+/* Карта */
+.container-max--map{
+  position: relative;
+}
+.map__widget{
+  overflow:hidden;
+}
+.map-pointer{
+  position: absolute;
+  top:173px;
+  left: 547px;
+}
+.map-card{
+  position: absolute;
+  top:40px;
+  left: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 30px;
+  width: 300px;
+  height: 213px;
+  background-color: #fff;
+  box-shadow: 0px 4px 15px rgba(34, 42, 70, 0.15);
+border-radius: 10px;
+}
+.map-card__contact{
+  width: 177px;
+  height: 83px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.map-card__contact__img{
+  margin: 0 7px 0 0;
+}
 /* Футер */
 .footer-container1__adaptiv-tablet-container1 {
   display: flex;
