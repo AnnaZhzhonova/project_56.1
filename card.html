@@ -1,1421 +1,1432 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="assets/styles/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.css"
-    />
-    <link rel="stylesheet" href="assets/styles/normalize.css" />
-    <link rel="stylesheet" href="assets/styles/fonts/font.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="assets/styles/stylesheet.css"
-    />
-    <link rel="shortcut icon" href="assets/images/icon.svg" type="image/svg" />
-    <title>Lavka Roz</title>
-  </head>
 
-  <body>
-    <header>
-      <div class="container">
-        <div class="header-content">
-          <div class="header-top">
-            <div class="worktime">
-              <p class="worktime__info">
-                Пн&ndash;Сб&colon; 8&colon;00&ndash;20&colon;00 Вс&colon;
-                9&colon;00&ndash;20&colon;00
-              </p>
-            </div>
-            <input class="switcher" id="menu" type="checkbox" />
-            <label class="open" for="menu">
-              <i class="fa fa-bars"></i>
-            </label>
-            <nav class="navigation">
-              <ul class="navigation__list">
-                <li class="navigation__item">
-                  <a class="link navigation__link" href="#">Доставка</a>
-                </li>
-                <li class="navigation__item">
-                  <a class="link navigation__link" href="#">Оплата</a>
-                </li>
-                <li class="navigation__item">
-                  <a
-                    class="link navigation__link navigation__link--hidden"
-                    href="#"
-                    >Отзывы</a
-                  >
-                </li>
-                <li class="navigation__item">
-                  <a
-                    class="link navigation__link navigation__link--hidden"
-                    href="#"
-                    >Блог</a
-                  >
-                </li>
-                <li class="navigation__item navigation__item--mobile">
-                  <a
-                    class="link navigation__link navigation__link--hidden"
-                    href="#"
-                    >Гарантии</a
-                  >
-                </li>
-                <li class="navigation__item navigation__item--mobile">
-                  <a
-                    class="link navigation__link navigation__link--hidden"
-                    href="#"
-                    >Вопрос и ответ</a
-                  >
-                </li>
-                <li class="navigation__item navigation__item--mobile">
-                  <a
-                    class="link navigation__link navigation__link--hidden"
-                    href="#"
-                    >Корпоративным клиентам</a
-                  >
-                </li>
-                <li class="navigation__item navigation__item--mobile">
-                  <a
-                    class="link navigation__link navigation__link--hidden"
-                    href="#"
-                    >О компании</a
-                  >
-                </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/styles/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/styles/normalize.css" />
+  <link rel="stylesheet" href="assets/styles/fonts/font.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link type="text/css" rel="stylesheet" href="assets/styles/stylesheet.css" />
+  <link rel="shortcut icon" href="assets/images/icon.svg" type="image/svg" />
+  <title>Lavka Roz</title>
+</head>
 
-                <li
-                  class="navigation__item navigation__item--screen nav-item dropdown"
-                >
-                  <a
-                    class="link navigation__link nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Информация</a
-                  >
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <li><a class="dropdown-item" href="#">Гарантии</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Вопрос и ответ</a>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="header-top">
+          <div class="worktime">
+            <p class="worktime__info">
+              Пн&ndash;Сб&colon; 8&colon;00&ndash;20&colon;00 Вс&colon;
+              9&colon;00&ndash;20&colon;00
+            </p>
+          </div>
+          <input class="switcher" id="menu" type="checkbox" />
+          <label class="open" for="menu">
+            <i class="fa fa-bars"></i>
+          </label>
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a class="link navigation__link" href="#">Доставка</a>
+              </li>
+              <li class="navigation__item">
+                <a class="link navigation__link" href="#">Оплата</a>
+              </li>
+              <li class="navigation__item">
+                <a class="link navigation__link navigation__link--hidden" href="#">Отзывы</a>
+              </li>
+              <li class="navigation__item">
+                <a class="link navigation__link navigation__link--hidden" href="#">Блог</a>
+              </li>
+              <li class="navigation__item navigation__item--mobile">
+                <a class="link navigation__link navigation__link--hidden" href="#">Гарантии</a>
+              </li>
+              <li class="navigation__item navigation__item--mobile">
+                <a class="link navigation__link navigation__link--hidden" href="#">Вопрос и ответ</a>
+              </li>
+              <li class="navigation__item navigation__item--mobile">
+                <a class="link navigation__link navigation__link--hidden" href="#">Корпоративным клиентам</a>
+              </li>
+              <li class="navigation__item navigation__item--mobile">
+                <a class="link navigation__link navigation__link--hidden" href="#">О компании</a>
+              </li>
+
+              <li class="navigation__item navigation__item--screen nav-item dropdown">
+                <a class="link navigation__link nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Информация</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Гарантии</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Вопрос и ответ</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Корпоративным клиентам</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">О компании</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="navigation__item">
+                <a class="link navigation__link navigation__link--hidden" href="#">Контакты</a>
+              </li>
+              <li class="navigation__item navigation__item--mobile">
+                <div class="contact-box--mobile">
+                  <ul class="list call-box__list">
+                    <li class="call-box__item">
+                      <a class="call-box__link" href="tel:+79202114903"><img src="assets/images/phone.svg"
+                          alt="phone" />+7
+                        (920) 211-49-03</a>
                     </li>
-                    <li>
-                      <a class="dropdown-item" href="#"
-                        >Корпоративным клиентам</a
-                      >
+                    <li class="call-box__item">
+                      <a class="call-box__link" href="#"><img src="assets/images/map-location.svg" alt="map" />ул.
+                        Революции 1905 года 80</a>
                     </li>
-                    <li>
-                      <a class="dropdown-item" href="#">О компании</a>
+                    <li class="call-box__item">
+                      <a class="call-box__link" href="#"><img src="assets/images/map-location.svg" alt="map" />ул. Вл.
+                        Невского 17</a>
+                    </li>
+                    <li class="call-box__item">
+                      <a class="call-box__link call-box__link--blue" href="mailto:info@lavkaroz.ru"><img
+                          src="assets/images/envelope.svg" alt="mail" />info@lavkaroz.ru</a>
+                    </li>
+                    <li class="call-box__item--link-title">
+                      <p>Напишите нам:</p>
+                      <div class="social-icon">
+                        <a class="link social-icon__link" href="https://www.whatsapp.com/"><img
+                            src="assets/images/whatsapp.svg" alt="whatsapp" /></a>
+                        <a class="link social-icon__link" href="https://telegram.org/"><img
+                            src="assets/images/Telegram.svg" alt="Telegram" /></a>
+                        <a class="link social-icon__link" href="https://vk.com/"><img src="assets/images/Vkontakte.svg"
+                            alt="vk" /></a>
+                        <a class="link social-icon__link" href="hhttps://instagram.com/"><img
+                            src="assets/images/Instagram.svg" alt="inst" /></a>
+                      </div>
                     </li>
                   </ul>
+                </div>
+              </li>
+            </ul>
+            <label class="close" for="menu">
+              <i class="fa fa-times"></i>
+            </label>
+          </nav>
+          <div class="delivery-ad delivery-ad--mobile">
+            <p class="delivety-ad__text">Доставка цветов в Воронеже</p>
+          </div>
+          <div class="account-link">
+            <div class="contact-icon">
+              <a class="link contact-icon__link"><img src="assets/images/vk-header.svg" alt="vk" /></a>
+              <a class="link contact-icon__link"><img src="assets/images/instagram-header.svg" alt="inst" /></a>
+            </div>
+            <div class="account">
+              <img src="assets/images/user.svg" alt="icon" />
+              <a class="link account__link">Мои заказы</a>
+            </div>
+          </div>
+        </div>
+        <div class="header-middle">
+          <div class="logo">
+            <a class="link logo__link"><img src="assets/images/logo.svg" alt="logo" /></a>
+          </div>
+          <div class="delivery-ad--screen">
+            <p class="delivery-ad delivety-ad__text">
+              Доставка цветов в Воронеже
+            </p>
+          </div>
+          <div class="call-box--mobile">
+            <div class="call-box__btn">
+              <a href="tel:+79202114903"><img src="assets/images/phone.svg" alt="phone" /></a>
+            </div>
+          </div>
+          <form class="search-form">
+            <input type="email" class="form-control" id="InputEmail1" placeholder="Поиск по сайту" />
+          </form>
+          <div class="call-box">
+            <div class="call-box__btn">
+              <a href="tel:+79202114903"><img src="assets/images/phone.svg" alt="phone" /></a>
+            </div>
+            <div class="call-box__menu btn-group">
+              <button class="call-box__drop btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                +7 (920) 211-49-03
+              </button>
+              <ul class="call-box__list dropdown-menu">
+                <li class="call-box__item">
+                  <a class="call-box__link dropdown-item" href="tel:+79202114903"><img src="assets/images/phone.svg"
+                      alt="phone" />+7 (920)
+                    211-49-03</a>
                 </li>
-                <li class="navigation__item">
-                  <a
-                    class="link navigation__link navigation__link--hidden"
-                    href="#"
-                    >Контакты</a
-                  >
+                <li class="call-box__item">
+                  <a class="call-box__link dropdown-item" href="#"><img src="assets/images/map-location.svg"
+                      alt="map" />ул.
+                    Революции 1905 года 80</a>
                 </li>
-                <li class="navigation__item navigation__item--mobile">
-                  <div class="contact-box--mobile">
-                    <ul class="list call-box__list">
-                      <li class="call-box__item">
-                        <a class="call-box__link" href="tel:+79202114903"
-                          ><img src="assets/images/phone.svg" alt="phone" />+7
-                          (920) 211-49-03</a
-                        >
-                      </li>
-                      <li class="call-box__item">
-                        <a class="call-box__link" href="#"
-                          ><img
-                            src="assets/images/map-location.svg"
-                            alt="map"
-                          />ул. Революции 1905 года 80</a
-                        >
-                      </li>
-                      <li class="call-box__item">
-                        <a class="call-box__link" href="#"
-                          ><img
-                            src="assets/images/map-location.svg"
-                            alt="map"
-                          />ул. Вл. Невского 17</a
-                        >
-                      </li>
-                      <li class="call-box__item">
-                        <a
-                          class="call-box__link call-box__link--blue"
-                          href="mailto:info@lavkaroz.ru"
-                          ><img
-                            src="assets/images/envelope.svg"
-                            alt="mail"
-                          />info@lavkaroz.ru</a
-                        >
-                      </li>
-                      <li class="call-box__item--link-title">
-                        <p>Напишите нам:</p>
-                        <div class="social-icon">
-                          <a
-                            class="link social-icon__link"
-                            href="https://www.whatsapp.com/"
-                            ><img
-                              src="assets/images/whatsapp.svg"
-                              alt="whatsapp"
-                          /></a>
-                          <a
-                            class="link social-icon__link"
-                            href="https://telegram.org/"
-                            ><img
-                              src="assets/images/Telegram.svg"
-                              alt="Telegram"
-                          /></a>
-                          <a
-                            class="link social-icon__link"
-                            href="https://vk.com/"
-                            ><img src="assets/images/Vkontakte.svg" alt="vk"
-                          /></a>
-                          <a
-                            class="link social-icon__link"
-                            href="hhttps://instagram.com/"
-                            ><img src="assets/images/Instagram.svg" alt="inst"
-                          /></a>
-                        </div>
-                      </li>
-                    </ul>
+                <li class="call-box__item">
+                  <a class="call-box__link dropdown-item" href="#"><img src="assets/images/map-location.svg"
+                      alt="map" />ул.
+                    Вл. Невского 17</a>
+                </li>
+                <li class="call-box__item">
+                  <a class="call-box__link call-box__link--blue dropdown-item" href="mailto:info@lavkaroz.ru"><img
+                      src="assets/images/envelope.svg" alt="mail" />info@lavkaroz.ru</a>
+                </li>
+                <li class="call-box__item--link-title">
+                  <p>Напишите нам:</p>
+                  <div class="social-icon">
+                    <a class="link social-icon__link" href="https://www.whatsapp.com/"><img
+                        src="assets/images/whatsapp.svg" alt="whatsapp" /></a>
+                    <a class="link social-icon__link" href="https://telegram.org/"><img src="assets/images/Telegram.svg"
+                        alt="Telegram" /></a>
+                    <a class="link social-icon__link" href="https://vk.com/"><img src="assets/images/Vkontakte.svg"
+                        alt="vk" /></a>
+                    <a class="link social-icon__link" href="hhttps://instagram.com/"><img
+                        src="assets/images/Instagram.svg" alt="inst" /></a>
                   </div>
                 </li>
               </ul>
-              <label class="close" for="menu">
-                <i class="fa fa-times"></i>
-              </label>
-            </nav>
-            <div class="delivery-ad delivery-ad--mobile">
-              <p class="delivety-ad__text">Доставка цветов в Воронеже</p>
-            </div>
-            <div class="account-link">
-              <div class="contact-icon">
-                <a class="link contact-icon__link"
-                  ><img src="assets/images/vk-header.svg" alt="vk"
-                /></a>
-                <a class="link contact-icon__link"
-                  ><img src="assets/images/instagram-header.svg" alt="inst"
-                /></a>
-              </div>
-              <div class="account">
-                <img src="assets/images/user.svg" alt="icon" />
-                <a class="link account__link">Мои заказы</a>
-              </div>
+              <a class="call-link" href="#">Заказать звонок</a>
             </div>
           </div>
-          <div class="header-middle">
-            <div class="logo">
-              <a class="link logo__link"
-                ><img src="assets/images/logo.svg" alt="logo"
-              /></a>
+          <div class="basket">
+            <div class="basket__pic">
+              <img src="assets/images/heart.svg" alt="liked" />
             </div>
-            <div class="delivery-ad--screen">
-              <p class="delivery-ad delivety-ad__text">
-                Доставка цветов в Воронеже
-              </p>
+            <div class="basket__pic">
+              <a class="basket__link" href="#"><img src="assets/images/basket.svg" alt="basket" /></a>
             </div>
-            <div class="call-box--mobile">
-              <div class="call-box__btn">
-                <a href="tel:+79202114903"
-                  ><img src="assets/images/phone.svg" alt="phone"
-                /></a>
-              </div>
+            <div class="basket__price">
+              <p>0.0 ₽</p>
             </div>
-            <form class="search-form">
-              <input
-                type="email"
-                class="form-control"
-                id="InputEmail1"
-                placeholder="Поиск по сайту"
-              />
-            </form>
-            <div class="call-box">
-              <div class="call-box__btn">
-                <a href="tel:+79202114903"
-                  ><img src="assets/images/phone.svg" alt="phone"
-                /></a>
-              </div>
-              <div class="call-box__menu btn-group">
-                <button
-                  class="call-box__drop btn btn-lg dropdown-toggle"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  +7 (920) 211-49-03
-                </button>
-                <ul class="call-box__list dropdown-menu">
-                  <li class="call-box__item">
-                    <a
-                      class="call-box__link dropdown-item"
-                      href="tel:+79202114903"
-                      ><img src="assets/images/phone.svg" alt="phone" />+7 (920)
-                      211-49-03</a
-                    >
-                  </li>
-                  <li class="call-box__item">
-                    <a class="call-box__link dropdown-item" href="#"
-                      ><img src="assets/images/map-location.svg" alt="map" />ул.
-                      Революции 1905 года 80</a
-                    >
-                  </li>
-                  <li class="call-box__item">
-                    <a class="call-box__link dropdown-item" href="#"
-                      ><img src="assets/images/map-location.svg" alt="map" />ул.
-                      Вл. Невского 17</a
-                    >
-                  </li>
-                  <li class="call-box__item">
-                    <a
-                      class="call-box__link call-box__link--blue dropdown-item"
-                      href="mailto:info@lavkaroz.ru"
-                      ><img
-                        src="assets/images/envelope.svg"
-                        alt="mail"
-                      />info@lavkaroz.ru</a
-                    >
-                  </li>
-                  <li class="call-box__item--link-title">
-                    <p>Напишите нам:</p>
-                    <div class="social-icon">
-                      <a
-                        class="link social-icon__link"
-                        href="https://www.whatsapp.com/"
-                        ><img src="assets/images/whatsapp.svg" alt="whatsapp"
-                      /></a>
-                      <a
-                        class="link social-icon__link"
-                        href="https://telegram.org/"
-                        ><img src="assets/images/Telegram.svg" alt="Telegram"
-                      /></a>
-                      <a class="link social-icon__link" href="https://vk.com/"
-                        ><img src="assets/images/Vkontakte.svg" alt="vk"
-                      /></a>
-                      <a
-                        class="link social-icon__link"
-                        href="hhttps://instagram.com/"
-                        ><img src="assets/images/Instagram.svg" alt="inst"
-                      /></a>
-                    </div>
-                  </li>
-                </ul>
-                <a class="call-link" href="#">Заказать звонок</a>
-              </div>
-            </div>
-            <div class="basket">
-              <div class="basket__pic">
-                <img src="assets/images/heart.svg" alt="liked" />
-              </div>
-              <div class="basket__pic">
-                <a class="basket__link" href="#"
-                  ><img src="assets/images/basket.svg" alt="basket"
-                /></a>
-              </div>
-              <div class="basket__price">
-                <p>0.0 ₽</p>
-              </div>
-            </div>
-          </div>
-          <div class="header-bottom">
-            <nav class="catalog-menu nav">
-              <ul class="catalog-menu__list nav nav-pills">
-                <li class="catalog-menu__item nav-item">
-                  <a
-                    class="catalog-menu__link--pink nav-link"
-                    aria-current="page"
-                    href="#"
-                    >Акции</a
-                  >
-                </li>
-                <li class="catalog-menu__item nav-item dropdown">
-                  <a
-                    class="catalog-menu__link nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                    role="button"
-                    aria-expanded="false"
-                    >Цветы поштучно</a
-                  >
-                </li>
-                <li class="catalog-menu__item nav-item dropdown">
-                  <a
-                    class="catalog-menu__link nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                    role="button"
-                    aria-expanded="false"
-                    >Розы</a
-                  >
-                  <ul class="catalog-menu__list--drop dropdown-menu">
-                    <li>
-                      <a class="catalog-menu__link--drop dropdown-item" href="#"
-                        >Голландские розы</a
-                      >
-                    </li>
-                    <li>
-                      <a class="catalog-menu__link--drop dropdown-item" href="#"
-                        >Местная роза</a
-                      >
-                    </li>
-                    <li>
-                      <a class="catalog-menu__link--drop dropdown-item" href="#"
-                        >Кустовидные розы</a
-                      >
-                    </li>
-                    <li>
-                      <a class="catalog-menu__link--drop dropdown-item" href="#"
-                        >Пионовидные розы</a
-                      >
-                    </li>
-                    <li>
-                      <a class="catalog-menu__link--drop dropdown-item" href="#"
-                        >Букет из 101 розы</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="catalog-menu__item nav-item dropdown">
-                  <a
-                    class="catalog-menu__link nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                    role="button"
-                    aria-expanded="false"
-                    >Букеты</a
-                  >
-                </li>
-                <li class="catalog-menu__item nav-item dropdown">
-                  <a
-                    class="catalog-menu__link nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                    role="button"
-                    aria-expanded="false"
-                    >Композиции</a
-                  >
-                </li>
-                <li class="catalog-menu__item nav-item dropdown">
-                  <a
-                    class="catalog-menu__link nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                    role="button"
-                    aria-expanded="false"
-                    >Подарки</a
-                  >
-                </li>
-                <li class="catalog-menu__item nav-item dropdown">
-                  <a
-                    class="catalog-menu__link nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                    role="button"
-                    aria-expanded="false"
-                    >Шары</a
-                  >
-                </li>
-
-                <li class="catalog-menu__item nav-item">
-                  <a
-                    class="catalog-menu__link nav-link"
-                    aria-current="page"
-                    href="#"
-                    >Свадебные букеты</a
-                  >
-                </li>
-                <li class="catalog-menu__item nav-item">
-                  <a
-                    class="catalog-menu__link nav-link"
-                    aria-current="page"
-                    href="#"
-                    >Повод</a
-                  >
-                </li>
-              </ul>
-            </nav>
           </div>
         </div>
+        <div class="header-bottom">
+          <nav class="catalog-menu nav">
+            <ul class="catalog-menu__list nav nav-pills">
+              <li class="catalog-menu__item nav-item">
+                <a class="catalog-menu__link--pink nav-link" aria-current="page" href="#">Акции</a>
+              </li>
+              <li class="catalog-menu__item nav-item dropdown">
+                <a class="catalog-menu__link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Цветы поштучно</a>
+              </li>
+              <li class="catalog-menu__item nav-item dropdown">
+                <a class="catalog-menu__link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Розы</a>
+                <ul class="catalog-menu__list--drop dropdown-menu">
+                  <li>
+                    <a class="catalog-menu__link--drop dropdown-item" href="#">Голландские розы</a>
+                  </li>
+                  <li>
+                    <a class="catalog-menu__link--drop dropdown-item" href="#">Местная роза</a>
+                  </li>
+                  <li>
+                    <a class="catalog-menu__link--drop dropdown-item" href="#">Кустовидные розы</a>
+                  </li>
+                  <li>
+                    <a class="catalog-menu__link--drop dropdown-item" href="#">Пионовидные розы</a>
+                  </li>
+                  <li>
+                    <a class="catalog-menu__link--drop dropdown-item" href="#">Букет из 101 розы</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="catalog-menu__item nav-item dropdown">
+                <a class="catalog-menu__link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Букеты</a>
+              </li>
+              <li class="catalog-menu__item nav-item dropdown">
+                <a class="catalog-menu__link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Композиции</a>
+              </li>
+              <li class="catalog-menu__item nav-item dropdown">
+                <a class="catalog-menu__link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Подарки</a>
+              </li>
+              <li class="catalog-menu__item nav-item dropdown">
+                <a class="catalog-menu__link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Шары</a>
+              </li>
+
+              <li class="catalog-menu__item nav-item">
+                <a class="catalog-menu__link nav-link" aria-current="page" href="#">Свадебные букеты</a>
+              </li>
+              <li class="catalog-menu__item nav-item">
+                <a class="catalog-menu__link nav-link" aria-current="page" href="#">Повод</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </header>
-    <main>
-      <section class="product">
-        <div class="container">
-          <div
-            class="breadcrumb-box"
-            style="--bs-breadcrumb-divider: '>'"
-            aria-label="breadcrumb"
-          >
-            <ol class="breadcrumb">
-              <li class="breadcrumb-box__item breadcrumb-item">
-                <a class="breadcrumb-box__link" href="index.html">Главная</a>
-              </li>
-              <li
-                class="breadcrumb-box__item breadcrumb-item active"
-                aria-current="page"
-              >
-                Букеты из роз
-              </li>
-              <li
-                class="breadcrumb-box__item breadcrumb-item active"
-                aria-current="page"
-              >
-                Букеты из роз
-              </li>
-            </ol>
+    </div>
+  </header>
+  <main>
+    <section class="product">
+      <div class="container">
+        <div class="breadcrumb-box" style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-box__item breadcrumb-item">
+              <a class="breadcrumb-box__link" href="index.html">Главная</a>
+            </li>
+            <li class="breadcrumb-box__item breadcrumb-item active" aria-current="page">
+              Букеты из роз
+            </li>
+            <li class="breadcrumb-box__item breadcrumb-item active" aria-current="page">
+              Букеты из роз
+            </li>
+          </ol>
+        </div>
+
+        <div class="card-product">
+
+          <div class="card-gallery">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/images/card-1.svg" class="d-block w-100" alt="pic" />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/card-2.svg" class="d-block w-100" alt="pic" />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/card-3.svg" class="d-block w-100" alt="pic" />
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/card-4.svg" class="d-block w-100" alt="pic" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+              </button>
+            </div>
+            <ul class="card-gallery__list">
+              <li class="card-gallery__item"><img src="assets/images/card-1.svg" class="d-block w-100" alt="pic" /></li>
+              <li class="card-gallery__item"><img src="assets/images/card-2.svg" class="d-block w-100" alt="pic" /></li>
+              <li class="card-gallery__item"><img src="assets/images/card-3.svg" class="d-block w-100" alt="pic" /></li>
+              <li class="card-gallery__item"><img src="assets/images/card-4.svg" class="d-block w-100" alt="pic" /></li>
+            </ul>
           </div>
 
-          <div class="card-product">
+          <div class="card-product-text">
+            <p>
+              Сто одна красная роза – безупречный выбор для тех, кто хочет
+              показать свою любовь и преданность, поразить свою избранницу и
+              вызвать настоящий восторг.
+            </p>
+            <p>
+              Цвет и размеры бутонов могут отличаться представленных на фото,
+              цветы являются природным материалом.
+            </p>
+          </div>
 
-            <div class="card-gallery">
-              <div
-                id="carouselExampleIndicators"
-                class="carousel slide"
-                data-bs-ride="carousel"
-              >
+          <div class="card-desc">
+            <div class="card-desc__content">
+              <h4 class="card-desc__title">Букет малиновых роз</h4>
+              <p class="card-desc__rewiews">
+                4.0 &lpar;<a class="card-desc__link" href="#" target="_blank">15 отзывов</a>&rpar;
+              </p>
+              <div class="card-outcomes">
+                <ul class="card-outcomes__list">
+                  <li class="card-outcomes__item">
+                    Высота:&nbsp;<span>50см</span>
+                  </li>
+                  <li class="card-outcomes__item">
+                    Ширина:&nbsp;<span>35см</span>
+                  </li>
+                  <li class="card-outcomes__item">
+                    Размер:&nbsp;<span>Standart</span>
+                  </li>
+                  <li class="card-outcomes__item">
+                    Цвет:&nbsp;<span>Красный</span>
+                  </li>
+                </ul>
+              </div>
+              <form class="form-choise--height">
+                <h5 class="form-choise__title">Длина</h5>
+                <input type="radio" class="btn-check" name="options-height" id="option1" autocomplete="off" checked />
+                <label class="form-choise__btn btn btn-secondary" for="option1">40 см</label>
+
+                <input type="radio" class="btn-check" name="options-height" id="option2" autocomplete="off" />
+                <label class="form-choise__btn btn btn-secondary" for="option2">50 см</label>
+
+                <input type="radio" class="btn-check" name="options-height" id="option3" autocomplete="off" />
+                <label class="form-choise__btn btn btn-secondary" for="option3">60 см</label>
+
+                <input type="radio" class="btn-check" name="options-height" id="option4" autocomplete="off" />
+                <label class="form-choise__btn btn btn-secondary" for="option4">70 см</label>
+              </form>
+              <form class="form-choise--cover">
+                <h5 class="form-choise__title">Упаковка</h5>
+                <input type="radio" class="btn-check" name="option-check" id="option5" autocomplete="off" checked />
+                <label class="form-choise__btn btn btn-secondary" for="option5">Ленточка</label>
+                <input type="radio" class="btn-check" name="option-check" id="option6" autocomplete="off" checked />
+                <label class="form-choise__btn btn btn-secondary" for="option6">Крафт&nbsp;&lpar;+290₽&rpar;</label>
+                <input type="radio" class="btn-check" name="option-check" id="option7" autocomplete="off" checked />
+                <label class="form-choise__btn btn btn-secondary" for="option7">Корейская&nbsp;&lpar;+390₽&rpar;</label>
+                <input type="radio" class="btn-check" name="option-check" id="option8" autocomplete="off" checked />
+                <label class="form-choise__btn btn btn-secondary" for="option8">Премиум&nbsp;&lpar;+490₽&rpar;</label>
+                <input type="radio" class="btn-check" name="option-check" id="option9" autocomplete="off" checked />
+                <label class="form-choise__btn btn btn-secondary" for="option9">Корзинка&nbsp;&lpar;+1000₽&rpar;</label>
+              </form>
+              <form class="form-choise--grass">
+                <h5 class="form-choise__title">Зелень</h5>
+                <input type="radio" class="btn-check" name="options-grass" id="option10" autocomplete="off" checked />
+                <label class="form-choise__btn form__btn btn btn-secondary" for="option10">Нет</label>
+                <input type="radio" class="btn-check" name="options-grass" id="option11" autocomplete="off" checked />
+                <label class="form-choise__btn form__btn btn btn-secondary"
+                  for="option11">Немного&nbsp;&lpar;+150₽&rpar;</label>
+                <input type="radio" class="btn-check" name="options-grass" id="option12" autocomplete="off" checked />
+                <label class="form-choise__btn btn btn-secondary" for="option12">Побольше&nbsp;&lpar;+300₽&rpar;</label>
+              </form>
+              <form class="outcome-box">
+                <div class="outcome-box__price">
+                  <p class="outcome-price__discount">13 499 ₽</p>
+                  <p class="outcome-price">13 499 ₽</p>
+                </div>
+                <div class="outcome-box__count">
+                  <span class="outcome-box__change--minus min">
+                    <span>-</span>
+                  </span>
+                  <input class="outcome-box__input" type="text" name="productСount" value="1" disabled="" />
+                  <span class="outcome-box__change--plus">
+                    <span>+</span>
+                  </span>
+                </div>
+              </form>
+              <form class="form-btn">
+                <button class="form-btn__btn form-btn__btn--bye">
+                  <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                  <div class="button_text">Купить</div>
+                </button>
+
+                <button class="form-btn__btn form-btn__btn--click item__button--click">
+                  <div class="button_text button_text--click">Купить в 1 клик</div>
+                </button>
+
+              </form>
+              <div class="composition">
+                <h5 class="form-choise__title">Состав:</h5>
+                <ul class="composition__list">
+                  <li class="composition__item">
+                    <p>Роза пионовидная вайлд лук</p>
+                    <p>-7шт</p>
+                  </li>
+                  <li class="composition__item">
+                    <p>Роза кустовая пионовидная</p>
+                    <p>-3шт</p>
+                  </li>
+                  <li class="composition__item">
+                    <p>Озотамнус</p>
+                    <p>-2 шт</p>
+                  </li>
+                  <li class="composition__item">
+                    <p>Эвкалипт</p>
+                    <p>-6 шт</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <div class="delivery-info">
+              <h4 class="info-box__title">
+                Доставка в ваш город от 290 ₽.
+              </h4>
+              <ul class="delivery-info__list">
+                <li class="delivery-info__item">
+                  В дневное время с 9:00 до 21:00 - <span>299₽</span>.
+                </li>
+                <li class="delivery-info__item">
+                  В ночное время с 21:00 до 9:00 - <span>350₽</span>.
+                </li>
+                <li class="delivery-info__item">
+                  При заказе от <span>4000₽</span> - доставка бесплатно.
+                </li>
+                <li class="delivery-info__item">
+                  Доставка к точному времени - <span>700₽</span>.
+                </li>
+              </ul>
+              <a class="delivery-info__link" href="#" target="_blank">Подробнее о доставке</a>
+            </div>
+            <span class="info-box__border"></span>
+            <div class="payment">
+              <h4 class="info-box__title">Способы оплаты</h4>
+              <p class="payment__text">
+                Вы можете оплатить наличными или картой:
+              </p>
+              <ul class="payment__list">
+                <li class="payment__item">
+                  <img src="assets/images/Wallet.svg" alt="pay type" />
+                </li>
+                <li class="payment__item">
+                  <img src="assets/images/VISA.svg" alt="pay type" />
+                </li>
+                <li class="payment__item">
+                  <img src="assets/images/mastercard.svg" alt="pay type" />
+                </li>
+                <li class="payment__item">
+                  <img src="assets/images/maestro.svg" alt="pay type" />
+                </li>
+                <li class="payment__item">
+                  <img src="assets/images/MIR.svg" alt="pay type" />
+                </li>
+                <li class="payment__item">
+                  <img src="assets/images/Sber.svg" alt="pay type" />
+                </li>
+                <li class="payment__item">
+                  <img src="assets/images/YMoney.svg" alt="pay type" />
+                </li>
+                <li class="payment__item">
+                  <img src="assets/images/paypall.svg" alt="pay type" />
+                </li>
+              </ul>
+            </div>
+            <span class="info-box__border"></span>
+            <div class="return">
+              <h4 class="info-box__title">Возврат товара</h4>
+              <p class="return__text">
+                Если получателя не устроит качество цветов или работа
+                флориста – напишите нам, в течение 24 часов! Мы решим данную
+                проблему.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+    <section class="catalog">
+      <div class="container">
+        <div class="catalog-box">
+          <div class="catalog__header">
+            <h3 class="catalog__title">Рекомендуемые товары</h3>
+            <div class="catalog__navigation"><a class="catalog__navigation-link" href="#"><img
+                  src="./assets/images/Arrow_right_4.svg" alt="other cards"></a></div>
+          </div>
+          <div class="catalog__content">
+            <div class="catalog-item">
+              <div class="catalog-item__gradient"><img src="./assets/images/gradient.png" alt="gradient"></div>
+              <div class="catalog-item__heart">
+              </div>
+              <div class="catalog-item__icon">
+                <div class="catalog-item__icon_text"> -35%</div>
+              </div>
+              <div id="carouselIndicators_1" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
+                  <button type="button" data-bs-target="#carouselIndicators_1" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_1" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_1" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img
-                      src="assets/images/card-1.svg"
-                      class="d-block w-100"
-                      alt="pic"
-                    />
+                    <img src="./assets/images/catalog_1_1_1.svg" class="d-block w-100" alt="flowers">
                   </div>
                   <div class="carousel-item">
-                    <img
-                      src="assets/images/card-2.svg"
-                      class="d-block w-100"
-                      alt="pic"
-                    />
+                    <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flowers">
                   </div>
                   <div class="carousel-item">
-                    <img
-                      src="assets/images/card-3.svg"
-                      class="d-block w-100"
-                      alt="pic"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="assets/images/card-4.svg"
-                      class="d-block w-100"
-                      alt="pic"
-                    />
+                    <img src="./assets/images/catalog_1_1_3.svg" class="d-block w-100" alt="flowers">
                   </div>
                 </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_1"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon d-none d-none" aria-hidden="true"></span>
                   <span class="visually-hidden">Предыдущий</span>
                 </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_1"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon d-none d-none" aria-hidden="true"></span>
                   <span class="visually-hidden">Следующий</span>
                 </button>
               </div>
-              <ul class="card-gallery__list">
-                <li class="card-gallery__item"><img
-                  src="assets/images/card-1.svg"
-                  class="d-block w-100"
-                  alt="pic"
-                /></li>
-                <li class="card-gallery__item"><img
-                  src="assets/images/card-2.svg"
-                  class="d-block w-100"
-                  alt="pic"
-                /></li>
-                <li class="card-gallery__item"><img
-                  src="assets/images/card-3.svg"
-                  class="d-block w-100"
-                  alt="pic"
-                /></li>
-                <li class="card-gallery__item"><img
-                  src="assets/images/card-4.svg"
-                  class="d-block w-100"
-                  alt="pic"
-                /></li>
-              </ul>
-            </div>
-
-            <div class="card-product-text">
-              <p>
-                Сто одна красная роза – безупречный выбор для тех, кто хочет
-                показать свою любовь и преданность, поразить свою избранницу и
-                вызвать настоящий восторг.
-              </p>
-              <p>
-                Цвет и размеры бутонов могут отличаться представленных на фото,
-                цветы являются природным материалом.
-              </p>
-            </div>
-
-            <div class="card-desc">
-              <div class="card-desc__content">
-                <h4 class="card-desc__title">Букет малиновых роз</h4>
-                <p class="card-desc__rewiews">
-                  4.0 &lpar;<a class="card-desc__link" href="#" target="_blank"
-                    >15 отзывов</a
-                  >&rpar;
-                </p>
-                <div class="card-outcomes">
-                  <ul class="card-outcomes__list">
-                    <li class="card-outcomes__item">
-                      Высота:&nbsp;<span>50см</span>
-                    </li>
-                    <li class="card-outcomes__item">
-                      Ширина:&nbsp;<span>35см</span>
-                    </li>
-                    <li class="card-outcomes__item">
-                      Размер:&nbsp;<span>Standart</span>
-                    </li>
-                    <li class="card-outcomes__item">
-                      Цвет:&nbsp;<span>Красный</span>
-                    </li>
-                  </ul>
-                </div>
-                <form class="form-choise--height">
-                  <h5 class="form-choise__title">Длина</h5>
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="options-height"
-                    id="option1"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label
-                    class="form-choise__btn btn btn-secondary"
-                    for="option1"
-                    >40 см</label
-                  >
-
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="options-height"
-                    id="option2"
-                    autocomplete="off"
-                  />
-                  <label
-                    class="form-choise__btn btn btn-secondary"
-                    for="option2"
-                    >50 см</label
-                  >
-
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="options-height"
-                    id="option3"
-                    autocomplete="off"
-                  />
-                  <label
-                    class="form-choise__btn btn btn-secondary"
-                    for="option3"
-                    >60 см</label
-                  >
-
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="options-height"
-                    id="option4"
-                    autocomplete="off"
-                  />
-                  <label
-                    class="form-choise__btn btn btn-secondary"
-                    for="option4"
-                    >70 см</label
-                  >
-                </form>
-                <form class="form-choise--cover">
-                  <h5 class="form-choise__title">Упаковка</h5>
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="option-check"
-                    id="option5"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label
-                    class="form-choise__btn btn btn-secondary"
-                    for="option5"
-                    >Ленточка</label
-                  >
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="option-check"
-                    id="option6"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label
-                    class="form-choise__btn btn btn-secondary"
-                    for="option6"
-                    >Крафт&nbsp;&lpar;+290₽&rpar;</label
-                  >
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="option-check"
-                    id="option7"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label
-                    class="form-choise__btn btn btn-secondary"
-                    for="option7"
-                    >Корейская&nbsp;&lpar;+390₽&rpar;</label
-                  >
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="option-check"
-                    id="option8"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label
-                    class="form-choise__btn btn btn-secondary"
-                    for="option8"
-                    >Премиум&nbsp;&lpar;+490₽&rpar;</label
-                  >
-                  <input
-                  type="radio"
-                  class="btn-check"
-                  name="option-check"
-                  id="option9"
-                  autocomplete="off"
-                  checked
-                />
-                <label
-                  class="form-choise__btn btn btn-secondary"
-                  for="option9"
-                  >Корзинка&nbsp;&lpar;+1000₽&rpar;</label
-                >
-                </form>
-                <form class="form-choise--grass">
-                  <h5 class="form-choise__title">Зелень</h5>
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="options-grass"
-                    id="option10"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label
-                    class="form-choise__btn form__btn btn btn-secondary"
-                    for="option10"
-                    >Нет</label
-                  >
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="options-grass"
-                    id="option11"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label
-                    class="form-choise__btn form__btn btn btn-secondary"
-                    for="option11"
-                    >Немного&nbsp;&lpar;+150₽&rpar;</label
-                  >
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="options-grass"
-                    id="option12"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label
-                    class="form-choise__btn btn btn-secondary"
-                    for="option12"
-                    >Побольше&nbsp;&lpar;+300₽&rpar;</label
-                  >
-                </form>
-                <form class="outcome-box">
-                  <div class="outcome-box__price">
-                    <p class="outcome-price__discount">13 499 ₽</p>
-                    <p class="outcome-price">13 499 ₽</p>
+              <div class="item__content">
+                <h5 class="item__title">Букет 25 роз Нежный микс</h5>
+                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+              </div>
+              <div class="item__footer">
+                <div class="item__price">
+                  <div class="item__price_new">
+                    <span class="item__price-value">13 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
                   </div>
-                  <div class="outcome-box__count">
-                    <span class="outcome-box__change--minus min">
-                      <span>-</span>
-                    </span>
-                    <input
-                      class="outcome-box__input"
-                      type="text"
-                      name="productСount"
-                      value="1"
-                      disabled=""
-                    />
-                    <span class="outcome-box__change--plus">
-                      <span>+</span>
-                    </span>
+                  <div class="item__price_old">
+                    <span class="item__price-value">15 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
                   </div>
-                </form>
-                <form class="form-btn">
-                  <button class="form-btn__btn form-btn__btn--bye">
-                    <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
-                    <div class="button_text">Купить</div>
-                  </button>
-
-                  <button class="form-btn__btn form-btn__btn--click item__button--click">
-                    <div class="button_text button_text--click">Купить в 1 клик</div>
-                  </button>
-
-                </form>
-                <div class="composition">
-                  <h5 class="form-choise__title">Состав:</h5>
-                  <ul class="composition__list">
-                    <li class="composition__item">
-                      <p>Роза пионовидная вайлд лук</p>
-                      <p>-7шт</p>
-                    </li>
-                    <li class="composition__item">
-                      <p>Роза кустовая пионовидная</p>
-                      <p>-3шт</p>
-                    </li>
-                    <li class="composition__item">
-                      <p>Озотамнус</p>
-                      <p>-2 шт</p>
-                    </li>
-                    <li class="composition__item">
-                      <p>Эвкалипт</p>
-                      <p>-6 шт</p>
-                    </li>
-                  </ul>
                 </div>
+                <a class="button item__button">
+                  <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                  <div class="button_text">В корзину</div>
+                </a>
               </div>
             </div>
-
-              <div class="info-box">
-                <div class="delivery-info">
-                  <h4 class="info-box__title">
-                    Доставка в ваш город от 290 ₽.
-                  </h4>
-                  <ul class="delivery-info__list">
-                    <li class="delivery-info__item">
-                      В дневное время с 9:00 до 21:00 - <span>299₽</span>.
-                    </li>
-                    <li class="delivery-info__item">
-                      В ночное время с 21:00 до 9:00 - <span>350₽</span>.
-                    </li>
-                    <li class="delivery-info__item">
-                      При заказе от <span>4000₽</span> - доставка бесплатно.
-                    </li>
-                    <li class="delivery-info__item">
-                      Доставка к точному времени - <span>700₽</span>.
-                    </li>
-                  </ul>
-                  <a class="delivery-info__link" href="#" target="_blank">Подробнее о доставке</a>
+            <div class="catalog-item">
+              <div class="catalog-item__gradient"><img src="./assets/images/gradient.png" alt="gradient"></div>
+              <div class="catalog-item__heart">
+              </div>
+              <div class="catalog-item__icon">
+                <div class="catalog-item__icon_text"> -35%</div>
+              </div>
+              <div id="carouselIndicators_2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselIndicators_2" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_2" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_2" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
                 </div>
-                <span class="info-box__border"></span>
-                <div class="payment">
-                  <h4 class="info-box__title">Способы оплаты</h4>
-                  <p class="payment__text">
-                    Вы можете оплатить наличными или картой:
-                  </p>
-                  <ul class="payment__list">
-                    <li class="payment__item">
-                      <img src="assets/images/Wallet.svg" alt="pay type" />
-                    </li>
-                    <li class="payment__item">
-                      <img src="assets/images/VISA.svg" alt="pay type" />
-                    </li>
-                    <li class="payment__item">
-                      <img src="assets/images/mastercard.svg" alt="pay type" />
-                    </li>
-                    <li class="payment__item">
-                      <img src="assets/images/maestro.svg" alt="pay type" />
-                    </li>
-                    <li class="payment__item">
-                      <img src="assets/images/MIR.svg" alt="pay type" />
-                    </li>
-                    <li class="payment__item">
-                      <img src="assets/images/Sber.svg" alt="pay type" />
-                    </li>
-                    <li class="payment__item">
-                      <img src="assets/images/YMoney.svg" alt="pay type" />
-                    </li>
-                    <li class="payment__item">
-                      <img src="assets/images/paypall.svg" alt="pay type" />
-                    </li>
-                  </ul>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/catalog_1_1_3.svg" class="d-block w-100" alt="flower">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flower">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_5.svg" class="d-block w-100" alt="flower">
+                  </div>
                 </div>
-                <span class="info-box__border"></span>
-                <div class="return">
-                  <h4 class="info-box__title">Возврат товара</h4>
-                  <p class="return__text">
-                    Если получателя не устроит качество цветов или работа
-                    флориста – напишите нам, в течение 24 часов! Мы решим данную
-                    проблему.
-                  </p>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_2"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_2"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+              <div class="item__content">
+                <h5 class="item__title">Букет роз Ред наоми 60 см</h5>
+                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+              </div>
+              <div class="item__footer">
+                <div class="item__price">
+                  <div class="item__price_new">
+                    <span class="item__price-value">13 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
+                  </div>
+                  <div class="item__price_old">
+                    <span class="item__price-value">15 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
+                  </div>
                 </div>
+                <a class="button item__button">
+                  <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                  <div class="button_text">В корзину</div>
+                </a>
               </div>
             </div>
-
+            <div class="catalog-item">
+              <div class=catalog-item__gradient><img src="./assets/images/gradient.png"></div>
+              <div class="catalog-item__heart">
+              </div>
+              <div id="carouselIndicators_3" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselIndicators_3" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_3" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_3" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flower">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_5.svg" class="d-block w-100" alt="flower">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_1.svg" class="d-block w-100" alt="flower">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_3"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_3"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+              <div class="item__content">
+                <h5 class="item__title">Букет 5 пионовидных роз Мисти баблс</h5>
+                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+              </div>
+              <div class="item__footer">
+                <div class="item__price">
+                  <div class="item__price_new">
+                    <span class="item__price-value">13 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
+                  </div>
+                  <div class="item__price_old">
+                    <span class="item__price-value">15 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
+                  </div>
+                </div>
+                <a class="button item__button">
+                  <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                  <div class="button_text">В корзину</div>
+                </a>
+              </div>
+            </div>
+            <div class="catalog-item">
+              <div class=catalog-item__gradient><img src="./assets/images/gradient.png"></div>
+              <div class="catalog-item__heart">
+              </div>
+              <div id="carouselIndicators_4" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselIndicators_4" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_4" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_4" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/catalog_1_1_5.svg" class="d-block w-100" alt="flower">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_1.svg" class="d-block w-100" alt="flower">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flower">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_4"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_4"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+              <div class="item__content">
+                <h5 class="item__title">Букет роз микс 40 см</h5>
+                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+              </div>
+              <div class="item__footer">
+                <div class="item__price">
+                  <div class="item__price_new">
+                    <span class="item__price-value">13 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
+                  </div>
+                  <div class="item__price_old">
+                    <span class="item__price-value">15 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
+                  </div>
+                </div>
+                <a class="button item__button">
+                  <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                  <div class="button_text">В корзину</div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-      <section class="catalog">
-        <div class="container">
-          <div class="catalog-box">
-            <div class="catalog__header">
-              <h3 class="catalog__title">Рекомендуемые товары</h3>
-              <div class="catalog__navigation"><a class="catalog__navigation-link" href="#"><img
-                      src="./assets/images/Arrow_right_4.svg" alt="other cards"></a></div>
+
+
+        <div class="catalog-box">
+          <div class="catalog__header">
+            <h3 class="catalog__title">Ранее вы смотрели</h3>
+            <div class="catalog__navigation"><a class="catalog__navigation-link" href="#"><img
+                  src="./assets/images/Arrow_right_4.svg" alt="other cards"></a></div>
+          </div>
+          <div class="catalog__content">
+            <div class="catalog-item">
+              <div class="catalog-item__gradient"><img src="./assets/images/gradient.png" alt="gradient"></div>
+              <div class="catalog-item__heart">
+              </div>
+              <div class="catalog-item__icon">
+                <div class="catalog-item__icon_text"> -35%</div>
+              </div>
+              <div id="carouselIndicators_1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselIndicators_1" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_1" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_1" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/catalog_1_1_1.svg" class="d-block w-100" alt="flowers">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flowers">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_3.svg" class="d-block w-100" alt="flowers">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_1"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon d-none d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_1"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon d-none d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+              <div class="item__content">
+                <h5 class="item__title">Букет 25 роз Нежный микс</h5>
+                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+              </div>
+              <div class="item__footer">
+                <div class="item__price">
+                  <div class="item__price_new">
+                    <span class="item__price-value">13 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
+                  </div>
+                  <div class="item__price_old">
+                    <span class="item__price-value">15 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
+                  </div>
+                </div>
+                <a class="button item__button">
+                  <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                  <div class="button_text">В корзину</div>
+                </a>
+              </div>
             </div>
-            <div class="catalog__content">
-              <div class="catalog-item">
-                <div class="catalog-item__gradient"><img src="./assets/images/gradient.png"alt="gradient"></div>
-                <div class="catalog-item__heart">
-                </div>
-                <div class="catalog-item__icon">
-                  <div class="catalog-item__icon_text"> -35%</div>
-                </div>
-                <div id="carouselIndicators_1" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselIndicators_1" data-bs-slide-to="0" class="active"
-                      aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_1" data-bs-slide-to="1"
-                      aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_1" data-bs-slide-to="2"
-                      aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./assets/images/catalog_1_1_1.svg" class="d-block w-100" alt="flowers">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flowers">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_3.svg" class="d-block w-100" alt="flowers">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_1"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon d-none d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_1"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon d-none d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                  </button>
-                </div>
-                <div class="item__content">
-                  <h5 class="item__title">Букет 25 роз Нежный микс</h5>
-                  <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-                </div>
-                <div class="item__footer">
-                  <div class="item__price">
-                    <div class="item__price_new">
-                      <span class="item__price-value">13 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                    <div class="item__price_old">
-                      <span class="item__price-value">15 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                  </div>
-                  <a class="button item__button">
-                    <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
-                    <div class="button_text">В корзину</div>
-                  </a>
-                </div>
+            <div class="catalog-item">
+              <div class="catalog-item__gradient"><img src="./assets/images/gradient.png" alt="gradient"></div>
+              <div class="catalog-item__heart">
               </div>
-              <div class="catalog-item">
-                <div class="catalog-item__gradient"><img src="./assets/images/gradient.png"alt="gradient"></div>
-                <div class="catalog-item__heart">
-                </div>
-                <div class="catalog-item__icon">
-                  <div class="catalog-item__icon_text"> -35%</div>
-                </div>
-                <div id="carouselIndicators_2" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselIndicators_2" data-bs-slide-to="0" class="active"
-                      aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_2" data-bs-slide-to="1"
-                      aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_2" data-bs-slide-to="2"
-                      aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./assets/images/catalog_1_1_3.svg" class="d-block w-100" alt="flower">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flower">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_5.svg" class="d-block w-100" alt="flower">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_2"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_2"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                  </button>
-                </div>
-                <div class="item__content">
-                  <h5 class="item__title">Букет роз Ред наоми 60 см</h5>
-                  <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-                </div>
-                <div class="item__footer">
-                  <div class="item__price">
-                    <div class="item__price_new">
-                      <span class="item__price-value">13 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                    <div class="item__price_old">
-                      <span class="item__price-value">15 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                  </div>
-                  <a class="button item__button">
-                    <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
-                    <div class="button_text">В корзину</div>
-                  </a>
-                </div>
+              <div class="catalog-item__icon">
+                <div class="catalog-item__icon_text"> -35%</div>
               </div>
-              <div class="catalog-item">
-                <div class=catalog-item__gradient><img src="./assets/images/gradient.png"></div>
-                <div class="catalog-item__heart">
+              <div id="carouselIndicators_2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselIndicators_2" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_2" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_2" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
                 </div>
-                <div id="carouselIndicators_3" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselIndicators_3" data-bs-slide-to="0" class="active"
-                      aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_3" data-bs-slide-to="1"
-                      aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_3" data-bs-slide-to="2"
-                      aria-label="Slide 3"></button>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/catalog_1_1_3.svg" class="d-block w-100" alt="flower">
                   </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flower">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_5.svg" class="d-block w-100" alt="flower">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_1.svg" class="d-block w-100" alt="flower">
-                    </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flower">
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_3"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_3"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                  </button>
-                </div>
-                <div class="item__content">
-                  <h5 class="item__title">Букет 5 пионовидных роз Мисти баблс</h5>
-                  <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-                </div>
-                <div class="item__footer">
-                  <div class="item__price">
-                    <div class="item__price_new">
-                      <span class="item__price-value">13 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                    <div class="item__price_old">
-                      <span class="item__price-value">15 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_5.svg" class="d-block w-100" alt="flower">
                   </div>
-                  <a class="button item__button">
-                    <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
-                    <div class="button_text">В корзину</div>
-                  </a>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_2"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_2"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
               </div>
-              <div class="catalog-item">
-                <div class=catalog-item__gradient><img src="./assets/images/gradient.png"></div>
-                <div class="catalog-item__heart">
-                </div>
-                <div id="carouselIndicators_4" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselIndicators_4" data-bs-slide-to="0" class="active"
-                      aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_4" data-bs-slide-to="1"
-                      aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_4" data-bs-slide-to="2"
-                      aria-label="Slide 3"></button>
+              <div class="item__content">
+                <h5 class="item__title">Букет роз Ред наоми 60 см</h5>
+                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+              </div>
+              <div class="item__footer">
+                <div class="item__price">
+                  <div class="item__price_new">
+                    <span class="item__price-value">13 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
                   </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./assets/images/catalog_1_1_5.svg" class="d-block w-100" alt="flower">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_1.svg" class="d-block w-100" alt="flower">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flower">
-                    </div>
+                  <div class="item__price_old">
+                    <span class="item__price-value">15 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_4"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_4"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                  </button>
                 </div>
-                <div class="item__content">
-                  <h5 class="item__title">Букет роз микс 40 см</h5>
-                  <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+                <a class="button item__button">
+                  <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                  <div class="button_text">В корзину</div>
+                </a>
+              </div>
+            </div>
+            <div class="catalog-item">
+              <div class=catalog-item__gradient><img src="./assets/images/gradient.png"></div>
+              <div class="catalog-item__heart">
+              </div>
+              <div id="carouselIndicators_3" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselIndicators_3" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_3" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_3" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
                 </div>
-                <div class="item__footer">
-                  <div class="item__price">
-                    <div class="item__price_new">
-                      <span class="item__price-value">13 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                    <div class="item__price_old">
-                      <span class="item__price-value">15 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flower">
                   </div>
-                  <a class="button item__button">
-                    <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
-                    <div class="button_text">В корзину</div>
-                  </a>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_5.svg" class="d-block w-100" alt="flower">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_1.svg" class="d-block w-100" alt="flower">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_3"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_3"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+              <div class="item__content">
+                <h5 class="item__title">Букет 5 пионовидных роз Мисти баблс</h5>
+                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+              </div>
+              <div class="item__footer">
+                <div class="item__price">
+                  <div class="item__price_new">
+                    <span class="item__price-value">13 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
+                  </div>
+                  <div class="item__price_old">
+                    <span class="item__price-value">15 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
+                  </div>
+                </div>
+                <a class="button item__button">
+                  <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                  <div class="button_text">В корзину</div>
+                </a>
+              </div>
+            </div>
+            <div class="catalog-item">
+              <div class=catalog-item__gradient><img src="./assets/images/gradient.png"></div>
+              <div class="catalog-item__heart">
+              </div>
+              <div id="carouselIndicators_4" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselIndicators_4" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_4" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselIndicators_4" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/catalog_1_1_5.svg" class="d-block w-100" alt="flower">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_1.svg" class="d-block w-100" alt="flower">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flower">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_4"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_4"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+              <div class="item__content">
+                <h5 class="item__title">Букет роз микс 40 см</h5>
+                <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
+              </div>
+              <div class="item__footer">
+                <div class="item__price">
+                  <div class="item__price_new">
+                    <span class="item__price-value">13 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
+                  </div>
+                  <div class="item__price_old">
+                    <span class="item__price-value">15 499</span>
+                    <span class="item__price-currancy">&#8381;</span>
+                  </div>
+                </div>
+                <a class="button item__button">
+                  <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
+                  <div class="button_text">В корзину</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+
+      <div class="mobile-footer-menu">
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <a href="#" target="_blank
+            " class="footer-container1__title">Цветы поштучно</a>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="footer-container1__1">
+                  <a href="#" target="_blank
+    " class="footer-container1__text-link">Розы поштучно</a>
+                  <a href="#" target="_blank
+    " class="footer-container1__text-link">Кустовая роза</a>
+                  <a href="#" target="_blank
+    " class="footer-container1__text-link">Пионовидная роза</a>
+                  <a href="#" target="_blank
+    " class="footer-container1__text-link">Пионовидная роза</a>
+                  <a href="#" target="_blank
+    " class="footer-container1__text-link">Хризантемы поштучно</a>
+                  <a href="#" target="_blank
+    " class="footer-container1__text-link">Альстромерия</a>
+                  <a href="#" target="_blank
+    " class="footer-container1__text-link">Тюльпаны</a>
+                  <a href="#" target="_blank
+    " class="footer-container1__text-link">Герберы поштучно</a>
+                  <a href="#" target="_blank
+    " class="footer-container1__text-link">Лилии поштучно</a>
+                  <a href="#" target="_blank
+    " class="footer-container1__text-link">Пионы</a>
+                  <a href="#" target="_blank
+    " class="footer-container1__text-link">Эустома</a>
+                  <a href="#" target="_blank
+    " class="footer-container1__text-link">Каллы поштучно</a>
+                  <a href="#" target="_blank
+    " class="footer-container1__text-link">Маттиола</a>
                 </div>
               </div>
             </div>
           </div>
-
-
-          <div class="catalog-box">
-            <div class="catalog__header">
-              <h3 class="catalog__title">Ранее вы смотрели</h3>
-              <div class="catalog__navigation"><a class="catalog__navigation-link" href="#"><img
-                      src="./assets/images/Arrow_right_4.svg" alt="other cards"></a></div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <a href="#" target="_blank
+      " class="footer-container1__title">Розы</a>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="footer-container1__1">
+                  <a href="#" target="_blank
+          " class="footer-container1__text-link">Голландские розы</a>
+                  <a href="#" target="_blank
+          " class="footer-container1__text-link">Местная роза</a>
+                  <a href="#" target="_blank
+          " class="footer-container1__text-link">Кустовые розы</a>
+                  <a href="#" target="_blank
+          " class="footer-container1__text-link">Пионовидные розы</a>
+                  <a href="#" target="_blank
+          " class="footer-container1__text-link">Букет из 101 розы</a>
+                </div>
+              </div>
             </div>
-            <div class="catalog__content">
-              <div class="catalog-item">
-                <div class="catalog-item__gradient"><img src="./assets/images/gradient.png"alt="gradient"></div>
-                <div class="catalog-item__heart">
-                </div>
-                <div class="catalog-item__icon">
-                  <div class="catalog-item__icon_text"> -35%</div>
-                </div>
-                <div id="carouselIndicators_1" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselIndicators_1" data-bs-slide-to="0" class="active"
-                      aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_1" data-bs-slide-to="1"
-                      aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_1" data-bs-slide-to="2"
-                      aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./assets/images/catalog_1_1_1.svg" class="d-block w-100" alt="flowers">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flowers">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_3.svg" class="d-block w-100" alt="flowers">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_1"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon d-none d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_1"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon d-none d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                  </button>
-                </div>
-                <div class="item__content">
-                  <h5 class="item__title">Букет 25 роз Нежный микс</h5>
-                  <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-                </div>
-                <div class="item__footer">
-                  <div class="item__price">
-                    <div class="item__price_new">
-                      <span class="item__price-value">13 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                    <div class="item__price_old">
-                      <span class="item__price-value">15 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                  </div>
-                  <a class="button item__button">
-                    <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
-                    <div class="button_text">В корзину</div>
-                  </a>
-                </div>
-              </div>
-              <div class="catalog-item">
-                <div class="catalog-item__gradient"><img src="./assets/images/gradient.png"alt="gradient"></div>
-                <div class="catalog-item__heart">
-                </div>
-                <div class="catalog-item__icon">
-                  <div class="catalog-item__icon_text"> -35%</div>
-                </div>
-                <div id="carouselIndicators_2" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselIndicators_2" data-bs-slide-to="0" class="active"
-                      aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_2" data-bs-slide-to="1"
-                      aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_2" data-bs-slide-to="2"
-                      aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./assets/images/catalog_1_1_3.svg" class="d-block w-100" alt="flower">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flower">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_5.svg" class="d-block w-100" alt="flower">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_2"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_2"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                  </button>
-                </div>
-                <div class="item__content">
-                  <h5 class="item__title">Букет роз Ред наоми 60 см</h5>
-                  <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-                </div>
-                <div class="item__footer">
-                  <div class="item__price">
-                    <div class="item__price_new">
-                      <span class="item__price-value">13 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                    <div class="item__price_old">
-                      <span class="item__price-value">15 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                  </div>
-                  <a class="button item__button">
-                    <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
-                    <div class="button_text">В корзину</div>
-                  </a>
-                </div>
-              </div>
-              <div class="catalog-item">
-                <div class=catalog-item__gradient><img src="./assets/images/gradient.png"></div>
-                <div class="catalog-item__heart">
-                </div>
-                <div id="carouselIndicators_3" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselIndicators_3" data-bs-slide-to="0" class="active"
-                      aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_3" data-bs-slide-to="1"
-                      aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_3" data-bs-slide-to="2"
-                      aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flower">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_5.svg" class="d-block w-100" alt="flower">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_1.svg" class="d-block w-100" alt="flower">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_3"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_3"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                  </button>
-                </div>
-                <div class="item__content">
-                  <h5 class="item__title">Букет 5 пионовидных роз Мисти баблс</h5>
-                  <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-                </div>
-                <div class="item__footer">
-                  <div class="item__price">
-                    <div class="item__price_new">
-                      <span class="item__price-value">13 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                    <div class="item__price_old">
-                      <span class="item__price-value">15 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                  </div>
-                  <a class="button item__button">
-                    <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
-                    <div class="button_text">В корзину</div>
-                  </a>
-                </div>
-              </div>
-              <div class="catalog-item">
-                <div class=catalog-item__gradient><img src="./assets/images/gradient.png"></div>
-                <div class="catalog-item__heart">
-                </div>
-                <div id="carouselIndicators_4" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselIndicators_4" data-bs-slide-to="0" class="active"
-                      aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_4" data-bs-slide-to="1"
-                      aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselIndicators_4" data-bs-slide-to="2"
-                      aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="./assets/images/catalog_1_1_5.svg" class="d-block w-100" alt="flower">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_1.svg" class="d-block w-100" alt="flower">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="./assets/images/catalog_1_1_2.svg" class="d-block w-100" alt="flower">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators_4"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators_4"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                  </button>
-                </div>
-                <div class="item__content">
-                  <h5 class="item__title">Букет роз микс 40 см</h5>
-                  <p class="item__description">Высота: 60 см, Ширина: 35 см</p>
-                </div>
-                <div class="item__footer">
-                  <div class="item__price">
-                    <div class="item__price_new">
-                      <span class="item__price-value">13 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                    <div class="item__price_old">
-                      <span class="item__price-value">15 499</span>
-                      <span class="item__price-currancy">&#8381;</span>
-                    </div>
-                  </div>
-                  <a class="button item__button">
-                    <img class="button_icon" src="./assets/images/shopping-cart-basket.png" alt="shopping cart" />
-                    <div class="button_text">В корзину</div>
-                  </a>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"><a
+                  href="#" target="_blank
+          " class="footer-container1__title">Композиции</a>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="footer-container1__2little">
+                  <a href="#" target="_blank
+          " class="footer-container1__text-link">Ящики с цветами</a>
+                  <a href="#" target="_blank
+          " class="footer-container1__text-link">Коробки с цветами</a>
+                  <a href="#" target="_blank
+          " class="footer-container1__text-link">Корзины с цветами</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-    <footer></footer>
-    <script src="assets/styles/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              <a href="#" target="_blank
+        " class="footer-container1__title">Подарки</a>
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="footer-container1__1 ">
+                <a href="#" target="_blank
+        " class="footer-container1__text-link">Мягкие игрушки</a>
+                <a href="#" target="_blank
+        " class="footer-container1__text-link">Коробки конфет</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              <a href="#" target="_blank
+        " class="footer-container1__title">Букеты</a>
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="footer-container1__1">
+                <a href="#" target="_blank
+        " class="footer-container1__text-link">Сборные букеты</a>
+                <a href="#" target="_blank
+        " class="footer-container1__text-link">Букеты из хризантем</a>
+                <a href="#" target="_blank
+        " class="footer-container1__text-link">Букеты из Альстромерий</a>
+                <a href="#" target="_blank
+        " class="footer-container1__text-link">Букеты из эустом</a>
+                <a href="#" target="_blank
+        " class="footer-container1__text-link">Букеты из Гипсофилы</a>
+                <a href="#" target="_blank
+        " class="footer-container1__text-link">Букеты из гербер</a>
+                <a href="#" target="_blank
+        " class="footer-container1__text-link">Букеты из пионов</a>
+                <a href="#" target="_blank
+        " class="footer-container1__text-link">Букеты из тюльпанов</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix"><a href="#"
+                target="_blank
+          " class="footer-container1__title">Шары</a>
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="footer-container1__1">
+                <a href="#" target="_blank
+          " class="footer-container1__text-link">Шары в виде цифр</a>
+                <a href="#" target="_blank
+          " class="footer-container1__text-link">Фотльгированные шары</a>
+                <a href="#" target="_blank
+          " class="footer-container1__text-link">Латексные шары</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+              <a href="#" target="_blank
+      " class="footer-container1__title">Информация</a>
+            </button>
+          </h2>
+          <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="footer-container1__1">
+                <a href="#" target="_blank
+      " class="footer-container1__text-link">Доставка</a>
+                <a href="#" target="_blank
+      " class="footer-container1__text-link">Оплата</a>
+                <a href="#" target="_blank
+      " class="footer-container1__text-link">Отзывы</a>
+                <a href="#" target="_blank
+      " class="footer-container1__text-link">Блог</a>
+                <a href="#" target="_blank
+      " class="footer-container1__text-link">Гарантии</a>
+                <a href="#" target="_blank
+      " class="footer-container1__text-link">Вопрос и ответ</a>
+                <a href="#" target="_blank
+      " class="footer-container1__text-link">Корпоративным клиентам</a>
+                <a href="#" target="_blank
+      " class="footer-container1__text-link">О компании</a>
+                <a href="#" target="_blank
+      " class="footer-container1__text-link">Контакты</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="footer-container1__title-contacts">Наши координаты</p>
+
+        <div class="mobile-footer-menu__contacts">
+
+
+          <div class="footermobile"><span class="footer-container1__text">Служба доставки</span>
+            <span><a href="tel:+79202114903" alt="phone"
+                class="footer-container1__phone-number">+7(920)211-49-03</a></span>
+            <span class="footer-container1__text">Ул.Революции 1905 года 80</span>
+            <span><a href="tel:+79066786599" alt="phone"
+                class="footer-container1__phone-number">+7(906)678-65-99</a></span>
+          </div>
+
+          <div class="footermobile">
+            <span class="footer-container1__text">Ул. Вл. Невского 17</span>
+            <span><a href="tel:+79202114903" alt="phone"
+                class="footer-container1__phone-number">+7(920)211-49-03</a></span>
+            <span class="footer-container1__text">E-mail:</span>
+            <a href="mailto:info@lavkaroz.ru" class="footer-container1__e-mail">info@lavkaroz.ru</a>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-container1">
+        <div class="footer-container1__adaptiv-tablet-container1">
+          <div class="footer-container1__1">
+            <a href="#" target="_blank
+      " class="footer-container1__title">Цветы поштучно</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Розы поштучно</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Кустовая роза</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Пионовидная роза</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Пионовидная роза</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Хризантемы поштучно</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Альстромерия</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Тюльпаны</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Герберы поштучно</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Лилии поштучно</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Пионы</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Эустома</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Каллы поштучно</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Маттиола</a>
+          </div>
+          <div class="footer-container1__1">
+            <a href="#" target="_blank
+      " class="footer-container1__title">Розы</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Голландские розы</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Местная роза</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Кустовые розы</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Пионовидные розы</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Букет из 101 розы</a>
+          </div>
+          <div class="footer-container1__1">
+            <a href="#" target="_blank
+      " class="footer-container1__title">Букеты</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Сборные букеты</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Букеты из хризантем</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Букеты из Альстромерий</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Букеты из эустом</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Букеты из Гипсофилы</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Букеты из гербер</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Букеты из пионов</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Букеты из тюльпанов</a>
+          </div>
+        </div>
+        <div class="footer-container1__adaptiv-tablet-container2">
+          <div class="footer-container1__2">
+            <div class="footer-container1__2little">
+              <a href="#" target="_blank
+      " class="footer-container1__title">Композиции</a>
+              <a href="#" target="_blank
+      " class="footer-container1__text-link">Ящики с цветами</a>
+              <a href="#" target="_blank
+      " class="footer-container1__text-link">Коробки с цветами</a>
+              <a href="#" target="_blank
+      " class="footer-container1__text-link">Корзины с цветами</a>
+            </div>
+            <div class="footer-container1__2little">
+              <a href="#" target="_blank
+      " class="footer-container1__title">Подарки</a>
+              <a href="#" target="_blank
+      " class="footer-container1__text-link">Мягкие игрушки</a>
+              <a href="#" target="_blank
+      " class="footer-container1__text-link">Коробки конфет</a>
+            </div>
+            <a href="#" target="_blank
+      " class="footer-container1__title">Шары</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Шары в виде цифр</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Фотльгированные шары</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Латексные шары</a>
+          </div>
+          <div class="footer-container1__1">
+            <a href="#" target="_blank
+      " class="footer-container1__title">Информация</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Доставка</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Оплата</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Отзывы</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Блог</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Гарантии</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Вопрос и ответ</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Корпоративным клиентам</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">О компании</a>
+            <a href="#" target="_blank
+      " class="footer-container1__text-link">Контакты</a>
+          </div>
+          <div class="footer-container1__3">
+            <span class="footer-container1__title">Наши координаты</span>
+
+            <span class="footer-container1__text">Служба доставки</span>
+            <span><a href="tel:+79202114903" alt="phone"
+                class="footer-container1__phone-number">+7(920)211-49-03</a></span>
+            <span class="footer-container1__text">Ул. Вл. Невского 17</span>
+            <span><a href="tel:+79202114903" alt="phone"
+                class="footer-container1__phone-number">+7(920)211-49-03</a></span>
+            <span class="footer-container1__text">Ул.Революции 1905 года 80</span>
+            <span><a href="tel:+79066786599" alt="phone"
+                class="footer-container1__phone-number">+7(906)678-65-99</a></span>
+            <span class="footer-container1__text">E-mail:</span>
+            <a href="mailto:info@lavkaroz.ru" class="footer-container1__e-mail">info@lavkaroz.ru</a>
+          </div>
+        </div>
+      </div>
+      <img src="assets/images/line_footer.svg" class="line-footer" />
+      <div class="footer-container2">
+        <div class="footer-container2__adaptiv-tablet">
+          <div class="footer-container2__copyright">
+            <p>&copy;2014-2022. Интернет-магазин &laquo;Лавка Роз&raquo;</p>
+          </div>
+          <div class="footer-container2__links-to-pay">
+            <a class="link-to-pay-icon__link" href="#" target="_blank"><img src="assets/images/Wallet.svg"
+                alt="wallet" /></a>
+            <a class="link-to-pay-icon__link" href="#" target="_blank"><img src="assets/images/VISA.svg"
+                alt="VISA" /></a>
+            <a class="link-to-pay-icon__link" href="#" target="_blank"><img src="assets/images/mastercard.svg"
+                alt="mastercard" /></a>
+            <a class="link-to-pay-icon__link" href="#" target="_blank"><img src="assets/images/maestro.svg"
+                alt="maestro" /></a>
+            <a class="link-to-pay-icon__link" href="#" target="_blank"><img src="assets/images/MIR.svg" alt="MIR" /></a>
+            <a class="link-to-pay-icon__link" href="#" target="_blank"><img src="assets/images/Sber.svg"
+                alt="Sber" /></a>
+            <a class="link-to-pay-icon__link" href="#" target="_blank"><img src="assets/images/YMoney.svg"
+                alt="YMoney" /></a>
+          </div>
+        </div>
+        <div class="footer-container2__p">
+          <p>Мы в социальных сетях:</p>
+        </div>
+        <div class="footer-container2__social-networks">
+
+          <a class="link-social-icon__link" href="#" target="_blank"><img src="assets/images/Vkontakte.svg"
+              alt="Vkontakte" /></a>
+          <a class="link-social-icon__link" href="#" target="_blank"><img src="assets/images/facebook.svg"
+              alt="facebook" /></a>
+          <a class="link-social-icon__link" href="#" target="_blank"><img src="assets/images/instagram-footer.svg"
+              alt="instagram" /></a>
+          <a class="link-social-icon__link" href="#" target="_blank"><img src="assets/images/YouTube.svg"
+              alt="YouTube" /></a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="assets/styles/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
