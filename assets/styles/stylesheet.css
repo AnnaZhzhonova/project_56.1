@@ -2923,8 +2923,6 @@ border-radius: 10px;
       flex-wrap: nowrap;
     }
     .news-box {
-      width: 375px;
-      height: 536px;
       -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
       overflow-x: scroll;
@@ -2934,7 +2932,7 @@ border-radius: 10px;
     .news-item {
     width: 320px;
     height: 406px;
-    display: flex;
+    flex: 0 0 auto;
     flex-direction: column;
     align-items: flex-start;
       padding: 0px 0px 20px;
