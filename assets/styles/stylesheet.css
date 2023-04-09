@@ -2248,7 +2248,19 @@ h3 {
   .return {
     width: 188px;
   }
-
+  .copyright__text{
+    padding: 25px 40px;
+  }
+  .call-box--map{
+    display: flex;
+  }
+  .map-card{
+    left: 15px;
+  }
+  .worktime--map{
+    display: inline-block;
+    justify-content: space-between;
+  }
   /* Футер */
   .footer-container2__adaptiv-tablet {
     display: flex;
@@ -3029,7 +3041,15 @@ h3 {
   .return {
     margin-bottom: 20px;
   }
-
+  .copyright__text{
+    padding: 25px 40px;
+  }
+  .call-box--map{
+    display: flex;
+  }
+  .map-card{
+    left: 15px;
+  }
   /* Футер */
   /* .footer-container2__adaptiv-tablet {
     display: flex;
