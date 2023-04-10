@@ -2489,6 +2489,9 @@ h3 {
 
   /*   Хиро */
 
+.carousel-caption{
+  bottom: 6.25rem
+}
   .hero__maincard {
     display: none;
   }
@@ -2496,7 +2499,7 @@ h3 {
   .hero__conteiner {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 440px;
+    grid-template-rows: 100%;
     max-width: 767px;
     margin: 0 auto;
   }
@@ -2696,7 +2699,7 @@ h3 {
   }
 
   /*   Хиро */
-
+}
   .hero__maincard {
     display: none;
   }
