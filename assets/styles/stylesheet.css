@@ -436,13 +436,29 @@ img {
 .hero__conteiner {
   display: grid;
   grid-template-columns: 75% 25%;
-  grid-template-rows: 440px;
+  grid-template-rows: 100%;
   max-width: 1170px;
   margin: 0 auto;
   gap: 19px;
 }
+.my-carousel {
+  margin: 0 auto;
+  max-width: 873px;
+  max-height: 100%;
+}
+
+.my-carousel-size {
+  margin: 0 auto;
+  max-width: 873px;
+  max-height: 100%;
+}
+.my-carousel-size_item {
+  max-width: 100%;
+  max-height: 100%;
+}
 
 .hero__conteiner .hero__hand-right {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg filter='url(%23a)'%3E%3Crect width='40' height='40' x='15' y='11' fill='%23fff' rx='20'/%3E%3Cpath stroke='%23353949' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m33.415 26.305 5.057 3.572c.331.22.528.577.528.957s-.197.736-.528.956l-5.057 3.905a1.576 1.576 0 0 1-1.513.194c-.505-.2-.85-.642-.902-1.151V27.26c.052-.51.399-.95.903-1.15a1.576 1.576 0 0 1 1.512.195Z' clip-rule='evenodd'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='a' width='70' height='70' x='0' y='0' color-interpolation-filters='sRGB' filterUnits='userSpaceOnUse'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' result='hardAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'/%3E%3CfeOffset dy='4'/%3E%3CfeGaussianBlur stdDeviation='7.5'/%3E%3CfeColorMatrix values='0 0 0 0 0.133333 0 0 0 0 0.164706 0 0 0 0 0.27451 0 0 0 0.08 0'/%3E%3CfeBlend in2='BackgroundImageFix' result='effect1_dropShadow_645_18855'/%3E%3CfeBlend in='SourceGraphic' in2='effect1_dropShadow_645_18855' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: center;
   width: 70px;
@@ -450,6 +466,7 @@ img {
 }
 
 .hero__conteiner .hero__hand-left {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg filter='url(%23a)'%3E%3Crect width='40' height='40' fill='%23fff' rx='20' transform='matrix(-1 0 0 1 55 11)'/%3E%3Cpath stroke='%23353949' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m36.585 26.305-5.057 3.572c-.331.22-.528.577-.528.957s.197.736.528.956l5.057 3.905c.428.32 1.009.394 1.513.194.505-.2.85-.642.902-1.151V27.26c-.052-.51-.399-.95-.903-1.15a1.576 1.576 0 0 0-1.512.195Z' clip-rule='evenodd'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='a' width='70' height='70' x='0' y='0' color-interpolation-filters='sRGB' filterUnits='userSpaceOnUse'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' result='hardAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'/%3E%3CfeOffset dy='4'/%3E%3CfeGaussianBlur stdDeviation='7.5'/%3E%3CfeColorMatrix values='0 0 0 0 0.133333 0 0 0 0 0.164706 0 0 0 0 0.27451 0 0 0 0.08 0'/%3E%3CfeBlend in2='BackgroundImageFix' result='effect1_dropShadow_645_18856'/%3E%3CfeBlend in='SourceGraphic' in2='effect1_dropShadow_645_18856' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: center;
   width: 70px;
@@ -592,8 +609,29 @@ img {
   width: 18px;
   height: 18px;
 }
+.carousel-heart1 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ffffff;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 15px 15px;
+  border-radius: 30px;
+  padding: 7px;
+  z-index: 100;
+  background-image: url("../images/Heart3.svg");
+  background-repeat: no-repeat;
+}
+.carousel-heart1:hover {
+  background-image: url("../images/heart_red.svg");
+  background-repeat: no-repeat;
+}
 
 .hero__maincard .hero__hand-right1 {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='70' fill='none'%3E%3Cg filter='url(%23a)'%3E%3Crect width='40' height='40' x='15' y='11' fill='%23fff' rx='20'/%3E%3Cpath stroke='%23353949' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m33.415 26.305 5.057 3.572c.331.22.528.577.528.957s-.197.736-.528.956l-5.057 3.905a1.576 1.576 0 0 1-1.513.194c-.505-.2-.85-.642-.902-1.151V27.26c.052-.51.399-.95.903-1.15a1.576 1.576 0 0 1 1.512.195Z' clip-rule='evenodd'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='a' width='70' height='70' x='0' y='0' color-interpolation-filters='sRGB' filterUnits='userSpaceOnUse'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' result='hardAlpha' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'/%3E%3CfeOffset dy='4'/%3E%3CfeGaussianBlur stdDeviation='7.5'/%3E%3CfeColorMatrix values='0 0 0 0 0.133333 0 0 0 0 0.164706 0 0 0 0 0.27451 0 0 0 0.08 0'/%3E%3CfeBlend in2='BackgroundImageFix' result='effect1_dropShadow_645_18855'/%3E%3CfeBlend in='SourceGraphic' in2='effect1_dropShadow_645_18855' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: center;
   width: 40px;
@@ -1863,13 +1901,37 @@ h3 {
   .hero__maincard {
     display: none;
   }
-
   .hero__conteiner {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 440px;
+    display: flex;
     max-width: 1023px;
     margin: 0 auto;
+  }
+  .hero__conteiner2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1020px;
+    min-height: 220px;
+    margin: 0 auto;
+  }
+  .hero__conteiner2 .i1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 26px 15px 25px;
+    gap: 10px;
+    min-width: auto;
+    height: 90px;
+    border: 1px solid #f2f3f5;
+    box-shadow: 0px 4px 12px rgba(34, 42, 70, 0.03);
+    border-radius: 5px;
+    background: #ffffff;
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 7px;
   }
 
   /*  каталог*/
@@ -2494,13 +2556,27 @@ h3 {
   .hero__maincard {
     display: none;
   }
-
   .hero__conteiner {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 440px;
-    max-width: 767px;
+    display: flex;
+    max-width: 760px;
     margin: 0 auto;
+  }
+  .hero__conteiner .hero__h5 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 5.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
   }
 
   .hero__conteiner2 {
@@ -3193,7 +3269,7 @@ h3 {
     font-family: "TT Norms";
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 18px;git
     line-height: 26px;
 
     color: #222a46;
