@@ -1942,7 +1942,7 @@ h3 {
   }
 
   .catalog__content {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;
