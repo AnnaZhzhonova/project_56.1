@@ -866,7 +866,6 @@ h3 {
   align-items: center;
   background: #e2195b;
   border-radius: 5px;
-  text-decoration: none;
 }
 
 .button_text {
@@ -878,6 +877,10 @@ h3 {
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
+  text-decoration: none;
+}
+.button_text:hover {
+  color: black;
 }
 
 /* разделы */
@@ -1564,7 +1567,7 @@ h3 {
   background-color: #fff;
 }
 
-.btn-check:checked+.btn-secondary {
+.btn-check:checked + .btn-secondary {
   background-color: #0093a2;
   color: #fff;
 }
@@ -1814,7 +1817,6 @@ h3 {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
   .delivery-ad,
   .call-box,
   .navigation__link--hidden {
@@ -2372,7 +2374,7 @@ h3 {
     height: 14px;
   }
 
-  .switcher:checked~nav {
+  .switcher:checked ~ nav {
     right: 0;
   }
 
@@ -2489,7 +2491,6 @@ h3 {
 
   /*   Хиро */
 
-
   .hero__maincard {
     display: none;
   }
@@ -2581,7 +2582,7 @@ h3 {
     height: 14px;
   }
 
-  .switcher:checked~nav {
+  .switcher:checked ~ nav {
     right: 0;
   }
 
@@ -3124,7 +3125,6 @@ h3 {
 
   /* Футер */
 
-
   .footer-container2__adaptiv-tablet {
     display: flex;
     flex-direction: column;
@@ -3156,21 +3156,18 @@ h3 {
     min-width: 375px;
   }
 
-
-
   .mobile-footer-menu_line_link:hover {
-
     text-decoration: underline;
   }
 
   .footer-container1__title {
-    font-family: 'TT Norms';
+    font-family: "TT Norms";
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
 
-    color: #222A46;
+    color: #222a46;
   }
 
   .footer-container1__title:hover {
@@ -3193,13 +3190,13 @@ h3 {
   }
 
   .footer-container1__title-contacts {
-    font-family: 'TT Norms';
+    font-family: "TT Norms";
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
 
-    color: #222A46;
+    color: #222a46;
 
     padding: 20px;
   }
