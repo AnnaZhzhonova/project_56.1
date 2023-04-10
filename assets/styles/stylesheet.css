@@ -904,6 +904,7 @@ h3 {
   align-items: center;
   background: #e2195b;
   border-radius: 5px;
+  border: none;
 }
 
 .button_text {
