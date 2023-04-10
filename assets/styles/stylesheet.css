@@ -1937,7 +1937,7 @@ h3 {
 
   /*  каталог*/
   .catalog {
-    width: 100vw;
+    width: 100%;
     align-items: flex-start;
   }
 
