@@ -2402,7 +2402,7 @@ h3 {
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .container {
     max-width: 760px;
     margin: 0 auto;
@@ -2850,11 +2850,20 @@ h3 {
   .hero__conteiner {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 440px;
+    grid-template-rows: 1fr;
     max-width: 767px;
     margin: 0 auto;
+    min-height: 100%;
+    min-width: 100%;
   }
-
+  .my-carousel{
+    min-height: 100%;
+    min-width: 100%;
+  }
+.carousel-control-prev, .carousel-control-next{
+  bottom: 0;
+  width: 20%;
+}
   /*  каталог*/
   .catalog {
     width: 100vw;
@@ -3272,9 +3281,7 @@ h3 {
     font-weight: 700;
     font-size: 18px;git
     line-height: 26px;
-
     color: #222a46;
-
     padding: 20px;
   }
 }
